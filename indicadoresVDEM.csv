@@ -1,0 +1,974 @@
+﻿id,Indice,Indice_d,Categoria,Categoria_d,Grupo,Grupo_d,Elemento,Descricao,variavel,Categoria_key,Grupo_key
+Table,Table,of Contents,,,,,,of Contents,,,
+1,1,Explanatory Notes,,,,,,Explanatory Notes,,,
+1.1,1,Explanatory Notes,1,New in Version 14 compared to Version,,,,New in Version 14 compared to Version,,1.1,
+1.2,1,Explanatory Notes,2,Cautionary Notes,,,,Cautionary Notes,,1.2,
+1.3,1,Explanatory Notes,3,Suggested Citation,,,,Suggested Citation,,1.3,
+1.4,1,Explanatory Notes,4,Variable Information,,,,Variable Information,,1.4,
+1.4.1,1,Explanatory Notes,4,Variable Information,1,Variable Types,,Variable Types,,1.4,1.4.1
+1.4.2,1,Explanatory Notes,4,Variable Information,2,Number of Variables,,Number of Variables,,1.4,1.4.2
+1.4.3,1,Explanatory Notes,4,Variable Information,3,Variable Versions and Suffixes,,Variable Versions and Suffixes,,1.4,1.4.3
+1.4.4,1,Explanatory Notes,4,Variable Information,4,Variable Tags,,Variable Tags,,1.4,1.4.4
+1.4.5,1,Explanatory Notes,4,Variable Information,5,Variable Entry Clarifications,,Variable Entry Clarifications,,1.4,1.4.5
+1.5,1,Explanatory Notes,5,Notes on Methodology,,,,Notes on Methodology,,1.5,
+1.5.1,1,Explanatory Notes,5,Notes on Methodology,1,Index Aggregation,,Index Aggregation,,1.5,1.5.1
+1.5.2,1,Explanatory Notes,5,Notes on Methodology,2,Country–Year Aggregation,,Country–Year Aggregation,,1.5,1.5.2
+1.5.3,1,Explanatory Notes,5,Notes on Methodology,3,Open source code,,Open source code,,1.5,1.5.3
+1.6,1,Explanatory Notes,6,Country Units,,,,Country Units,,1.6,
+1.7,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,,Identifier Variables in the V-Dem Datasets,,1.7,
+1.7.1,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,1,Country Name,country_name,1.7,1.7.1
+1.7.2,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,2,Time-Specific Country Name,histname,1.7,1.7.2
+1.7.3,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,3,V-Dem Country ID,country_id,1.7,1.7.3
+1.7.4,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,4,Country Name Abbreviation,country_text_id,1.7,1.7.4
+1.7.5,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,5,Year,year,1.7,1.7.5
+1.7.6,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,6,Historical Date,historical_date,1.7,1.7.6
+1.7.7,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,7,Start of Coding Period,codingstart,1.7,1.7.7
+1.7.8,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,8,Contemporary Start of Coding Period,codingstart_contemp,1.7,1.7.8
+1.7.9,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,9,Historical Start of Coding Period,codingstart_hist,1.7,1.7.9
+1.7.10,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,10,Gap in Coding Period Starts,gapstart,1.7,1.7.1
+1.7.11,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,11,Gap in Coding Period Ends,gapend,1.7,1.7.1
+1.7.12,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,12,Gap index,gap_index,1.7,1.7.1
+1.7.13,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,13,End of Coding Period,codingend,1.7,1.7.1
+1.7.14,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,14,Historical End of Coding Period,codingend_contemp,1.7,1.7.1
+1.7.15,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,15,Historical End of Coding Period,codingend_hist,1.7,1.7.1
+1.7.16,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,16,V-Dem Project,project,1.7,1.7.1
+1.7.17,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,17,Historical V-Dem coding,historical,1.7,1.7.1
+1.7.18,1,Explanatory Notes,7,Identifier Variables in the V-Dem Datasets,,,18,COW Code,COWcode,1.7,1.7.1
+2,2,V-Dem Democracy Indices,,,,,,V-Dem Democracy Indices,,,
+2.1,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,,V-Dem High-Level Democracy Indices,,2.1,
+2.1.1,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,1,Electoral democracy index,v2x_polyarchy,2.1,2.1.1
+2.1.2,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,2,Liberal democracy index,v2x_libdem,2.1,2.1.2
+2.1.3,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,3,Participatory democracy index,v2x_partipdem,2.1,2.1.3
+2.1.4,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,4,Deliberative democracy index,v2x_delibdem,2.1,2.1.4
+2.1.5,2,V-Dem Democracy Indices,1,V-Dem High-Level Democracy Indices,,,5,Egalitarian democracy index,v2x_egaldem,2.1,2.1.5
+2.2,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,,V-Dem Mid-Level Indices: Components of the Democracy Indices,,2.2,
+2.2.1,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,1,Additive polyarchy index,v2x_api,2.2,2.2.1
+2.2.2,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,2,Multiplicative polyarchy index,v2x_mpi,2.2,2.2.2
+2.2.3,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,3,Freedom of Expression and Alternative Sources of Information index,v2x_freexp_altinf,2.2,2.2.3
+2.2.4,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,4,Freedom of association thick index,v2x_frassoc_thick,2.2,2.2.4
+2.2.5,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,5,Share of population with suffrage,v2x_suffr,2.2,2.2.5
+2.2.6,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,6,Clean elections index,v2xel_frefair,2.2,2.2.6
+2.2.7,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,7,Elected officials index,v2x_elecoff,2.2,2.2.7
+2.2.8,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,8,Liberal component index,v2x_liberal,2.2,2.2.8
+2.2.9,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,9,Equality before the law and individual liberty index,v2xcl_rol,2.2,2.2.9
+2.2.10,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,10,Judicial constraints on the executive index,v2x_jucon,2.2,2.2.1
+2.2.11,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,11,Legislative constraints on the executive index,v2xlg_legcon,2.2,2.2.1
+2.2.12,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,12,Participatory component index,v2x_partip,2.2,2.2.1
+2.2.13,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,13,Civil society participation index,v2x_cspart,2.2,2.2.1
+2.2.14,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,14,Direct popular vote index,v2xdd_dd,2.2,2.2.1
+2.2.15,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,15,Local government index,v2xel_locelec,2.2,2.2.1
+2.2.16,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,16,Regional government index,v2xel_regelec,2.2,2.2.1
+2.2.17,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,17,Deliberative component index,v2xdl_delib,2.2,2.2.1
+2.2.18,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,18,Egalitarian component index,v2x_egal,2.2,2.2.1
+2.2.19,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,19,Equal protection index,v2xeg_eqprotec,2.2,2.2.1
+2.2.20,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,20,Equal access index,v2xeg_eqaccess,2.2,2.2.2
+2.2.21,2,V-Dem Democracy Indices,2,V-Dem Mid-Level Indices: Components of the Democracy Indices,,,21,Equal distribution of resources index,v2xeg_eqdr,2.2,2.2.2
+3,3,V-Dem Indicators,,,,,,V-Dem Indicators,,,
+3.1,3,V-Dem Indicators,1,Elections,,,,Elections,,3.1,
+3.1.0.1,3,V-Dem Indicators,1,Elections,0,,1,Election type,v2eltype,3.1,3.1.0
+3.1.1,3,V-Dem Indicators,1,Elections,1,Suffrage,,Suffrage,,3.1,3.1.1
+3.1.1.1,3,V-Dem Indicators,1,Elections,1,Suffrage,1,Suffrage,v2asuffrage,3.1,3.1.1
+3.1.1.2,3,V-Dem Indicators,1,Elections,1,Suffrage,2,Minimum voting age,v2elage,3.1,3.1.1
+3.1.1.3,3,V-Dem Indicators,1,Elections,1,Suffrage,3,Compulsory voting,v2elcomvot,3.1,3.1.1
+3.1.1.4,3,V-Dem Indicators,1,Elections,1,Suffrage,4,Female suffrage restricted,v2elfemrst,3.1,3.1.1
+3.1.1.5,3,V-Dem Indicators,1,Elections,1,Suffrage,5,Suffrage level,v2elgvsuflvl,3.1,3.1.1
+3.1.1.6,3,V-Dem Indicators,1,Elections,1,Suffrage,6,Percentage of population with suffrage,v2elsuffrage,3.1,3.1.1
+3.1.1.7,3,V-Dem Indicators,1,Elections,1,Suffrage,7,Fraud allegations by Western monitors,v2elwestmon,3.1,3.1.1
+3.1.1.8,3,V-Dem Indicators,1,Elections,1,Suffrage,8,Female suffrage,v2fsuffrage,3.1,3.1.1
+3.1.1.9,3,V-Dem Indicators,1,Elections,1,Suffrage,9,Male suffrage,v2msuffrage,3.1,3.1.1
+3.1.2,3,V-Dem Indicators,1,Elections,2,Election Qualities,,Election Qualities,,3.1,3.1.2
+3.1.2.1,3,V-Dem Indicators,1,Elections,2,Election Qualities,1,Disclosure of campaign donations,v2eldonate,3.1,3.1.2
+3.1.2.2,3,V-Dem Indicators,1,Elections,2,Election Qualities,2,Public campaign finance,v2elpubfin,3.1,3.1.2
+3.1.2.3,3,V-Dem Indicators,1,Elections,2,Election Qualities,3,EMB autonomy,v2elembaut,3.1,3.1.2
+3.1.2.4,3,V-Dem Indicators,1,Elections,2,Election Qualities,4,EMB capacity,v2elembcap,3.1,3.1.2
+3.1.2.5,3,V-Dem Indicators,1,Elections,2,Election Qualities,5,Elections multiparty,v2elmulpar,3.1,3.1.2
+3.1.2.6,3,V-Dem Indicators,1,Elections,2,Election Qualities,6,Election voter registry,v2elrgstry,3.1,3.1.2
+3.1.2.7,3,V-Dem Indicators,1,Elections,2,Election Qualities,7,Election vote buying,v2elvotbuy,3.1,3.1.2
+3.1.2.8,3,V-Dem Indicators,1,Elections,2,Election Qualities,8,Election other voting irregularities,v2elirreg,3.1,3.1.2
+3.1.2.9,3,V-Dem Indicators,1,Elections,2,Election Qualities,9,Election government intimidation,v2elintim,3.1,3.1.2
+3.1.2.10,3,V-Dem Indicators,1,Elections,2,Election Qualities,10,Election other electoral violence,v2elpeace,3.1,3.1.2
+3.1.2.11,3,V-Dem Indicators,1,Elections,2,Election Qualities,11,Election boycotts,v2elboycot,3.1,3.1.2
+3.1.2.12,3,V-Dem Indicators,1,Elections,2,Election Qualities,12,Election free campaign media,v2elfrcamp,3.1,3.1.2
+3.1.2.13,3,V-Dem Indicators,1,Elections,2,Election Qualities,13,Election paid campaign advertisements,v2elpdcamp,3.1,3.1.2
+3.1.2.14,3,V-Dem Indicators,1,Elections,2,Election Qualities,14,Election paid interest group media,v2elpaidig,3.1,3.1.2
+3.1.2.15,3,V-Dem Indicators,1,Elections,2,Election Qualities,15,Election free and fair,v2elfrfair,3.1,3.1.2
+3.1.2.16,3,V-Dem Indicators,1,Elections,2,Election Qualities,16,Election domestic election monitors,v2eldommon,3.1,3.1.2
+3.1.2.17,3,V-Dem Indicators,1,Elections,2,Election Qualities,17,Election international monitors,v2elintmon,3.1,3.1.2
+3.1.2.18,3,V-Dem Indicators,1,Elections,2,Election Qualities,18,Election international monitors denied,v2elmonden,3.1,3.1.2
+3.1.2.19,3,V-Dem Indicators,1,Elections,2,Election Qualities,19,Monitors refuse to be present,v2elmonref,3.1,3.1.2
+3.1.2.20,3,V-Dem Indicators,1,Elections,2,Election Qualities,20,"Candidate restriction by ethnicity, race, religion, or language",v2elrstrct,3.1,3.1.2
+3.1.3,3,V-Dem Indicators,1,Elections,3,Election Outcomes,,Election Outcomes,,3.1,3.1.3
+3.1.3.1,3,V-Dem Indicators,1,Elections,3,Election Outcomes,1,Election losers accept results,v2elaccept,3.1,3.1.3
+3.1.3.2,3,V-Dem Indicators,1,Elections,3,Election Outcomes,2,Election assume office,v2elasmoff,3.1,3.1.3
+3.1.3.3,3,V-Dem Indicators,1,Elections,3,Election Outcomes,3,Election turnout,v2eltrnout,3.1,3.1.3
+3.1.3.4,3,V-Dem Indicators,1,Elections,3,Election Outcomes,4,Election VAP turnout,v2elvaptrn,3.1,3.1.3
+3.1.3.5,3,V-Dem Indicators,1,Elections,3,Election Outcomes,5,Name of largest party,v2lpname,3.1,3.1.3
+3.1.3.6,3,V-Dem Indicators,1,Elections,3,Election Outcomes,6,Name of second largest party,v2slpname,3.1,3.1.3
+3.1.3.7,3,V-Dem Indicators,1,Elections,3,Election Outcomes,7,Name of third largest party,v2tlpname,3.1,3.1.3
+3.1.4,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,,Executive Elections Specifics,,3.1,3.1.4
+3.1.4.1,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,1,Presidential elections consecutive,v2elprescons,3.1,3.1.4
+3.1.4.2,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,2,Presidential elections cumulative,v2elprescumul,3.1,3.1.4
+3.1.4.3,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,3,"HOG restriction by ethnicity, race, religion, or language",v2elrsthog,3.1,3.1.4
+3.1.4.4,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,4,"HOS restriction by ethnicity, race, religion, or language",v2elrsthos,3.1,3.1.4
+3.1.4.5,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,5,Election HOG turnover ordinal,v2elturnhog,3.1,3.1.4
+3.1.4.6,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,6,Election HOS turnover ordinal,v2elturnhos,3.1,3.1.4
+3.1.4.7,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,7,Election executive turnover ordinal,v2eltvrexo,3.1,3.1.4
+3.1.4.8,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,8,Presidential election vote share of largest vote-getter,v2elvotlrg,3.1,3.1.4
+3.1.4.9,3,V-Dem Indicators,1,Elections,4,Executive Elections Specifics,9,Presidential election vote share of second-largest vote-getter,v2elvotsml,3.1,3.1.4
+3.1.5,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,,Lower Chamber Specifics,,3.1,3.1.5
+3.1.5.1,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,1,Lower chamber ‘base’ tier electoral districts,v2ellobadis,3.1,3.1.5
+3.1.5.2,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,2,Lower chamber ‘base’ or ‘nominal’ tier seats,v2ellobaseat,3.1,3.1.5
+3.1.5.3,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,3,Lower chamber election consecutive,v2ellocons,3.1,3.1.5
+3.1.5.4,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,4,Lower chamber election cumulative,v2ellocumul,3.1,3.1.5
+3.1.5.5,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,5,Lower chamber election district effective magnitude,v2ellodiseff,3.1,3.1.5
+3.1.5.6,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,6,Lower chamber election district magnitude,v2elloeldm,3.1,3.1.5
+3.1.5.7,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,7,Lower chamber electoral system — 13 categories,v2elloelsy,3.1,3.1.5
+3.1.5.8,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,8,Lower chamber hybrid system reserved seats,v2elloreseat,3.1,3.1.5
+3.1.5.9,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,9,Lower chamber election seats,v2elloseat,3.1,3.1.5
+3.1.5.10,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,10,Lower chamber election seats won by largest party,v2ellostlg,3.1,3.1.5
+3.1.5.11,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,11,Lower chamber election seat share won by largest party,v2ellostsl,3.1,3.1.5
+3.1.5.12,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,12,Lower chamber election seats won by second largest party,v2ellostsm,3.1,3.1.5
+3.1.5.13,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,13,Lower chamber election seat share won by second largest party,v2ellostss,3.1,3.1.5
+3.1.5.14,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,14,Lower chamber election seats won by third largest party,v2ellosttm,3.1,3.1.5
+3.1.5.15,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,15,Lower chamber election seat share won by third largest party,v2ellostts,3.1,3.1.5
+3.1.5.16,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,16,Lower chamber ‘upper’ tier electoral districts,v2elloupdis,3.1,3.1.5
+3.1.5.17,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,17,Lower chamber election vote share of largest vote-getter,v2ellovtlg,3.1,3.1.5
+3.1.5.18,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,18,Lower chamber election vote share of second-largest vote-getter,v2ellovtsm,3.1,3.1.5
+3.1.5.19,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,19,Lower chamber election vote share of third-largest vote-getter,v2ellovttm,3.1,3.1.5
+3.1.5.20,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,20,Lower chamber electoral system,v2elparlel,3.1,3.1.5
+3.1.5.21,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,21,Lower chamber election statutory threshold,v2elthresh,3.1,3.1.5
+3.1.5.22,3,V-Dem Indicators,1,Elections,5,Lower Chamber Specifics,22,Lower chamber election turnover,v2eltvrig,3.1,3.1.5
+3.1.6,3,V-Dem Indicators,1,Elections,6,Subnational,,Subnational,,3.1,3.1.6
+3.1.6.1,3,V-Dem Indicators,1,Elections,6,Subnational,1,Regional government exists,v2elreggov,3.1,3.1.6
+3.1.6.2,3,V-Dem Indicators,1,Elections,6,Subnational,2,Regional government name,v2elregnam,3.1,3.1.6
+3.1.6.3,3,V-Dem Indicators,1,Elections,6,Subnational,3,Regional government elected,v2elsrgel,3.1,3.1.6
+3.1.6.4,3,V-Dem Indicators,1,Elections,6,Subnational,4,Regional offices relative power,v2elrgpwr,3.1,3.1.6
+3.1.6.5,3,V-Dem Indicators,1,Elections,6,Subnational,5,Local government exists,v2ellocgov,3.1,3.1.6
+3.1.6.6,3,V-Dem Indicators,1,Elections,6,Subnational,6,Local government name,v2ellocnam,3.1,3.1.6
+3.1.6.7,3,V-Dem Indicators,1,Elections,6,Subnational,7,Local government elected,v2ellocelc,3.1,3.1.6
+3.1.6.8,3,V-Dem Indicators,1,Elections,6,Subnational,8,Local offices relative power,v2ellocpwr,3.1,3.1.6
+3.1.6.9,3,V-Dem Indicators,1,Elections,6,Subnational,9,Subnational elections free and fair,v2elffelr,3.1,3.1.6
+3.1.6.10,3,V-Dem Indicators,1,Elections,6,Subnational,10,Subnational elections held,v2elffelrbin,3.1,3.1.6
+3.1.6.11,3,V-Dem Indicators,1,Elections,6,Subnational,11,Subnational election unevenness,v2elsnlsff,3.1,3.1.6
+3.1.6.12,3,V-Dem Indicators,1,Elections,6,Subnational,12,Subnational election area less free and fair name,v2elsnless,3.1,3.1.6
+3.1.6.13,3,V-Dem Indicators,1,Elections,6,Subnational,13,Subnational election area less free and fair characteristics,v2elsnlfc,3.1,3.1.6
+3.1.6.14,3,V-Dem Indicators,1,Elections,6,Subnational,14,Subnational election area more free and fair name,v2elsnmore,3.1,3.1.6
+3.1.6.15,3,V-Dem Indicators,1,Elections,6,Subnational,15,Subnational election area more free and fair characteristics,v2elsnmrfc,3.1,3.1.6
+3.2,3,V-Dem Indicators,2,Political Parties,,,,Political Parties,,3.2,
+3.2.0.1,3,V-Dem Indicators,2,Political Parties,0,,1,Barriers to parties,v2psbars,3.2,3.2.0
+3.2.0.2,3,V-Dem Indicators,2,Political Parties,0,,2,Party ban,v2psparban,3.2,3.2.0
+3.2.0.3,3,V-Dem Indicators,2,Political Parties,0,,3,Party ban target,v2psbantar,3.2,3.2.0
+3.2.0.4,3,V-Dem Indicators,2,Political Parties,0,,4,Opposition parties autonomy,v2psoppaut,3.2,3.2.0
+3.2.0.5,3,V-Dem Indicators,2,Political Parties,0,,5,Party organizations,v2psorgs,3.2,3.2.0
+3.2.0.6,3,V-Dem Indicators,2,Political Parties,0,,6,Party branches,v2psprbrch,3.2,3.2.0
+3.2.0.7,3,V-Dem Indicators,2,Political Parties,0,,7,Party linkages,v2psprlnks,3.2,3.2.0
+3.2.0.8,3,V-Dem Indicators,2,Political Parties,0,,8,Distinct party platforms,v2psplats,3.2,3.2.0
+3.2.0.9,3,V-Dem Indicators,2,Political Parties,0,,9,Candidate selection-national/local,v2pscnslnl,3.2,3.2.0
+3.2.0.10,3,V-Dem Indicators,2,Political Parties,0,,10,Legislative party cohesion,v2pscohesv,3.2,3.2.0
+3.2.0.11,3,V-Dem Indicators,2,Political Parties,0,,11,Party competition across regions,v2pscomprg,3.2,3.2.0
+3.2.0.12,3,V-Dem Indicators,2,Political Parties,0,,12,National party control,v2psnatpar,3.2,3.2.0
+3.2.0.13,3,V-Dem Indicators,2,Political Parties,0,,13,Subnational party control,v2pssunpar,3.2,3.2.0
+3.3,3,V-Dem Indicators,3,Direct Democracy,,,,Direct Democracy,,3.3,
+3.3.1,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,,Initiatives,,3.3,3.3.1
+3.3.1.1,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,1,Initiatives permitted,v2ddlexci,3.3,3.3.1
+3.3.1.2,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,2,Initiatives signatures,v2ddsignci,3.3,3.3.1
+3.3.1.3,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,3,Initiatives signatures %,v2ddsigpci,3.3,3.3.1
+3.3.1.4,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,4,Initiatives signature-gathering period,v2ddsigdci,3.3,3.3.1
+3.3.1.5,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,5,Initiatives signature-gathering time limit,v2ddsiglci,3.3,3.3.1
+3.3.1.6,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,6,Initiatives participation threshold,v2ddpartci,3.3,3.3.1
+3.3.1.7,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,7,Initiatives approval threshold,v2ddapprci,3.3,3.3.1
+3.3.1.8,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,8,Initiatives administrative threshold,v2ddadmci,3.3,3.3.1
+3.3.1.9,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,9,Initiatives super majority,v2ddspmci,3.3,3.3.1
+3.3.1.10,3,V-Dem Indicators,3,Direct Democracy,1,Initiatives,10,Popular initiative credible threat,v2ddthreci,3.3,3.3.1
+3.3.2,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,,Referendums,,3.3,3.3.2
+3.3.2.1,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,1,Referendums permitted,v2ddlexrf,3.3,3.3.2
+3.3.2.2,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,2,Referendums signatures,v2ddsignrf,3.3,3.3.2
+3.3.2.3,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,3,Referendums signatures %,v2ddsigprf,3.3,3.3.2
+3.3.2.4,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,4,Referendums signature-gathering period,v2ddsigdrf,3.3,3.3.2
+3.3.2.5,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,5,Referendums signature-gathering limit,v2ddsiglrf,3.3,3.3.2
+3.3.2.6,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,6,Referendums participation threshold,v2ddpartrf,3.3,3.3.2
+3.3.2.7,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,7,Referendums approval threshold,v2ddapprrf,3.3,3.3.2
+3.3.2.8,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,8,Referendums administrative threshold,v2ddadmrf,3.3,3.3.2
+3.3.2.9,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,9,Referendums super majority,v2ddspmrf,3.3,3.3.2
+3.3.2.10,3,V-Dem Indicators,3,Direct Democracy,2,Referendums,10,Popular referendum credible threat,v2ddthrerf,3.3,3.3.2
+3.3.3,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,,Obligatory referendums,,3.3,3.3.3
+3.3.3.1,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,1,Enforcement of Constitutional changes through popular vote,v2ddlexor,3.3,3.3.3
+3.3.3.2,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,2,Obligatory referendum participation threshold,v2ddpartor,3.3,3.3.3
+3.3.3.3,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,3,Obligatory referendum approval threshold,v2ddappor,3.3,3.3.3
+3.3.3.4,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,4,Obligatory referendum administrative threshold,v2ddadmor,3.3,3.3.3
+3.3.3.5,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,5,Obligatory referendum super majority,v2ddspmor,3.3,3.3.3
+3.3.3.6,3,V-Dem Indicators,3,Direct Democracy,3,Obligatory referendums,6,Obligatory referendum credible threat,v2ddthreor,3.3,3.3.3
+3.3.4,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,,Plebiscites,,3.3,3.3.4
+3.3.4.1,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,1,Plebiscites permitted,v2ddlexpl,3.3,3.3.4
+3.3.4.2,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,2,Plebiscites participation threshold,v2ddpartpl,3.3,3.3.4
+3.3.4.3,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,3,Plebiscites approval threshold,v2ddapprpl,3.3,3.3.4
+3.3.4.4,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,4,Plebiscites administrative threshold,v2ddadmpl,3.3,3.3.4
+3.3.4.5,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,5,Plebiscites super majority,v2ddspmpl,3.3,3.3.4
+3.3.4.6,3,V-Dem Indicators,3,Direct Democracy,4,Plebiscites,6,Plebiscites credible threat,v2ddthrepl,3.3,3.3.4
+3.3.5,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,,Occurrences,,3.3,3.3.5
+3.3.5.1,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,1,Occurrence of citizen-initiatives this year,v2ddyrci,3.3,3.3.5
+3.3.5.2,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,2,Occurrence of referendum this year,v2ddyrrf,3.3,3.3.5
+3.3.5.3,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,3,Occurrence of obligatory referendum this year,v2ddyror,3.3,3.3.5
+3.3.5.4,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,4,Occurrence of plebiscite this year,v2ddyrpl,3.3,3.3.5
+3.3.5.5,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,5,Number of popular votes this year,v2ddyrall,3.3,3.3.5
+3.3.5.6,3,V-Dem Indicators,3,Direct Democracy,5,Occurrences,6,Occurrence of any type of popular vote this year credible,v2ddcredal,3.3,3.3.5
+3.4,3,V-Dem Indicators,4,The Executive,,,,The Executive,,3.4,
+3.4.1,3,V-Dem Indicators,4,The Executive,1,General,,General,,3.4,3.4.1
+3.4.1.1,3,V-Dem Indicators,4,The Executive,1,General,1,Executive respects constitution,v2exrescon,3.4,3.4.1
+3.4.1.2,3,V-Dem Indicators,4,The Executive,1,General,2,Executive bribery and corrupt exchanges,v2exbribe,3.4,3.4.1
+3.4.1.3,3,V-Dem Indicators,4,The Executive,1,General,3,Executive embezzlement and theft,v2exembez,3.4,3.4.1
+3.4.1.4,3,V-Dem Indicators,4,The Executive,1,General,4,Public sector corrupt exchanges,v2excrptps,3.4,3.4.1
+3.4.1.5,3,V-Dem Indicators,4,The Executive,1,General,5,Public sector theft,v2exthftps,3.4,3.4.1
+3.4.1.6,3,V-Dem Indicators,4,The Executive,1,General,6,Chief executive appointment by upper chamber,v2exapup,3.4,3.4.1
+3.4.1.7,3,V-Dem Indicators,4,The Executive,1,General,7,Chief executive appointment by upper chamber implicit approval,v2exapupap,3.4,3.4.1
+3.4.2,3,V-Dem Indicators,4,The Executive,,,2,Head of State,HOS,3.4,3.4.2
+3.4.2.1,3,V-Dem Indicators,4,The Executive,2,,1,HOS name,v2exnamhos,3.4,3.4.2
+3.4.2.2,3,V-Dem Indicators,4,The Executive,2,,2,HOS title,v2extithos,3.4,3.4.2
+3.4.2.3,3,V-Dem Indicators,4,The Executive,2,,3,HOS removal by legislature in practice,v2exremhsp,3.4,3.4.2
+3.4.2.4,3,V-Dem Indicators,4,The Executive,2,,4,HOS removal by other in practice,v2exrmhsol,3.4,3.4.2
+3.4.2.5,3,V-Dem Indicators,4,The Executive,2,,5,HOS other body remove HOS in practice,v2exrmhsnl,3.4,3.4.2
+3.4.2.6,3,V-Dem Indicators,4,The Executive,2,,6,HOS control over,v2exctlhs,3.4,3.4.2
+3.4.2.7,3,V-Dem Indicators,4,The Executive,2,,7,HOS other body controls,v2exctlhos,3.4,3.4.2
+3.4.2.8,3,V-Dem Indicators,4,The Executive,2,,8,HOS dissolution in practice,v2exdfdshs,3.4,3.4.2
+3.4.2.9,3,V-Dem Indicators,4,The Executive,2,,9,HOS appoints cabinet in practice,v2exdfcbhs,3.4,3.4.2
+3.4.2.10,3,V-Dem Indicators,4,The Executive,2,,10,HOS appoints cabinet in practice,v2exdfcbhs_rec,3.4,3.4.2
+3.4.2.11,3,V-Dem Indicators,4,The Executive,2,,11,HOS veto power in practice,v2exdfvths,3.4,3.4.2
+3.4.2.12,3,V-Dem Indicators,4,The Executive,2,,12,HOS dismisses ministers in practice,v2exdfdmhs,3.4,3.4.2
+3.4.2.13,3,V-Dem Indicators,4,The Executive,2,,13,HOS proposes legislation in practice,v2exdfpphs,3.4,3.4.2
+3.4.2.14,3,V-Dem Indicators,4,The Executive,2,,14,HOS = HOG,v2exhoshog,3.4,3.4.2
+3.4.2.15,3,V-Dem Indicators,4,The Executive,2,,15,HOS age,v2exagehos,3.4,3.4.2
+3.4.2.16,3,V-Dem Indicators,4,The Executive,2,,16,HOS selection by legislature in practice,v2exaphos,3.4,3.4.2
+3.4.2.17,3,V-Dem Indicators,4,The Executive,2,,17,HOS directly elected,v2ex_elechos,3.4,3.4.2
+3.4.2.18,3,V-Dem Indicators,4,The Executive,2,,18,HOS female,v2exfemhos,3.4,3.4.2
+3.4.2.19,3,V-Dem Indicators,4,The Executive,2,,19,HOS term length by law,v2exfxtmhs,3.4,3.4.2
+3.4.2.20,3,V-Dem Indicators,4,The Executive,2,,20,HOS appointment in practice,v2expathhs,3.4,3.4.2
+3.4.2.21,3,V-Dem Indicators,4,The Executive,2,,21,HOS year of death,v2exdeathos,3.4,3.4.2
+3.4.2.22,3,V-Dem Indicators,4,The Executive,2,,22,HOS party affiliation,v2exparhos,3.4,3.4.2
+3.4.3,3,V-Dem Indicators,4,The Executive,,,3,Head of Government,HOG,3.4,3.4.3
+3.4.3.1,3,V-Dem Indicators,4,The Executive,3,,1,HOG name,v2exnamhog,3.4,3.4.3
+3.4.3.2,3,V-Dem Indicators,4,The Executive,3,,2,HOG title,v2extithog,3.4,3.4.3
+3.4.3.3,3,V-Dem Indicators,4,The Executive,3,,3,HOG removal by legislature in practice,v2exremhog,3.4,3.4.3
+3.4.3.4,3,V-Dem Indicators,4,The Executive,3,,4,HOG removal by other in practice,v2exrmhgnp,3.4,3.4.3
+3.4.3.5,3,V-Dem Indicators,4,The Executive,3,,5,HOG other body remove HOG in practice,v2exrmhgop,3.4,3.4.3
+3.4.3.6,3,V-Dem Indicators,4,The Executive,3,,6,HOG control over,v2exctlhg,3.4,3.4.3
+3.4.3.7,3,V-Dem Indicators,4,The Executive,3,,7,HOG other body controls,v2exctlhog,3.4,3.4.3
+3.4.3.8,3,V-Dem Indicators,4,The Executive,3,,8,HOG dissolution in practice,v2exdjdshg,3.4,3.4.3
+3.4.3.9,3,V-Dem Indicators,4,The Executive,3,,9,HOG appoints cabinet in practice,v2exdjcbhg,3.4,3.4.3
+3.4.3.10,3,V-Dem Indicators,4,The Executive,3,,10,HOG dismisses ministers in practice,v2exdfdshg,3.4,3.4.3
+3.4.3.11,3,V-Dem Indicators,4,The Executive,3,,11,HOG veto power in practice,v2exdfvthg,3.4,3.4.3
+3.4.3.12,3,V-Dem Indicators,4,The Executive,3,,12,HOG proposes legislation in practice,v2exdfpphg,3.4,3.4.3
+3.4.3.13,3,V-Dem Indicators,4,The Executive,3,,13,HOG age,v2exagehog,3.4,3.4.3
+3.4.3.14,3,V-Dem Indicators,4,The Executive,3,,14,HOG selection by legislature in practice,v2exaphogp,3.4,3.4.3
+3.4.3.15,3,V-Dem Indicators,4,The Executive,3,,15,HOG directly elected,v2ex_elechog,3.4,3.4.3
+3.4.3.16,3,V-Dem Indicators,4,The Executive,3,,16,HOG female,v2exfemhog,3.4,3.4.3
+3.4.3.17,3,V-Dem Indicators,4,The Executive,3,,17,HOG term length by law,v2exfxtmhg,3.4,3.4.3
+3.4.3.18,3,V-Dem Indicators,4,The Executive,3,,18,Relative power of the HOG,v2ex_hogw,3.4,3.4.3
+3.4.3.19,3,V-Dem Indicators,4,The Executive,3,,19,HOG appointed by HOS,v2ex_hosconhog,3.4,3.4.3
+3.4.3.20,3,V-Dem Indicators,4,The Executive,3,,20,HOG appointment in practice,v2expathhg,3.4,3.4.3
+3.4.3.21,3,V-Dem Indicators,4,The Executive,3,,21,HOG year of death,v2exdeathog,3.4,3.4.3
+3.4.3.22,3,V-Dem Indicators,4,The Executive,3,,22,HOG party affiliation,v2expothog,3.4,3.4.3
+3.4.4,3,V-Dem Indicators,4,The Executive,4,Regime,,Regime,,3.4,3.4.4
+3.4.4.1,3,V-Dem Indicators,4,The Executive,4,Regime,1,Regime information,v2reginfo,3.4,3.4.4
+3.4.4.2,3,V-Dem Indicators,4,The Executive,4,Regime,2,Regime end type,v2regendtype,3.4,3.4.4
+3.4.4.3,3,V-Dem Indicators,4,The Executive,4,Regime,3,"Regime end type, multiple selection version",v2regendtypems,3.4,3.4.4
+3.4.4.4,3,V-Dem Indicators,4,The Executive,4,Regime,4,Regime interregnum,v2regint,3.4,3.4.4
+3.4.4.5,3,V-Dem Indicators,4,The Executive,4,Regime,5,Regime ID,v2regidnr,3.4,3.4.4
+3.4.4.6,3,V-Dem Indicators,4,The Executive,4,Regime,6,Regime duration,v2regdur,3.4,3.4.4
+3.4.4.7,3,V-Dem Indicators,4,The Executive,4,Regime,7,Regime support groups,v2regsupgroups,3.4,3.4.4
+3.4.4.8,3,V-Dem Indicators,4,The Executive,4,Regime,8,Regime most important support group,v2regimpgroup,3.4,3.4.4
+3.4.4.9,3,V-Dem Indicators,4,The Executive,4,Regime,9,Regime support groups size,v2regsupgroupssize,3.4,3.4.4
+3.4.4.10,3,V-Dem Indicators,4,The Executive,4,Regime,10,Regime support location,v2regsuploc,3.4,3.4.4
+3.4.4.11,3,V-Dem Indicators,4,The Executive,4,Regime,11,Regime opposition groups,v2regoppgroups,3.4,3.4.4
+3.4.4.12,3,V-Dem Indicators,4,The Executive,4,Regime,12,Explicit and active regime opposition groups,v2regoppgroupsact,3.4,3.4.4
+3.4.4.13,3,V-Dem Indicators,4,The Executive,4,Regime,13,Regime most important opposition group,v2regimpoppgroup,3.4,3.4.4
+3.4.4.14,3,V-Dem Indicators,4,The Executive,4,Regime,14,Regime opposition groups size,v2regoppgroupssize,3.4,3.4.4
+3.4.4.15,3,V-Dem Indicators,4,The Executive,4,Regime,15,Regime opposition location,v2regopploc,3.4,3.4.4
+3.4.4.16,3,V-Dem Indicators,4,The Executive,4,Regime,16,Strongest pro-regime preferences,v2regproreg,3.4,3.4.4
+3.4.4.17,3,V-Dem Indicators,4,The Executive,4,Regime,17,Strongest anti-regime preferences,v2regantireg,3.4,3.4.4
+3.4.4.18,3,V-Dem Indicators,4,The Executive,4,Regime,18,Most powerful group in affecting regime duration and change,v2regpower,3.4,3.4.4
+3.5,3,V-Dem Indicators,5,The Legislature,,,,The Legislature,,3.5,
+3.5.1,3,V-Dem Indicators,5,The Legislature,1,General,,General,,3.5,3.5.1
+3.5.1.1,3,V-Dem Indicators,5,The Legislature,1,General,1,Legislature bicameral,v2lgbicam,3.5,3.5.1
+3.5.1.2,3,V-Dem Indicators,5,The Legislature,1,General,2,Legislature dominant chamber,v2lgdomchm,3.5,3.5.1
+3.5.1.3,3,V-Dem Indicators,5,The Legislature,1,General,3,Legislature questions officials in practice,v2lgqstexp,3.5,3.5.1
+3.5.1.4,3,V-Dem Indicators,5,The Legislature,1,General,4,Legislature investigates in practice,v2lginvstp,3.5,3.5.1
+3.5.1.5,3,V-Dem Indicators,5,The Legislature,1,General,5,Executive oversight,v2lgotovst,3.5,3.5.1
+3.5.1.6,3,V-Dem Indicators,5,The Legislature,1,General,6,Legislature corrupt activities,v2lgcrrpt,3.5,3.5.1
+3.5.1.7,3,V-Dem Indicators,5,The Legislature,1,General,7,Legislature opposition parties,v2lgoppart,3.5,3.5.1
+3.5.1.8,3,V-Dem Indicators,5,The Legislature,1,General,8,Legislature controls resources,v2lgfunds,3.5,3.5.1
+3.5.1.9,3,V-Dem Indicators,5,The Legislature,1,General,9,Representation of disadvantaged social groups,v2lgdsadlo,3.5,3.5.1
+3.5.1.10,3,V-Dem Indicators,5,The Legislature,1,General,10,Representation of disadvantaged social groups binary,v2lgdsadlobin,3.5,3.5.1
+3.5.1.11,3,V-Dem Indicators,5,The Legislature,1,General,11,Relative power of the HOS,v2ex_hosw,3.5,3.5.1
+3.5.1.12,3,V-Dem Indicators,5,The Legislature,1,General,12,HOG appointed by legislature,v2ex_legconhog,3.5,3.5.1
+3.5.1.13,3,V-Dem Indicators,5,The Legislature,1,General,13,HOS appointed by legislature,v2ex_legconhos,3.5,3.5.1
+3.5.1.14,3,V-Dem Indicators,5,The Legislature,1,General,14,Legislature approval of treaties by law,v2lgtreaty,3.5,3.5.1
+3.5.1.15,3,V-Dem Indicators,5,The Legislature,1,General,15,Legislature declares war by law,v2lgwarlaw,3.5,3.5.1
+3.5.2,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,,Upper Chamber,,3.5,3.5.2
+3.5.2.1,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,1,Upper chamber name,v2lgnameup,3.5,3.5.2
+3.5.2.2,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,2,Upper chamber legislates in practice,v2lglegpup,3.5,3.5.2
+3.5.2.3,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,3,Upper chamber elected,v2lgelecup,3.5,3.5.2
+3.5.2.4,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,4,Percentage of indirectly elected legislators upper chamber,v2lginelup,3.5,3.5.2
+3.5.2.5,3,V-Dem Indicators,5,The Legislature,2,Upper Chamber,5,Upper chamber introduces bills,v2lgintbup,3.5,3.5.2
+3.5.3,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,,Unicameral or Lower Chamber,,3.5,3.5.3
+3.5.3.1,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,1,Lower chamber legislature name,v2lgnamelo,3.5,3.5.3
+3.5.3.2,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,2,Lower chamber legislates in practice,v2lglegplo,3.5,3.5.3
+3.5.3.3,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,3,Lower chamber committees,v2lgcomslo,3.5,3.5.3
+3.5.3.4,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,4,Lower chamber members serve in government,v2lgsrvlo,3.5,3.5.3
+3.5.3.5,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,5,Lower chamber staff,v2lgstafflo,3.5,3.5.3
+3.5.3.6,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,6,Lower chamber elected,v2lgello,3.5,3.5.3
+3.5.3.7,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,7,Lower chamber female legislators,v2lgfemleg,3.5,3.5.3
+3.5.3.8,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,8,Percentage of indirectly elected legislators lower chamber,v2lginello,3.5,3.5.3
+3.5.3.9,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,9,Lower chamber introduces bills,v2lgintblo,3.5,3.5.3
+3.5.3.10,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,10,Lower chamber gender quota,v2lgqugen,3.5,3.5.3
+3.5.3.11,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,11,Lower chamber gender quota placement mandate,v2lgqugens,3.5,3.5.3
+3.5.3.12,3,V-Dem Indicators,5,The Legislature,3,Unicameral or Lower Chamber,12,Lower chamber gender quota threshold,v2lgqugent,3.5,3.5.3
+3.6,3,V-Dem Indicators,6,Deliberation,,,,Deliberation,,3.6,
+3.6.0.1,3,V-Dem Indicators,6,Deliberation,0,,1,Reasoned justification,v2dlreason,3.6,3.6.0
+3.6.0.2,3,V-Dem Indicators,6,Deliberation,0,,2,Common good,v2dlcommon,3.6,3.6.0
+3.6.0.3,3,V-Dem Indicators,6,Deliberation,0,,3,Respect counterarguments,v2dlcountr,3.6,3.6.0
+3.6.0.4,3,V-Dem Indicators,6,Deliberation,0,,4,Range of consultation,v2dlconslt,3.6,3.6.0
+3.6.0.5,3,V-Dem Indicators,6,Deliberation,0,,5,Engaged society,v2dlengage,3.6,3.6.0
+3.6.0.6,3,V-Dem Indicators,6,Deliberation,0,,6,Particularistic or public goods,v2dlencmps,3.6,3.6.0
+3.6.0.7,3,V-Dem Indicators,6,Deliberation,0,,7,Means-tested v. universalistic policy,v2dlunivl,3.6,3.6.0
+3.7,3,V-Dem Indicators,7,The Judiciary,,,,The Judiciary,,3.7,
+3.7.0.1,3,V-Dem Indicators,7,The Judiciary,0,,1,Judicial reform,v2jureform,3.7,3.7.0
+3.7.0.2,3,V-Dem Indicators,7,The Judiciary,0,,2,Judicial purges,v2jupurge,3.7,3.7.0
+3.7.0.3,3,V-Dem Indicators,7,The Judiciary,0,,3,Government attacks on judiciary,v2jupoatck,3.7,3.7.0
+3.7.0.4,3,V-Dem Indicators,7,The Judiciary,0,,4,Court packing,v2jupack,3.7,3.7.0
+3.7.0.5,3,V-Dem Indicators,7,The Judiciary,0,,5,Judicial accountability,v2juaccnt,3.7,3.7.0
+3.7.0.6,3,V-Dem Indicators,7,The Judiciary,0,,6,Judicial corruption decision,v2jucorrdc,3.7,3.7.0
+3.7.0.7,3,V-Dem Indicators,7,The Judiciary,0,,7,High court name,v2juhcname,3.7,3.7.0
+3.7.0.8,3,V-Dem Indicators,7,The Judiciary,0,,8,High court independence,v2juhcind,3.7,3.7.0
+3.7.0.9,3,V-Dem Indicators,7,The Judiciary,0,,9,Lower court independence,v2juncind,3.7,3.7.0
+3.7.0.10,3,V-Dem Indicators,7,The Judiciary,0,,10,Compliance with high court,v2juhccomp,3.7,3.7.0
+3.7.0.11,3,V-Dem Indicators,7,The Judiciary,0,,11,Compliance with judiciary,v2jucomp,3.7,3.7.0
+3.7.0.12,3,V-Dem Indicators,7,The Judiciary,0,,12,Judicial review,v2jureview,3.7,3.7.0
+3.7.0.13,3,V-Dem Indicators,7,The Judiciary,0,,13,Codeable,v2jucodable,3.7,3.7.0
+3.7.0.14,3,V-Dem Indicators,7,The Judiciary,0,,14,Corresponding flowchart,v2juflow,3.7,3.7.0
+3.7.0.15,3,V-Dem Indicators,7,The Judiciary,0,,15,Language,v2julanguage,3.7,3.7.0
+3.7.0.16,3,V-Dem Indicators,7,The Judiciary,0,,16,Team translated,v2juteamtr,3.7,3.7.0
+3.8,3,V-Dem Indicators,8,Civil Liberty,,,,Civil Liberty,,3.8,
+3.8.1,3,V-Dem Indicators,8,Civil Liberty,1,Personal Integrity Rights,,Personal Integrity Rights,,3.8,3.8.1
+3.8.1.1,3,V-Dem Indicators,8,Civil Liberty,1,Personal Integrity Rights,1,Freedom from torture,v2cltort,3.8,3.8.1
+3.8.1.2,3,V-Dem Indicators,8,Civil Liberty,1,Personal Integrity Rights,2,Freedom from political killings,v2clkill,3.8,3.8.1
+3.8.1.3,3,V-Dem Indicators,8,Civil Liberty,1,Personal Integrity Rights,3,Freedom from forced labor for men,v2clslavem,3.8,3.8.1
+3.8.1.4,3,V-Dem Indicators,8,Civil Liberty,1,Personal Integrity Rights,4,Freedom from forced labor for women,v2clslavef,3.8,3.8.1
+3.8.2,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,,Impartial Enforcement,,3.8,3.8.2
+3.8.2.1,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,1,Transparent laws with predictable enforcement,v2cltrnslw,3.8,3.8.2
+3.8.2.2,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,2,Rigorous and impartial public administration,v2clrspct,3.8,3.8.2
+3.8.2.3,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,3,Access to justice for men,v2clacjstm,3.8,3.8.2
+3.8.2.4,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,4,Access to justice for women,v2clacjstw,3.8,3.8.2
+3.8.2.5,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,5,Social class equality in respect for civil liberty,v2clacjust,3.8,3.8.2
+3.8.2.6,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,6,Social group equality in respect for civil liberties,v2clsocgrp,3.8,3.8.2
+3.8.2.7,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,7,Subnational civil liberties unevenness,v2clrgunev,3.8,3.8.2
+3.8.2.8,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,8,Stronger civil liberties characteristics,v2clrgstch,3.8,3.8.2
+3.8.2.9,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,9,Weaker civil liberties population,v2clsnlpct,3.8,3.8.2
+3.8.2.10,3,V-Dem Indicators,8,Civil Liberty,2,Impartial Enforcement,10,Weaker civil liberties characteristics,v2clrgwkch,3.8,3.8.2
+3.8.3,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,,Private and Political Liberties,,3.8,3.8.3
+3.8.3.1,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,1,Freedom of discussion for men,v2cldiscm,3.8,3.8.3
+3.8.3.2,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,2,Freedom of discussion for women,v2cldiscw,3.8,3.8.3
+3.8.3.3,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,3,Freedom of academic and cultural expression,v2clacfree,3.8,3.8.3
+3.8.3.4,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,4,Freedom of religion,v2clrelig,3.8,3.8.3
+3.8.3.5,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,5,Freedom of foreign movement,v2clfmove,3.8,3.8.3
+3.8.3.6,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,6,Freedom of domestic movement for men,v2cldmovem,3.8,3.8.3
+3.8.3.7,3,V-Dem Indicators,8,Civil Liberty,3,Private and Political Liberties,7,Freedom of domestic movement for women,v2cldmovew,3.8,3.8.3
+3.8.4,3,V-Dem Indicators,8,Civil Liberty,4,Property Rights,,Property Rights,,3.8,3.8.4
+3.8.4.1,3,V-Dem Indicators,8,Civil Liberty,4,Property Rights,1,State ownership of economy,v2clstown,3.8,3.8.4
+3.8.4.2,3,V-Dem Indicators,8,Civil Liberty,4,Property Rights,2,Property rights for men,v2clprptym,3.8,3.8.4
+3.8.4.3,3,V-Dem Indicators,8,Civil Liberty,4,Property Rights,3,Property rights for women,v2clprptyw,3.8,3.8.4
+3.9,3,V-Dem Indicators,9,Sovereignty/State,,,,Sovereignty/State,,3.9,
+3.9.0.1,3,V-Dem Indicators,9,Sovereignty/State,0,,1,Domestic autonomy,v2svdomaut,3.9,3.9.0
+3.9.0.2,3,V-Dem Indicators,9,Sovereignty/State,0,,2,International autonomy,v2svinlaut,3.9,3.9.0
+3.9.0.3,3,V-Dem Indicators,9,Sovereignty/State,0,,3,State authority over territory,v2svstterr,3.9,3.9.0
+3.9.0.4,3,V-Dem Indicators,9,Sovereignty/State,0,,4,State fiscal source of revenue,v2stfisccap,3.9,3.9.0
+3.9.0.5,3,V-Dem Indicators,9,Sovereignty/State,0,,5,Bureaucratic remuneration,v2strenadm,3.9,3.9.0
+3.9.0.6,3,V-Dem Indicators,9,Sovereignty/State,0,,6,Criteria for appointment decisions in the state administration,v2stcritrecadm,3.9,3.9.0
+3.9.0.7,3,V-Dem Indicators,9,Sovereignty/State,0,,7,Criteria for appointment decisions in the armed forces,v2stcritapparm,3.9,3.9.0
+3.9.0.8,3,V-Dem Indicators,9,Sovereignty/State,0,,8,Remuneration in the Armed Forces,v2strenarm,3.9,3.9.0
+3.9.0.9,3,V-Dem Indicators,9,Sovereignty/State,0,,9,Independent states,v2svindep,3.9,3.9.0
+3.10,3,V-Dem Indicators,10,Civil Society,,,,Civil Society,,3.10,
+3.10.0.1,3,V-Dem Indicators,10,Civil Society,0,,1,CSO entry and exit,v2cseeorgs,3.10,3.10.
+3.10.0.2,3,V-Dem Indicators,10,Civil Society,0,,2,CSO repression,v2csreprss,3.10,3.10.
+3.10.0.3,3,V-Dem Indicators,10,Civil Society,0,,3,CSO consultation,v2cscnsult,3.10,3.10.
+3.10.0.4,3,V-Dem Indicators,10,Civil Society,0,,4,CSO structure,v2csstruc,3.10,3.10.
+3.10.0.5,3,V-Dem Indicators,10,Civil Society,0,,5,CSO participatory environment,v2csprtcpt,3.10,3.10.
+3.10.0.6,3,V-Dem Indicators,10,Civil Society,0,,6,CSO women’s participation,v2csgender,3.10,3.10.
+3.10.0.7,3,V-Dem Indicators,10,Civil Society,0,,7,CSO anti-system movements,v2csantimv,3.10,3.10.
+3.10.0.8,3,V-Dem Indicators,10,Civil Society,0,,8,CSO anti-system movement character,v2csanmvch,3.10,3.10.
+3.10.0.9,3,V-Dem Indicators,10,Civil Society,0,,9,Religious organization repression,v2csrlgrep,3.10,3.10.
+3.10.0.10,3,V-Dem Indicators,10,Civil Society,0,,10,Religious organization consultation,v2csrlgcon,3.10,3.10.
+3.11,3,V-Dem Indicators,11,The Media,,,,The Media,,3.11,
+3.11.0.1,3,V-Dem Indicators,11,The Media,0,,1,Government censorship effort — Media,v2mecenefm,3.11,3.11.
+3.11.0.2,3,V-Dem Indicators,11,The Media,0,,2,Internet censorship effort,v2mecenefi,3.11,3.11.
+3.11.0.3,3,V-Dem Indicators,11,The Media,0,,3,Internet binary,v2mecenefibin,3.11,3.11.
+3.11.0.4,3,V-Dem Indicators,11,The Media,0,,4,Print/broadcast media critical,v2mecrit,3.11,3.11.
+3.11.0.5,3,V-Dem Indicators,11,The Media,0,,5,Print/broadcast media perspectives,v2merange,3.11,3.11.
+3.11.0.6,3,V-Dem Indicators,11,The Media,0,,6,Female journalists,v2mefemjrn,3.11,3.11.
+3.11.0.7,3,V-Dem Indicators,11,The Media,0,,7,Harassment of journalists,v2meharjrn,3.11,3.11.
+3.11.0.8,3,V-Dem Indicators,11,The Media,0,,8,Media self-censorship,v2meslfcen,3.11,3.11.
+3.11.0.9,3,V-Dem Indicators,11,The Media,0,,9,Media bias,v2mebias,3.11,3.11.
+3.11.0.10,3,V-Dem Indicators,11,The Media,0,,10,Media corrupt,v2mecorrpt,3.11,3.11.
+3.12,3,V-Dem Indicators,12,Political Equality,,,,Political Equality,,3.12,
+3.12.0.1,3,V-Dem Indicators,12,Political Equality,0,,1,Power distributed by socioeconomic position,v2pepwrses,3.12,3.12.
+3.12.0.2,3,V-Dem Indicators,12,Political Equality,0,,2,Power distributed by social group,v2pepwrsoc,3.12,3.12.
+3.12.0.3,3,V-Dem Indicators,12,Political Equality,0,,3,Power distributed by gender,v2pepwrgen,3.12,3.12.
+3.12.0.4,3,V-Dem Indicators,12,Political Equality,0,,4,Power distributed by sexual orientation,v2pepwrort,3.12,3.12.
+3.12.0.5,3,V-Dem Indicators,12,Political Equality,0,,5,Educational equality,v2peedueq,3.12,3.12.
+3.12.0.6,3,V-Dem Indicators,12,Political Equality,0,,6,Health equality,v2pehealth,3.12,3.12.
+3.12.0.7,3,V-Dem Indicators,12,Political Equality,0,,7,Primary school enrolment,v2peprisch,3.12,3.12.
+3.12.0.8,3,V-Dem Indicators,12,Political Equality,0,,8,Secondary school enrolment,v2pesecsch,3.12,3.12.
+3.12.0.9,3,V-Dem Indicators,12,Political Equality,0,,9,Tertiary school enrolment,v2petersch,3.12,3.12.
+3.13,3,V-Dem Indicators,13,Exclusion,,,,Exclusion,,3.13,
+3.13.1,3,V-Dem Indicators,13,Exclusion,1,,,Exclusion by Socio-Economic Group,,3.13,3.13.
+3.13.1.1,3,V-Dem Indicators,13,Exclusion,1,,1,Access to public services distributed by socio-economic position,v2peapsecon,3.13,3.13.
+3.13.1.2,3,V-Dem Indicators,13,Exclusion,1,,2,Access to state jobs by socio-economic position,v2peasjsoecon,3.13,3.13.
+3.13.1.3,3,V-Dem Indicators,13,Exclusion,1,,3,Access to state business opportunities by socio-economic position,v2peasbecon,3.13,3.13.
+3.13.2,3,V-Dem Indicators,13,Exclusion,2,,,Exclusion by Gender,,3.13,3.13.
+3.13.2.1,3,V-Dem Indicators,13,Exclusion,2,,1,Gender equality in respect for civil liberties,v2clgencl,3.13,3.13.
+3.13.2.2,3,V-Dem Indicators,13,Exclusion,2,,2,Access to public services distributed by gender,v2peapsgen,3.13,3.13.
+3.13.2.3,3,V-Dem Indicators,13,Exclusion,2,,3,Access to state jobs by gender,v2peasjgen,3.13,3.13.
+3.13.2.4,3,V-Dem Indicators,13,Exclusion,2,,4,Access to state business opportunities by gender,v2peasbgen,3.13,3.13.
+3.13.3,3,V-Dem Indicators,13,Exclusion,3,,,Exclusion by Urban-Rural Location,,3.13,3.13.
+3.13.3.1,3,V-Dem Indicators,13,Exclusion,3,,1,Power distributed by urban-rural location,v2pepwrgeo,3.13,3.13.
+3.13.3.2,3,V-Dem Indicators,13,Exclusion,3,,2,Urban-rural location equality in respect for civil liberties,v2clgeocl,3.13,3.13.
+3.13.3.3,3,V-Dem Indicators,13,Exclusion,3,,3,Access to public services distributed by urban-rural location,v2peapsgeo,3.13,3.13.
+3.13.3.4,3,V-Dem Indicators,13,Exclusion,3,,4,Access to state jobs by urban-rural location,v2peasjgeo,3.13,3.13.
+3.13.3.5,3,V-Dem Indicators,13,Exclusion,3,,5,Access to state business opportunities by urban-rural location,v2peasbegeo,3.13,3.13.
+3.13.4,3,V-Dem Indicators,13,Exclusion,4,,,Exclusion by Political Group,,3.13,3.13.
+3.13.4.1,3,V-Dem Indicators,13,Exclusion,4,,1,Political group equality in respect for civil liberties,v2clpolcl,3.13,3.13.
+3.13.4.2,3,V-Dem Indicators,13,Exclusion,4,,2,Access to public services distributed by political group,v2peapspol,3.13,3.13.
+3.13.4.3,3,V-Dem Indicators,13,Exclusion,4,,3,Access to state jobs by political group,v2peasjpol,3.13,3.13.
+3.13.4.4,3,V-Dem Indicators,13,Exclusion,4,,4,Access to state business opportunities by political group,v2peasbepol,3.13,3.13.
+3.13.5,3,V-Dem Indicators,13,Exclusion,5,,,Exclusion by Social Group,,3.13,3.13.
+3.13.5.1,3,V-Dem Indicators,13,Exclusion,5,,1,Access to public services distributed by social group,v2peapssoc,3.13,3.13.
+3.13.5.2,3,V-Dem Indicators,13,Exclusion,5,,2,Access to state jobs by social group,v2peasjsoc,3.13,3.13.
+3.13.5.3,3,V-Dem Indicators,13,Exclusion,5,,3,Access to state business opportunities by social group,v2peasbsoc,3.13,3.13.
+3.14,3,V-Dem Indicators,14,Legitimation,,,,Legitimation,,3.14,
+3.14.0.1,3,V-Dem Indicators,14,Legitimation,0,,1,Ideology,v2exl_legitideol,3.14,3.14.
+3.14.0.2,3,V-Dem Indicators,14,Legitimation,0,,2,Ideology character,v2exl_legitideolcr,3.14,3.14.
+3.14.0.3,3,V-Dem Indicators,14,Legitimation,0,,3,Person of the Leader,v2exl_legitlead,3.14,3.14.
+3.14.0.4,3,V-Dem Indicators,14,Legitimation,0,,4,Performance legitimation,v2exl_legitperf,3.14,3.14.
+3.14.0.5,3,V-Dem Indicators,14,Legitimation,0,,5,Rational-legal legitimation,v2exl_legitratio,3.14,3.14.
+3.15,3,V-Dem Indicators,15,Civic and Academic Space,,,,Civic and Academic Space,,3.15,
+3.15.1,3,V-Dem Indicators,15,Civic and Academic Space,1,,,Civic Space,,3.15,3.15.
+3.15.1.1,3,V-Dem Indicators,15,Civic and Academic Space,1,,1,Political polarization,v2cacamps,3.15,3.15.
+3.15.1.2,3,V-Dem Indicators,15,Civic and Academic Space,1,,2,Political violence,v2caviol,3.15,3.15.
+3.15.1.3,3,V-Dem Indicators,15,Civic and Academic Space,1,,3,Freedom of peaceful assembly,v2caassemb,3.15,3.15.
+3.15.1.4,3,V-Dem Indicators,15,Civic and Academic Space,1,,4,State of emergency,v2casoe,3.15,3.15.
+3.15.2,3,V-Dem Indicators,15,Civic and Academic Space,2,,,Mass Mobilization,,3.15,3.15.
+3.15.2.1,3,V-Dem Indicators,15,Civic and Academic Space,2,,1,Mass mobilization,v2cagenmob,3.15,3.15.
+3.15.2.2,3,V-Dem Indicators,15,Civic and Academic Space,2,,2,Mass mobilization concentration,v2caconmob,3.15,3.15.
+3.15.2.3,3,V-Dem Indicators,15,Civic and Academic Space,2,,3,Mobilization for democracy,v2cademmob,3.15,3.15.
+3.15.2.4,3,V-Dem Indicators,15,Civic and Academic Space,2,,4,Mobilization for autocracy,v2caautmob,3.15,3.15.
+3.15.3,3,V-Dem Indicators,15,Civic and Academic Space,3,,,Citizen Engagement,,3.15,3.15.
+3.15.3.1,3,V-Dem Indicators,15,Civic and Academic Space,3,,1,Engagement in state-administered mass organizations,v2castate,3.15,3.15.
+3.15.3.2,3,V-Dem Indicators,15,Civic and Academic Space,3,,2,Engagement in independent trade unions,v2catrauni,3.15,3.15.
+3.15.3.3,3,V-Dem Indicators,15,Civic and Academic Space,3,,3,Engagement in independent political associations,v2capolit,3.15,3.15.
+3.15.3.4,3,V-Dem Indicators,15,Civic and Academic Space,3,,4,Engagement in independent non-political associations,v2canonpol,3.15,3.15.
+3.15.4,3,V-Dem Indicators,15,Civic and Academic Space,4,,,Academic Space,,3.15,3.15.
+3.15.4.1,3,V-Dem Indicators,15,Civic and Academic Space,4,,1,Existence of universities,v2cauni,3.15,3.15.
+3.15.4.2,3,V-Dem Indicators,15,Civic and Academic Space,4,,2,Total number of universities,v2canuni,3.15,3.15.
+3.15.4.3,3,V-Dem Indicators,15,Civic and Academic Space,4,,3,Constitutional protection for academic freedom,v2caprotac,3.15,3.15.
+3.15.4.4,3,V-Dem Indicators,15,Civic and Academic Space,4,,4,Freedom to research and teach,v2cafres,3.15,3.15.
+3.15.4.5,3,V-Dem Indicators,15,Civic and Academic Space,4,,5,Freedom of academic exchange and dissemination,v2cafexch,3.15,3.15.
+3.15.4.6,3,V-Dem Indicators,15,Civic and Academic Space,4,,6,Institutional autonomy,v2cainsaut,3.15,3.15.
+3.15.4.7,3,V-Dem Indicators,15,Civic and Academic Space,4,,7,Campus integrity,v2casurv,3.15,3.15.
+3.15.4.8,3,V-Dem Indicators,15,Civic and Academic Space,4,,8,Academics as critics,v2cacritic,3.15,3.15.
+3.15.4.9,3,V-Dem Indicators,15,Civic and Academic Space,4,,9,International legal commitment to academic freedom under ICESCR,v2caacadfree,3.15,3.15.
+4,4,Historical V-Dem,,,,,,Historical V-Dem,,,
+4.1,4,Historical V-Dem,1,Elections,,,,Elections,,4.1,
+4.1.1,4,Historical V-Dem,1,Elections,,,1,Minimum candidate age lower chamber,v3canagelc,4.1,4.1.1
+4.1.2,4,Historical V-Dem,1,Elections,,,2,Minimum candidate age upper chamber,v3canageuc,4.1,4.1.2
+4.1.3,4,Historical V-Dem,1,Elections,,,3,Minimum voting age presidency,v3elagepr,4.1,4.1.3
+4.1.4,4,Historical V-Dem,1,Elections,,,4,Minimum voting age upper chamber,v3elageuc,4.1,4.1.4
+4.1.5,4,Historical V-Dem,1,Elections,,,5,"Voting, voice or ballot",v3elbalpap,4.1,4.1.5
+4.1.6,4,Historical V-Dem,1,Elections,,,6,Ballot printing,v3elbalstat,4.1,4.1.6
+4.1.7,4,Historical V-Dem,1,Elections,,,7,Compulsory voting,v3elcomvot,4.1,4.1.7
+4.1.8,4,Historical V-Dem,1,Elections,,,8,Direct lower chamber,v3eldirelc,4.1,4.1.8
+4.1.9,4,Historical V-Dem,1,Elections,,,9,Direct presidential elections,v3eldirepr,4.1,4.1.9
+4.1.10,4,Historical V-Dem,1,Elections,,,10,Direct upper chamber elections,v3eldireuc,4.1,4.1.1
+4.1.11,4,Historical V-Dem,1,Elections,,,11,Secret ballot,v3elecsedf,4.1,4.1.1
+4.1.12,4,Historical V-Dem,1,Elections,,,12,Malapportionment legislature/lower chamber,v3elmalalc,4.1,4.1.1
+4.1.13,4,Historical V-Dem,1,Elections,,,13,Malapportionment upper chamber,v3elmalauc,4.1,4.1.1
+4.1.14,4,Historical V-Dem,1,Elections,,,14,Minority or majority government,v3elncbmaj,4.1,4.1.1
+4.1.15,4,Historical V-Dem,1,Elections,,,15,Reapportionment legislature/lower chamber,v3elreapplc,4.1,4.1.1
+4.1.16,4,Historical V-Dem,1,Elections,,,16,Reapportionment upper chamber,v3elreappuc,4.1,4.1.1
+4.1.17,4,Historical V-Dem,1,Elections,,,17,Candidate exclusions,v3elrstrlc,4.1,4.1.1
+4.1.18,4,Historical V-Dem,1,Elections,,,18,Candidate exclusions,v3elrstrpr,4.1,4.1.1
+4.1.19,4,Historical V-Dem,1,Elections,,,19,Candidate exclusions,v3elrstrup,4.1,4.1.1
+4.1.20,4,Historical V-Dem,1,Elections,,,20,De jure ballot secrecy,v3elsec,4.1,4.1.2
+4.1.21,4,Historical V-Dem,1,Elections,,,21,Upper chamber election turnover,v3eltvriguc,4.1,4.1.2
+4.1.22,4,Historical V-Dem,1,Elections,,,22,Upper chamber election seats,v3elupseat,4.1,4.1.2
+4.1.23,4,Historical V-Dem,1,Elections,,,23,Upper chamber election seats won by largest party,v3elupstsl,4.1,4.1.2
+4.1.24,4,Historical V-Dem,1,Elections,,,24,Upper chamber election seats won by second largest party,v3elupstsm,4.1,4.1.2
+4.1.25,4,Historical V-Dem,1,Elections,,,25,Upper chamber election vote share of largest vote-getter,v3elupvtlg,4.1,4.1.2
+4.1.26,4,Historical V-Dem,1,Elections,,,26,Upper chamber election vote share of second-largest vote-getter,v3elupvtsm,4.1,4.1.2
+4.1.27,4,Historical V-Dem,1,Elections,,,27,Suffrage exclusions,v3elvstrlc,4.1,4.1.2
+4.1.28,4,Historical V-Dem,1,Elections,,,28,Suffrage exclusions,v3elvstrpr,4.1,4.1.2
+4.1.29,4,Historical V-Dem,1,Elections,,,29,Suffrage exclusions,v3elvstruc,4.1,4.1.2
+4.1.30,4,Historical V-Dem,1,Elections,,,30,Election women in the cabinet,v3elwomcab,4.1,4.1.3
+4.1.31,4,Historical V-Dem,1,Elections,,,31,Total votes,v3ttlvote,4.1,4.1.3
+4.2,4,Historical V-Dem,2,Political Parties,,,,Political Parties,,4.2,
+4.2.1,4,Historical V-Dem,2,Political Parties,,,1,Party identification,v3partyid,4.2,4.2.1
+4.2.2,4,Historical V-Dem,2,Political Parties,,,2,Party age largest,v3psagefirst,4.2,4.2.2
+4.2.3,4,Historical V-Dem,2,Political Parties,,,3,Party age executive,v3psagepm,4.2,4.2.3
+4.2.4,4,Historical V-Dem,2,Political Parties,,,4,Party age second largest,v3psagesecond,4.2,4.2.4
+4.2.5,4,Historical V-Dem,2,Political Parties,,,5,Party age third largest,v3psagethird,4.2,4.2.5
+4.3,4,Historical V-Dem,3,The Legislature,,,,The Legislature,,4.3,
+4.3.1,4,Historical V-Dem,3,The Legislature,,,1,Lower chamber budget,v3lgbudglo,4.3,4.3.1
+4.3.2,4,Historical V-Dem,3,The Legislature,,,2,Upper chamber budget,v3lgbudgup,4.3,4.3.2
+4.3.3,4,Historical V-Dem,3,The Legislature,,,3,Legislature other than uni- or bicameral,v3lgcamoth,4.3,4.3.3
+4.3.4,4,Historical V-Dem,3,The Legislature,,,4,Lower chamber in session,v3lginses,4.3,4.3.4
+4.3.5,4,Historical V-Dem,3,The Legislature,,,5,Upper chamber in session,v3lginsesup,4.3,4.3.5
+4.3.6,4,Historical V-Dem,3,The Legislature,,,6,Lower chamber quota for social groups,v3lgqumin,4.3,4.3.6
+4.4,4,Historical V-Dem,4,The Judiciary,,,,The Judiciary,,4.4,
+4.4.1,4,Historical V-Dem,4,The Judiciary,,,1,High court existence,v3juhcourt,4.4,4.4.1
+4.5,4,Historical V-Dem,5,Civil Liberty,,,,Civil Liberty,,4.5,
+4.5.1,4,Historical V-Dem,5,Civil Liberty,,,1,Labor rights,v3cllabrig,4.5,4.5.1
+4.5.2,4,Historical V-Dem,5,Civil Liberty,,,2,Slavery,v3clslavery,4.5,4.5.2
+4.5.3,4,Historical V-Dem,5,Civil Liberty,,,3,Serfdom de jure/slavery de jure,v3serfdeju,4.5,4.5.3
+4.6,4,Historical V-Dem,6,Sovereignty/State,,,,Sovereignty/State,,4.6,
+4.6.1,4,Historical V-Dem,6,Sovereignty/State,,,1,Census,v3stcensus,4.6,4.6.1
+4.6.2,4,Historical V-Dem,6,Sovereignty/State,,,2,Citizenship laws,v3stcitlaw,4.6,4.6.2
+4.6.3,4,Historical V-Dem,6,Sovereignty/State,,,3,Flag,v3stflag,4.6,4.6.3
+4.6.4,4,Historical V-Dem,6,Sovereignty/State,,,4,National anthem,v3stnatant,4.6,4.6.4
+4.6.5,4,Historical V-Dem,6,Sovereignty/State,,,5,National bank,v3stnatbank,4.6,4.6.5
+4.6.6,4,Historical V-Dem,6,Sovereignty/State,,,6,Rulers’ involvement in the state administration,v3struinvadm,4.6,4.6.6
+4.6.7,4,Historical V-Dem,6,Sovereignty/State,,,7,Statistical agency,v3ststatag,4.6,4.6.7
+4.6.8,4,Historical V-Dem,6,Sovereignty/State,,,8,State steering capacity,v3ststeecap,4.6,4.6.8
+4.6.9,4,Historical V-Dem,6,Sovereignty/State,,,9,Statistical yearbook covered,v3ststybcov,4.6,4.6.9
+4.6.10,4,Historical V-Dem,6,Sovereignty/State,,,10,Statistical yearbook published,v3ststybpub,4.6,4.6.1
+4.7,4,Historical V-Dem,7,Political Equality,,,,Political Equality,,4.7,
+4.7.1,4,Historical V-Dem,7,Political Equality,,,1,Equal vote legislature/lower chamber,v3equavolc,4.7,4.7.1
+4.7.2,4,Historical V-Dem,7,Political Equality,,,2,Equal vote upper chamber,v3equavouc,4.7,4.7.2
+4.7.3,4,Historical V-Dem,7,Political Equality,,,3,Child labor laws,v3pechilabl,4.7,4.7.3
+4.7.4,4,Historical V-Dem,7,Political Equality,,,4,Minimum wage,v3peminwage,4.7,4.7.4
+4.7.5,4,Historical V-Dem,7,Political Equality,,,5,Minimum wage restriction,v3peminwagerestr,4.7,4.7.5
+4.8,4,Historical V-Dem,8,Historical V-Dem Modified,,,,Historical V-Dem Modified,,4.8,
+4.8.1,4,Historical V-Dem,8,Historical V-Dem Modified,,,1,Lower chamber electoral system,v3elloelsy,4.8,4.8.1
+4.8.2,4,Historical V-Dem,8,Historical V-Dem Modified,,,2,Lower chamber election seats,v3elloseat,4.8,4.8.2
+4.8.3,4,Historical V-Dem,8,Historical V-Dem Modified,,,3,Lower chamber election seats won by largest party,v3ellostlg,4.8,4.8.3
+4.8.4,4,Historical V-Dem,8,Historical V-Dem Modified,,,4,Lower chamber election seat share won by largest party,v3ellostsl,4.8,4.8.4
+4.8.5,4,Historical V-Dem,8,Historical V-Dem Modified,,,5,Lower chamber election seats won by second largest party,v3ellostsm,4.8,4.8.5
+4.8.6,4,Historical V-Dem,8,Historical V-Dem Modified,,,6,Lower chamber election seat share won by second largest party,v3ellostss,4.8,4.8.6
+4.8.7,4,Historical V-Dem,8,Historical V-Dem Modified,,,7,Lower chamber election vote share of largest vote-getter,v3ellovtlg,4.8,4.8.7
+4.8.8,4,Historical V-Dem,8,Historical V-Dem Modified,,,8,Lower chamber election vote share of second-largest vote-getter,v3ellovtsm,4.8,4.8.8
+4.8.9,4,Historical V-Dem,8,Historical V-Dem Modified,,,9,Effective number of cabinet parties,v3elncbpr,4.8,4.8.9
+4.8.10,4,Historical V-Dem,8,Historical V-Dem Modified,,,10,Lower chamber electoral system,v3elparlel,4.8,4.8.1
+4.8.11,4,Historical V-Dem,8,Historical V-Dem Modified,,,11,Election turnout,v3eltrnout,4.8,4.8.1
+4.8.12,4,Historical V-Dem,8,Historical V-Dem Modified,,,12,Lower chamber election turnover,v3eltvrig,4.8,4.8.1
+4.8.13,4,Historical V-Dem,8,Historical V-Dem Modified,,,13,Election type,v3eltype,4.8,4.8.1
+4.8.14,4,Historical V-Dem,8,Historical V-Dem Modified,,,14,Presidential election vote share of largest vote-getter,v3elvotlrg,4.8,4.8.1
+4.8.15,4,Historical V-Dem,8,Historical V-Dem Modified,,,15,Presidential election vote share of second-largest vote-getter,v3elvotsml,4.8,4.8.1
+4.8.16,4,Historical V-Dem,8,Historical V-Dem Modified,,,16,Legislature bicameral,v3lgbicam,4.8,4.8.1
+4.8.17,4,Historical V-Dem,8,Historical V-Dem Modified,,,17,Lower chamber committees,v3lgcomslo,4.8,4.8.1
+4.8.18,4,Historical V-Dem,8,Historical V-Dem Modified,,,18,Legislature corrupt activities,v3lgcrrpt,4.8,4.8.1
+4.8.19,4,Historical V-Dem,8,Historical V-Dem Modified,,,19,Legislature dominant chamber,v3lgdomchm,4.8,4.8.1
+4.8.20,4,Historical V-Dem,8,Historical V-Dem Modified,,,20,Upper chamber elected,v3lgelecup,4.8,4.8.2
+4.8.21,4,Historical V-Dem,8,Historical V-Dem Modified,,,21,Lower chamber elected,v3lgello,4.8,4.8.2
+4.8.22,4,Historical V-Dem,8,Historical V-Dem Modified,,,22,Legislature controls resources,v3lgfunds,4.8,4.8.2
+4.8.23,4,Historical V-Dem,8,Historical V-Dem Modified,,,23,Lower chamber indirectly elected,v3lginello,4.8,4.8.2
+4.8.24,4,Historical V-Dem,8,Historical V-Dem Modified,,,24,Upper chamber indirectly elected,v3lginelup,4.8,4.8.2
+4.8.25,4,Historical V-Dem,8,Historical V-Dem Modified,,,25,Legislature investigates in practice,v3lginvstp,4.8,4.8.2
+4.8.26,4,Historical V-Dem,8,Historical V-Dem Modified,,,26,Lower chamber legislates in practice,v3lglegplo,4.8,4.8.2
+4.8.27,4,Historical V-Dem,8,Historical V-Dem Modified,,,27,Upper chamber legislates in practice,v3lglegpup,4.8,4.8.2
+4.8.28,4,Historical V-Dem,8,Historical V-Dem Modified,,,28,Lower chamber legislature name,v3lgnamelo,4.8,4.8.2
+4.8.29,4,Historical V-Dem,8,Historical V-Dem Modified,,,29,Upper chamber name,v3lgnameup,4.8,4.8.2
+4.8.30,4,Historical V-Dem,8,Historical V-Dem Modified,,,30,Legislature opposition parties,v3lgoppart,4.8,4.8.3
+4.8.31,4,Historical V-Dem,8,Historical V-Dem Modified,,,31,Executive oversight,v3lgotovst,4.8,4.8.3
+4.8.32,4,Historical V-Dem,8,Historical V-Dem Modified,,,32,Legislature questions officials in practice,v3lgqstexp,4.8,4.8.3
+4.8.33,4,Historical V-Dem,8,Historical V-Dem Modified,,,33,Lower chamber members serve in government,v3lgsrvlo,4.8,4.8.3
+4.9,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,,Historical V-Dem – Overlap Period Discrepancies,,4.9,
+4.9.1,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,1,Local government elected,v3ellocelc,4.9,4.9.1
+4.9.2,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,2,Local government exists,v3ellocgov,4.9,4.9.2
+4.9.3,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,3,Local government name,v3ellocnam,4.9,4.9.3
+4.9.4,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,4,Regional government exists,v3elreggov,4.9,4.9.4
+4.9.5,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,5,Regional government name,v3elregnam,4.9,4.9.5
+4.9.6,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,6,Regional government elected,v3elsrgel,4.9,4.9.6
+4.9.7,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,7,HOS age,v3exagehos,4.9,4.9.7
+4.9.8,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,8,HOS = HOG,v3exhoshog,4.9,4.9.8
+4.9.9,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,9,HOG name,v3exnamhog,4.9,4.9.9
+4.9.10,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,10,HOS name,v3exnamhos,4.9,4.9.1
+4.9.11,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,11,HOS appointment in practice,v3expathhs,4.9,4.9.1
+4.9.12,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,12,Title of HOG,v3extithog,4.9,4.9.1
+4.9.13,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,13,HOS title,v3extithos,4.9,4.9.1
+4.9.14,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,14,High court name,v3juhcname,4.9,4.9.1
+4.9.15,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,15,Legislature amends constitution,v3lgamend,4.9,4.9.1
+4.9.16,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,16,Legislature amnesties,v3lgamnsty,4.9,4.9.1
+4.9.17,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,17,Lower chamber introduces bills,v3lgintblo,4.9,4.9.1
+4.9.18,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,18,Lower chamber legislates by law,v3lglegllo,4.9,4.9.1
+4.9.19,4,Historical V-Dem,9,Historical V-Dem – Overlap Period Discrepancies,,,19,Upper chamber legislates by law,v3lgleglup,4.9,4.9.1
+5,5,Other Indices Created Using V-Dem Data,,,,,,Other Indices Created Using V-Dem Data,,,
+5.1,5,Other Indices Created Using V-Dem Data,1,Regimes of the World,,,,Regimes of the World,RoW,5.1,
+5.1.1,5,Other Indices Created Using V-Dem Data,1,Regimes of the World,,,1,Regimes of the world – the RoW measure,v2x_regime,5.1,5.1.1
+5.1.2,5,Other Indices Created Using V-Dem Data,1,Regimes of the World,,,2,Regimes of the world – the RoW measure with categories for ambiguous cases,v2x_regime_amb,5.1,5.1.2
+5.2,5,Other Indices Created Using V-Dem Data,2,Accountability,,,,Accountability,,5.2,
+5.2.1,5,Other Indices Created Using V-Dem Data,2,Accountability,,,1,Accountability index,v2x_accountability,5.2,5.2.1
+5.2.2,5,Other Indices Created Using V-Dem Data,2,Accountability,,,2,Vertical accountability index,v2x_veracc,5.2,5.2.2
+5.2.3,5,Other Indices Created Using V-Dem Data,2,Accountability,,,3,Diagonal accountability index,v2x_diagacc,5.2,5.2.3
+5.2.4,5,Other Indices Created Using V-Dem Data,2,Accountability,,,4,Horizontal accountability index,v2x_horacc,5.2,5.2.4
+5.3,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,,Executive Bases of Power,,5.3,
+5.3.1,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,1,Confidence dimension index,v2x_ex_confidence,5.3,5.3.1
+5.3.2,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,2,Direct election dimension index,v2x_ex_direlect,5.3,5.3.2
+5.3.3,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,3,Hereditary dimension index,v2x_ex_hereditary,5.3,5.3.3
+5.3.4,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,4,Military dimension index,v2x_ex_military,5.3,5.3.4
+5.3.5,5,Other Indices Created Using V-Dem Data,3,Executive Bases of Power,,,5,Ruling party dimension index,v2x_ex_party,5.3,5.3.5
+5.4,5,Other Indices Created Using V-Dem Data,4,Neopatrimonialism,,,,Neopatrimonialism,,5.4,
+5.4.1,5,Other Indices Created Using V-Dem Data,4,Neopatrimonialism,,,1,Neopatrimonial Rule Index,v2x_neopat,5.4,5.4.1
+5.4.2,5,Other Indices Created Using V-Dem Data,4,Neopatrimonialism,,,2,Clientelism Index,v2xnp_client,5.4,5.4.2
+5.4.3,5,Other Indices Created Using V-Dem Data,4,Neopatrimonialism,,,3,Presidentialism Index,v2xnp_pres,5.4,5.4.3
+5.4.4,5,Other Indices Created Using V-Dem Data,4,Neopatrimonialism,,,4,Regime corruption,v2xnp_regcorr,5.4,5.4.4
+5.5,5,Other Indices Created Using V-Dem Data,5,Civil liberties,,,,Civil liberties,,5.5,
+5.5.1,5,Other Indices Created Using V-Dem Data,5,Civil liberties,,,1,Civil liberties index,v2x_civlib,5.5,5.5.1
+5.5.2,5,Other Indices Created Using V-Dem Data,5,Civil liberties,,,2,Physical violence index,v2x_clphy,5.5,5.5.2
+5.5.3,5,Other Indices Created Using V-Dem Data,5,Civil liberties,,,3,Political civil liberties index,v2x_clpol,5.5,5.5.3
+5.5.4,5,Other Indices Created Using V-Dem Data,5,Civil liberties,,,4,Private civil liberties index,v2x_clpriv,5.5,5.5.4
+5.6,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,,Exclusion,,5.6,
+5.6.1,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,1,Exclusion by Socio-Economic Group,v2xpe_exlecon,5.6,5.6.1
+5.6.2,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,2,Exclusion by Gender index,v2xpe_exlgender,5.6,5.6.2
+5.6.3,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,3,Exclusion by Urban-Rural Location index,v2xpe_exlgeo,5.6,5.6.3
+5.6.4,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,4,Exclusion by Political Group index,v2xpe_exlpol,5.6,5.6.4
+5.6.5,5,Other Indices Created Using V-Dem Data,6,Exclusion,,,5,Exclusion by Social Group index,v2xpe_exlsocgr,5.6,5.6.5
+5.7,5,Other Indices Created Using V-Dem Data,7,Corruption,,,,Corruption,,5.7,
+5.7.1,5,Other Indices Created Using V-Dem Data,7,Corruption,,,1,Political corruption index,v2x_corr,5.7,5.7.1
+5.7.2,5,Other Indices Created Using V-Dem Data,7,Corruption,,,2,Executive corruption index,v2x_execorr,5.7,5.7.2
+5.7.3,5,Other Indices Created Using V-Dem Data,7,Corruption,,,3,Public sector corruption index,v2x_pubcorr,5.7,5.7.3
+5.8,5,Other Indices Created Using V-Dem Data,8,Women’s Empowerment,,,,Women’s Empowerment,,5.8,
+5.8.1,5,Other Indices Created Using V-Dem Data,8,Women’s Empowerment,,,1,Women political empowerment index,v2x_gender,5.8,5.8.1
+5.8.2,5,Other Indices Created Using V-Dem Data,8,Women’s Empowerment,,,2,Women civil liberties index,v2x_gencl,5.8,5.8.2
+5.8.3,5,Other Indices Created Using V-Dem Data,8,Women’s Empowerment,,,3,Women civil society participation index,v2x_gencs,5.8,5.8.3
+5.8.4,5,Other Indices Created Using V-Dem Data,8,Women’s Empowerment,,,4,Women political participation index,v2x_genpp,5.8,5.8.4
+5.9,5,Other Indices Created Using V-Dem Data,9,Rule of Law,,,,Rule of Law,,5.9,
+5.9.1,5,Other Indices Created Using V-Dem Data,9,Rule of Law,,,1,Rule of law index,v2x_rule,5.9,5.9.1
+5.9.2,5,Other Indices Created Using V-Dem Data,9,Rule of Law,,,2,Access to justice,v2xcl_acjst,5.9,5.9.2
+5.9.3,5,Other Indices Created Using V-Dem Data,9,Rule of Law,,,3,Property rights,v2xcl_prpty,5.9,5.9.3
+5.10,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,,Direct Democracy,,5.10,
+5.10.1,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,1,Popular initiative index,v2xdd_i_ci,5.10,5.10.
+5.10.2,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,2,Popular referendum index,v2xdd_i_rf,5.10,5.10.
+5.10.3,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,3,Obligatory referendum index,v2xdd_i_or,5.10,5.10.
+5.10.4,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,4,Plebiscite index,v2xdd_i_pl,5.10,5.10.
+5.10.5,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,5,Citizen-initiated component of direct popular vote index,v2xdd_cic,5.10,5.10.
+5.10.6,5,Other Indices Created Using V-Dem Data,10,Direct Democracy,,,6,Top-Down component of direct popular vote index,v2xdd_toc,5.10,5.10.
+5.11,5,Other Indices Created Using V-Dem Data,11,Civil Society,,,,Civil Society,,5.11,
+5.11.1,5,Other Indices Created Using V-Dem Data,11,Civil Society,,,1,Core civil society index,v2xcs_ccsi,5.11,5.11.
+5.12,5,Other Indices Created Using V-Dem Data,12,Elections,,,,Elections,,5.12,
+5.12.1,5,Other Indices Created Using V-Dem Data,12,Elections,,,1,Electoral regime index,v2x_elecreg,5.12,5.12.
+5.12.2,5,Other Indices Created Using V-Dem Data,12,Elections,,,2,Executive electoral regime index,v2xex_elecreg,5.12,5.12.
+5.12.3,5,Other Indices Created Using V-Dem Data,12,Elections,,,3,Legislative electoral regime index,v2xlg_elecreg,5.12,5.12.
+5.12.4,5,Other Indices Created Using V-Dem Data,12,Elections,,,4,Electoral component index,v2x_EDcomp_thick,5.12,5.12.
+5.12.5,5,Other Indices Created Using V-Dem Data,12,Elections,,,5,Freedom of expression index,v2x_freexp,5.12,5.12.
+5.12.6,5,Other Indices Created Using V-Dem Data,12,Elections,,,6,Presidential election aborted,v2x_hosabort,5.12,5.12.
+5.12.7,5,Other Indices Created Using V-Dem Data,12,Elections,,,7,Chief executive no longer elected,v2x_hosinter,5.12,5.12.
+5.12.8,5,Other Indices Created Using V-Dem Data,12,Elections,,,8,Legislative or constituent assembly election aborted,v2x_legabort,5.12,5.12.
+5.12.9,5,Other Indices Created Using V-Dem Data,12,Elections,,,9,Freedom of discussion,v2xcl_disc,5.12,5.12.
+5.12.10,5,Other Indices Created Using V-Dem Data,12,Elections,,,10,Freedom of domestic movement,v2xcl_dmove,5.12,5.12.
+5.12.11,5,Other Indices Created Using V-Dem Data,12,Elections,,,11,Freedom from forced labor,v2xcl_slave,5.12,5.12.
+5.12.12,5,Other Indices Created Using V-Dem Data,12,Elections,,,12,Legislative or constituent assembly election,v2xel_elecparl,5.12,5.12.
+5.12.13,5,Other Indices Created Using V-Dem Data,12,Elections,,,13,Presidential election,v2xel_elecpres,5.12,5.12.
+5.12.14,5,Other Indices Created Using V-Dem Data,12,Elections,,,14,Legislature directly elected,v2xex_elecleg,5.12,5.12.
+5.12.15,5,Other Indices Created Using V-Dem Data,12,Elections,,,15,Legislature closed down or aborted,v2xlg_leginter,5.12,5.12.
+5.12.16,5,Other Indices Created Using V-Dem Data,12,Elections,,,16,Alternative sources of information index,v2xme_altinf,5.12,5.12.
+5.13,5,Other Indices Created Using V-Dem Data,13,Party Institutionalization,,,,Party Institutionalization,,5.13,
+5.13.1,5,Other Indices Created Using V-Dem Data,13,Party Institutionalization,,,1,Party institutionalization index,v2xps_party,5.13,5.13.
+5.14,5,Other Indices Created Using V-Dem Data,14,Consensual Democracy Dimensions,,,,Consensual Democracy Dimensions,,5.14,
+5.14.1,5,Other Indices Created Using V-Dem Data,14,Consensual Democracy Dimensions,,,1,Divided party control index,v2x_divparctrl,5.14,5.14.
+5.14.2,5,Other Indices Created Using V-Dem Data,14,Consensual Democracy Dimensions,,,2,Division of power index,v2x_feduni,5.14,5.14.
+5.15,5,Other Indices Created Using V-Dem Data,15,Academic Freedom,,,,Academic Freedom,,5.15,
+5.15.1,5,Other Indices Created Using V-Dem Data,15,Academic Freedom,,,1,Academic Freedom Index,v2xca_academ,5.15,5.15.
+6,6,Party Systems,,,,,,Party Systems,,,
+6.1,6,Party Systems,1,Party-System Democracy Index,,,,Party-System Democracy Index,v2xpas_democracy,6.1,
+6.2,6,Party Systems,2,Government Coalition Democracy Index,,,,Government Coalition Democracy Index,v2xpas_democracy_government,6.2,
+6.3,6,Party Systems,3,Opposition Parties Democracy Index,,,,Opposition Parties Democracy Index,v2xpas_democracy_opposition,6.3,
+6.4,6,Party Systems,4,Party-System Religion Index,,,,Party-System Religion Index,v2xpas_religion,6.4,
+6.5,6,Party Systems,5,Government Coalition Religion Index,,,,Government Coalition Religion Index,v2xpas_religion_government,6.5,
+6.6,6,Party Systems,6,Opposition Parties Religion Index,,,,Opposition Parties Religion Index,v2xpas_religion_opposition,6.6,
+6.7,6,Party Systems,7,Party-System Exclusion Index,,,,Party-System Exclusion Index,v2xpas_exclusion,6.7,
+6.8,6,Party Systems,8,Government Coalition Party-System Exclusion Index,,,,Government Coalition Party-System Exclusion Index,v2xpas_exclusion_government,6.8,
+6.9,6,Party Systems,9,Opposition Parties Party-System Exclusion Index,,,,Opposition Parties Party-System Exclusion Index,v2xpas_exclusion_opposition,6.9,
+6.10,6,Party Systems,10,Party-System Left-Right Index,,,,Party-System Left-Right Index,v2xpas_economic,6.10,
+6.11,6,Party Systems,11,Government Coalition Left-Right Index,,,,Government Coalition Left-Right Index,v2xpas_economic_government,6.11,
+6.12,6,Party Systems,12,Opposition Parties Left-Right Index,,,,Opposition Parties Left-Right Index,v2xpas_economic_opposition,6.12,
+7,7,Digital Society Survey,,,,,,Digital Society Survey,,,
+7.1,7,Digital Society Survey,1,Coordinated Information Operations,,,,Coordinated Information Operations,,7.1,
+7.1.1,7,Digital Society Survey,1,Coordinated Information Operations,,,1,Government dissemination of false information domestic,v2smgovdom,7.1,7.1.1
+7.1.2,7,Digital Society Survey,1,Coordinated Information Operations,,,2,Government dissemination of false information abroad,v2smgovab,7.1,7.1.2
+7.1.3,7,Digital Society Survey,1,Coordinated Information Operations,,,3,Party dissemination of false information domestic,v2smpardom,7.1,7.1.3
+7.1.4,7,Digital Society Survey,1,Coordinated Information Operations,,,4,Party dissemination of false information abroad,v2smparab,7.1,7.1.4
+7.1.5,7,Digital Society Survey,1,Coordinated Information Operations,,,5,Foreign governments dissemination of false information,v2smfordom,7.1,7.1.5
+7.1.6,7,Digital Society Survey,1,Coordinated Information Operations,,,6,Foreign governments ads,v2smforads,7.1,7.1.6
+7.2,7,Digital Society Survey,2,Digital Media Freedom,,,,Digital Media Freedom,,7.2,
+7.2.1,7,Digital Society Survey,2,Digital Media Freedom,,,1,Government Internet filtering capacity,v2smgovfilcap,7.2,7.2.1
+7.2.2,7,Digital Society Survey,2,Digital Media Freedom,,,2,Government Internet filtering in practice,v2smgovfilprc,7.2,7.2.2
+7.2.3,7,Digital Society Survey,2,Digital Media Freedom,,,3,Government Internet shut down capacity,v2smgovshutcap,7.2,7.2.3
+7.2.4,7,Digital Society Survey,2,Digital Media Freedom,,,4,Government Internet shut down in practice,v2smgovshut,7.2,7.2.4
+7.2.5,7,Digital Society Survey,2,Digital Media Freedom,,,5,Government social media shut down in practice,v2smgovsm,7.2,7.2.5
+7.2.6,7,Digital Society Survey,2,Digital Media Freedom,,,6,Government social media alternatives,v2smgovsmalt,7.2,7.2.6
+7.2.7,7,Digital Society Survey,2,Digital Media Freedom,,,7,Government social media monitoring,v2smgovsmmon,7.2,7.2.7
+7.2.8,7,Digital Society Survey,2,Digital Media Freedom,,,8,Government social media censorship in practice,v2smgovsmcenprc,7.2,7.2.8
+7.2.9,7,Digital Society Survey,2,Digital Media Freedom,,,9,Government cyber security capacity,v2smgovcapsec,7.2,7.2.9
+7.2.10,7,Digital Society Survey,2,Digital Media Freedom,,,10,Political parties cyber security capacity,v2smpolcap,7.2,7.2.1
+7.3,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,,State Internet Regulation Capacity and Approach,,7.3,
+7.3.1,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,1,Internet legal regulation content,v2smregcon,7.3,7.3.1
+7.3.2,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,2,Privacy protection by law exists,v2smprivex,7.3,7.3.2
+7.3.3,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,3,Privacy protection by law content,v2smprivcon,7.3,7.3.3
+7.3.4,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,4,Government capacity to regulate online content,v2smregcap,7.3,7.3.4
+7.3.5,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,5,Government online content regulation approach,v2smregapp,7.3,7.3.5
+7.3.6,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,6,Defamation protection,v2smlawpr,7.3,7.3.6
+7.3.7,7,Digital Society Survey,3,State Internet Regulation Capacity and Approach,,,7,Abuse of defamation and copyright law by elites,v2smdefabu,7.3,7.3.7
+7.4,7,Digital Society Survey,4,Online Media Polarization,,,,Online Media Polarization,,7.4,
+7.4.1,7,Digital Society Survey,4,Online Media Polarization,,,1,Online media existence,v2smonex,7.4,7.4.1
+7.4.2,7,Digital Society Survey,4,Online Media Polarization,,,2,Online media perspectives,v2smonper,7.4,7.4.2
+7.4.3,7,Digital Society Survey,4,Online Media Polarization,,,3,Online media fractionalization,v2smmefra,7.4,7.4.3
+7.5,7,Digital Society Survey,5,Social Cleavages,,,,Social Cleavages,,7.5,
+7.5.1,7,Digital Society Survey,5,Social Cleavages,,,1,Online harassment groups,v2smhargr,7.5,7.5.1
+7.5.2,7,Digital Society Survey,5,Social Cleavages,,,2,Other online harassment groups,v2smhargrtxt,7.5,7.5.2
+7.5.3,7,Digital Society Survey,5,Social Cleavages,,,3,Use of social media to organize offline violence,v2smorgviol,7.5,7.5.3
+7.5.4,7,Digital Society Survey,5,Social Cleavages,,,4,Average people’s use of social media to organize offline action,v2smorgavgact,7.5,7.5.4
+7.5.5,7,Digital Society Survey,5,Social Cleavages,,,5,Elites’ use of social media to organize offline action,v2smorgelitact,7.5,7.5.5
+7.5.6,7,Digital Society Survey,5,Social Cleavages,,,6,Types of organization through social media,v2smorgtypes,7.5,7.5.6
+7.5.7,7,Digital Society Survey,5,Social Cleavages,,,7,Other types of organization through social media,v2smorgtypestxt,7.5,7.5.7
+7.5.8,7,Digital Society Survey,5,Social Cleavages,,,8,Party/candidate use of social media in campaigns,v2smcamp,7.5,7.5.8
+7.5.9,7,Digital Society Survey,5,Social Cleavages,,,9,Arrests for political content,v2smarrest,7.5,7.5.9
+7.5.10,7,Digital Society Survey,5,Social Cleavages,,,10,Polarization of society,v2smpolsoc,7.5,7.5.1
+7.5.11,7,Digital Society Survey,5,Social Cleavages,,,11,Political parties hate speech,v2smpolhate,7.5,7.5.1
+8,8,Varieties of Indoctrination,,,,,,Varieties of Indoctrination,,,
+8.1,8,Varieties of Indoctrination,1,Indoctrination Indices,,,,Indoctrination Indices,,8.1,
+8.1.1,8,Varieties of Indoctrination,1,Indoctrination Indices,,,1,Indoctrination potential in education,v2xed_ed_inpt,8.1,8.1.1
+8.1.2,8,Varieties of Indoctrination,1,Indoctrination Indices,,,2,Political education effort in education,v2xed_ed_poed,8.1,8.1.2
+8.1.3,8,Varieties of Indoctrination,1,Indoctrination Indices,,,3,Indoctrination coherence in education,v2xed_ed_inco,8.1,8.1.3
+8.1.4,8,Varieties of Indoctrination,1,Indoctrination Indices,,,4,Centralization of the education system,v2xed_ed_cent,8.1,8.1.4
+8.1.5,8,Varieties of Indoctrination,1,Indoctrination Indices,,,5,Control over educational agents,v2xed_ed_ctag,8.1,8.1.5
+8.1.6,8,Varieties of Indoctrination,1,Indoctrination Indices,,,6,Indoctrination content in education,v2xed_ed_con,8.1,8.1.6
+8.1.7,8,Varieties of Indoctrination,1,Indoctrination Indices,,,7,Democratic indoctrination content in education,v2xed_ed_dmcon,8.1,8.1.7
+8.1.8,8,Varieties of Indoctrination,1,Indoctrination Indices,,,8,Patriotic indoctrination content in education,v2xed_ed_ptcon,8.1,8.1.8
+8.1.9,8,Varieties of Indoctrination,1,Indoctrination Indices,,,9,Patriotic indoctrination content in education and the media,v2xed_ptcon,8.1,8.1.9
+8.1.10,8,Varieties of Indoctrination,1,Indoctrination Indices,,,10,Indoctrination potential in education and the media,v2xedvd_inpt,8.1,8.1.1
+8.1.11,8,Varieties of Indoctrination,1,Indoctrination Indices,,,11,Indoctrination coherence,v2xedvd_me_inco,8.1,8.1.1
+8.1.12,8,Varieties of Indoctrination,1,Indoctrination Indices,,,12,Centralization of media control,v2xedvd_me_cent,8.1,8.1.1
+8.1.13,8,Varieties of Indoctrination,1,Indoctrination Indices,,,13,Control over media agents,v2xedvd_me_ctag,8.1,8.1.1
+8.2,8,Varieties of Indoctrination,2,General Curriculum,,,,General Curriculum,,8.2,
+8.2.1,8,Varieties of Indoctrination,2,General Curriculum,,,1,Centralized curriculum,v2edcentcurrlm,8.2,8.2.1
+8.2.2,8,Varieties of Indoctrination,2,General Curriculum,,,2,Centralized textbook approval,v2edcenttxbooks,8.2,8.2.2
+8.3,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,,Specialized Subject Curriculum,,8.3,
+8.3.1,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,1,"Political education, primary school",v2edpoledprim,8.3,8.3.1
+8.3.2,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,2,"Political education, secondary school",v2edpoledsec,8.3,8.3.2
+8.3.3,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,3,Political rights and duties in the curriculum,v2edpoledrights,8.3,8.3.3
+8.3.4,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,4,Patriotic education in the curriculum,v2edpatriot,8.3,8.3.4
+8.3.5,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,5,Ideology in the curriculum,v2edideol,8.3,8.3.5
+8.3.6,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,6,Ideology character in the curriculum,v2edideolch,8.3,8.3.6
+8.3.7,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,7,Ideology character in the curriculum,v2edideolch_rec,8.3,8.3.7
+8.3.8,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,8,Pluralism in the curriculum,v2edplural,8.3,8.3.8
+8.3.9,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,9,Critical engagement with education content,v2edcritical,8.3,8.3.9
+8.3.10,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,10,Teacher autonomy in the classroom,v2edteautonomy,8.3,8.3.1
+8.3.11,8,Varieties of Indoctrination,3,Specialized Subject Curriculum,,,11,Mathematics and science education,v2edmath,8.3,8.3.1
+8.4,8,Varieties of Indoctrination,4,Teachers,,,,Teachers,,8.4,
+8.4.1,8,Varieties of Indoctrination,4,Teachers,,,1,Education requirements for primary school teachers,v2edtequal,8.4,8.4.1
+8.4.2,8,Varieties of Indoctrination,4,Teachers,,,2,Teacher inspection,v2temonitor,8.4,8.4.2
+8.4.3,8,Varieties of Indoctrination,4,Teachers,,,3,Presence of teacher unions,v2edteunion,8.4,8.4.3
+8.4.4,8,Varieties of Indoctrination,4,Teachers,,,4,Independent teacher unions,v2edteunionindp,8.4,8.4.4
+8.4.5,8,Varieties of Indoctrination,4,Teachers,,,5,Political teacher hiring,v2edtehire,8.4,8.4.5
+8.4.6,8,Varieties of Indoctrination,4,Teachers,,,6,Political teacher firing,v2edtefire,8.4,8.4.6
+8.5,8,Varieties of Indoctrination,5,Schools,,,,Schools,,8.5,
+8.5.1,8,Varieties of Indoctrination,5,Schools,,,1,Presence of patriotic symbols in schools,v2edscpatriot,8.5,8.5.1
+8.5.2,8,Varieties of Indoctrination,5,Schools,,,2,Celebration of patriotic symbols,v2edscpatriotcb,8.5,8.5.2
+8.5.3,8,Varieties of Indoctrination,5,Schools,,,3,Extracurricular activities,v2edscextracurr,8.5,8.5.3
+8.6,8,Varieties of Indoctrination,6,Media,,,,Media,,8.6,
+8.6.1,8,Varieties of Indoctrination,6,Media,,,1,State-owned print media,v2medstateprint,8.6,8.6.1
+8.6.2,8,Varieties of Indoctrination,6,Media,,,2,State-owned broadcast media,v2medstatebroad,8.6,8.6.2
+8.6.3,8,Varieties of Indoctrination,6,Media,,,3,"Political influence, state-owned media",v2medpolstate,8.6,8.6.3
+8.6.4,8,Varieties of Indoctrination,6,Media,,,4,"Political influence, non state-owned media",v2medpolnonstate,8.6,8.6.4
+8.6.5,8,Varieties of Indoctrination,6,Media,,,5,Patriotism in the media,v2medpatriot,8.6,8.6.5
+8.6.6,8,Varieties of Indoctrination,6,Media,,,6,Control of entertainment content,v2medentrain,8.6,8.6.6
+9,9,Other Democracy Indices and Indicators,,,,,,Other Democracy Indices and Indicators,,,
+9.1,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,,Ordinal Versions of Indices,,9.1,
+9.1.1,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,1,Additive polyarchy index ordinal,e_v2x_api,9.1,9.1.1
+9.1.2,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,2,Civil liberties index ordinal,e_v2x_civlib,9.1,9.1.2
+9.1.3,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,3,Physical violence index ordinal,e_v2x_clphy,9.1,9.1.3
+9.1.4,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,4,Political civil liberties index ordinal,e_v2x_clpol,9.1,9.1.4
+9.1.5,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,5,Private liberties index ordinal,e_v2x_clpriv,9.1,9.1.5
+9.1.6,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,6,Political corruption index ordinal,e_v2x_corr,9.1,9.1.6
+9.1.7,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,7,Civil society participation index ordinal,e_v2x_cspart,9.1,9.1.7
+9.1.8,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,8,Deliberative democracy index ordinal,e_v2x_delibdem,9.1,9.1.8
+9.1.9,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,9,Electoral component index ordinal,e_v2x_EDcomp_thick,9.1,9.1.9
+9.1.10,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,10,Egalitarian component index ordinal,e_v2x_egal,9.1,9.1.1
+9.1.11,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,11,Egalitarian democracy index ordinal,e_v2x_egaldem,9.1,9.1.1
+9.1.12,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,12,Elected officials index,e_v2x_elecoff,9.1,9.1.1
+9.1.13,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,13,Executive corruption index ordinal,e_v2x_execorr,9.1,9.1.1
+9.1.14,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,14,Division of power index ordinal,e_v2x_feduni,9.1,9.1.1
+9.1.15,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,15,Freedom of association,e_v2x_frassoc_thick,9.1,9.1.1
+9.1.16,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,16,Freedom of expression index ordinal,e_v2x_freexp,9.1,9.1.1
+9.1.17,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,17,Expanded freedom of expression index ordinal,e_v2x_freexp_altinf,9.1,9.1.1
+9.1.18,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,18,Women civil liberties index ordinal,e_v2x_gencl,9.1,9.1.1
+9.1.19,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,19,Women civil society participation index ordinal,e_v2x_gencs,9.1,9.1.1
+9.1.20,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,20,Women political empowerment index ordinal,e_v2x_gender,9.1,9.1.2
+9.1.21,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,21,Women political participation index ordinal,e_v2x_genpp,9.1,9.1.2
+9.1.22,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,22,Judicial constraints on the executive index ordinal,e_v2x_jucon,9.1,9.1.2
+9.1.23,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,23,Liberal democracy index ordinal,e_v2x_libdem,9.1,9.1.2
+9.1.24,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,24,Liberal component index ordinal,e_v2x_liberal,9.1,9.1.2
+9.1.25,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,25,Multiplicative polyarchy index ordinal,e_v2x_mpi,9.1,9.1.2
+9.1.26,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,26,Participatory component index ordinal,e_v2x_partip,9.1,9.1.2
+9.1.27,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,27,Participatory democracy index ordinal,e_v2x_partipdem,9.1,9.1.2
+9.1.28,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,28,Electoral democracy index ordinal,e_v2x_polyarchy,9.1,9.1.2
+9.1.29,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,29,Public sector corruption index ordinal,e_v2x_pubcorr,9.1,9.1.2
+9.1.30,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,30,Share of population with suffrage ordinal,e_v2x_suffr,9.1,9.1.3
+9.1.31,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,31,Equality before the law and individual liberty index ordinal,e_v2xcl_rol,9.1,9.1.3
+9.1.32,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,32,Core civil society index ordinal,e_v2xcs_ccsi,9.1,9.1.3
+9.1.33,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,33,Direct popular vote index ordinal,e_v2xdd_dd,9.1,9.1.3
+9.1.34,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,34,Deliberative component index ordinal,e_v2xdl_delib,9.1,9.1.3
+9.1.35,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,35,Equal distribution of resources index ordinal,e_v2xeg_eqdr,9.1,9.1.3
+9.1.36,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,36,Equal protection index ordinal,e_v2xeg_eqprotec,9.1,9.1.3
+9.1.37,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,37,Clean elections index ordinal,e_v2xel_frefair,9.1,9.1.3
+9.1.38,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,38,Local government index ordinal,e_v2xel_locelec,9.1,9.1.3
+9.1.39,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,39,Regional government index ordinal,e_v2xel_regelec,9.1,9.1.3
+9.1.40,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,40,Legislative constraints on the executive index ordinal,e_v2xlg_legcon,9.1,9.1.4
+9.1.41,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,41,Alternative sources of information index ordinal,e_v2xme_altinf,9.1,9.1.4
+9.1.42,9,Other Democracy Indices and Indicators,1,Ordinal Versions of Indices,,,42,Party institutionalization index ordinal,e_v2xps_party,9.1,9.1.4
+9.2,9,Other Democracy Indices and Indicators,2,Political Regimes,,,,Political Regimes,,9.2,
+9.2.1,9,Other Democracy Indices and Indicators,2,Political Regimes,,,1,Democracy,e_boix_regime,9.2,9.2.1
+9.2.2,9,Other Democracy Indices and Indicators,2,Political Regimes,,,2,Democratic breakdowns,e_democracy_breakdowns,9.2,9.2.2
+9.2.3,9,Other Democracy Indices and Indicators,2,Political Regimes,,,3,Omitted data,e_democracy_omitteddata,9.2,9.2.3
+9.2.4,9,Other Democracy Indices and Indicators,2,Political Regimes,,,4,Democratic transition,e_democracy_trans,9.2,9.2.4
+9.3,9,Other Democracy Indices and Indicators,3,Freedom House,,,,Freedom House,,9.3,
+9.3.1,9,Other Democracy Indices and Indicators,3,Freedom House,,,1,Civil liberties,e_fh_cl,9.3,9.3.1
+9.3.2,9,Other Democracy Indices and Indicators,3,Freedom House,,,2,Political rights,e_fh_pr,9.3,9.3.2
+9.3.3,9,Other Democracy Indices and Indicators,3,Freedom House,,,3,Rule of law,e_fh_rol,9.3,9.3.3
+9.3.4,9,Other Democracy Indices and Indicators,3,Freedom House,,,4,Status,e_fh_status,9.3,9.3.4
+9.4,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,,World Bank Governance Indicators,,9.4,
+9.4.1,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,1,Control of corruption — estimate,e_wbgi_cce,9.4,9.4.1
+9.4.2,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,2,Government effectiveness,e_wbgi_gee,9.4,9.4.2
+9.4.3,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,3,Political stability — estimate,e_wbgi_pve,9.4,9.4.3
+9.4.4,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,4,Rule of law — estimate,e_wbgi_rle,9.4,9.4.4
+9.4.5,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,5,Regulatory quality — estimate,e_wbgi_rqe,9.4,9.4.5
+9.4.6,9,Other Democracy Indices and Indicators,4,World Bank Governance Indicators,,,6,Voice and accountability — estimate,e_wbgi_vae,9.4,9.4.6
+9.5,9,Other Democracy Indices and Indicators,5,Lexical Index of Electoral Democracy,,,,Lexical Index of Electoral Democracy,,9.5,
+9.5.1,9,Other Democracy Indices and Indicators,5,Lexical Index of Electoral Democracy,,,1,Lexical index,e_lexical_index,9.5,9.5.1
+9.6,9,Other Democracy Indices and Indicators,6,Unified Democracy Score,,,,Unified Democracy Score,,9.6,
+9.6.1,9,Other Democracy Indices and Indicators,6,Unified Democracy Score,,,1,Unified democracy score posterior,e_uds,9.6,9.6.1
+9.7,9,Other Democracy Indices and Indicators,7,Political Institutions and Political Events,,,,Political Institutions and Political Events,,9.7,
+9.7.1,9,Other Democracy Indices and Indicators,7,Political Institutions and Political Events,,,1,Coups,e_coups,9.7,9.7.1
+9.7.2,9,Other Democracy Indices and Indicators,7,Political Institutions and Political Events,,,2,Number of Parties in legislature,e_legparty,9.7,9.7.2
+9.8,9,Other Democracy Indices and Indicators,8,Polity,,,,Polity,,9.8,
+9.8.1,9,Other Democracy Indices and Indicators,8,Polity,,,1,Institutionalized autocracy,e_autoc,9.8,9.8.1
+9.8.2,9,Other Democracy Indices and Indicators,8,Polity,,,2,Institutionalized democracy,e_democ,9.8,9.8.2
+9.8.3,9,Other Democracy Indices and Indicators,8,Polity,,,3,Polity combined score,e_p_polity,9.8,9.8.3
+9.8.4,9,Other Democracy Indices and Indicators,8,Polity,,,4,Political competition,e_polcomp,9.8,9.8.4
+9.8.5,9,Other Democracy Indices and Indicators,8,Polity,,,5,Polity revised combined score,e_polity2,9.8,9.8.5
+9.9,9,Other Democracy Indices and Indicators,9,Others,,,,Others,,9.9,
+9.9.1,9,Other Democracy Indices and Indicators,9,Others,,,1,Democratic breakdown,e_bnr_dem,9.9,9.9.1
+9.9.2,9,Other Democracy Indices and Indicators,9,Others,,,2,Democracy,e_chga_demo,9.9,9.9.2
+9.9.3,9,Other Democracy Indices and Indicators,9,Others,,,3,Corruption perception index,e_ti_cpi,9.9,9.9.3
+9.9.4,9,Other Democracy Indices and Indicators,9,Others,,,4,Index of Democratization,e_vanhanen,9.9,9.9.4
+10,10,Background Factors,,,,,,Background Factors,E,,
+10.1,10,Background Factors,1,Education,,,,Education,,10.1,
+10.1.1,10,Background Factors,1,Education,,,1,Education 15+,e_peaveduc,10.1,10.1.
+10.1.2,10,Background Factors,1,Education,,,2,"Educational inequality, Gini",e_peedgini,10.1,10.1.
+10.2,10,Background Factors,2,Geography,,,,Geography,,10.2,
+10.2.1,10,Background Factors,2,Geography,,,1,Land area,e_area,10.2,10.2.
+10.2.2,10,Background Factors,2,Geography,,,2,Region,e_regiongeo,10.2,10.2.
+10.2.3,10,Background Factors,2,Geography,,,3,Region,e_regionpol,10.2,10.2.
+10.2.4,10,Background Factors,2,Geography,,,4,Region,e_regionpol_6C,10.2,10.2.
+10.2.5,10,Background Factors,2,Geography,,,5,Region,e_regionpol_7C,10.2,10.2.
+10.3,10,Background Factors,3,Economics,,,,Economics,,10.3,
+10.3.1,10,Background Factors,3,Economics,,,1,Exports,e_cow_exports,10.3,10.3.
+10.3.2,10,Background Factors,3,Economics,,,2,Imports,e_cow_imports,10.3,10.3.
+10.3.3,10,Background Factors,3,Economics,,,3,GDP,e_gdp,10.3,10.3.
+10.3.4,10,Background Factors,3,Economics,,,4,GDP per capita,e_gdppc,10.3,10.3.
+10.3.5,10,Background Factors,3,Economics,,,5,Inflation,e_miinflat,10.3,10.3.
+10.3.6,10,Background Factors,3,Economics,,,6,Population,e_pop,10.3,10.3.
+10.4,10,Background Factors,4,Natural Resource Wealth,,,,Natural Resource Wealth,,10.4,
+10.4.1,10,Background Factors,4,Natural Resource Wealth,,,1,"Petroleum, coal, and natural gas production per capita",e_total_fuel_income_pc,10.4,10.4.
+10.4.2,10,Background Factors,4,Natural Resource Wealth,,,2,Petroleum production per capita,e_total_oil_income_pc,10.4,10.4.
+10.4.3,10,Background Factors,4,Natural Resource Wealth,,,3,"Petroleum, coal, natural gas, and metals production per capita",e_total_resources_income_pc,10.4,10.4.
+10.5,10,Background Factors,5,Infrastructure,,,,Infrastructure,,10.5,
+10.5.1,10,Background Factors,5,Infrastructure,,,1,Radios,e_radio_n,10.5,10.5.
+10.6,10,Background Factors,6,Demography,,,,Demography,,10.6,
+10.6.1,10,Background Factors,6,Demography,,,1,Fertility rate,e_miferrat,10.6,10.6.
+10.6.2,10,Background Factors,6,Demography,,,2,Population total,e_mipopula,10.6,10.6.
+10.6.3,10,Background Factors,6,Demography,,,3,Urbanization,e_miurbani,10.6,10.6.
+10.6.4,10,Background Factors,6,Demography,,,4,Urban population,e_miurbpop,10.6,10.6.
+10.6.5,10,Background Factors,6,Demography,,,5,Child mortality rate,e_pechmor,10.6,10.6.
+10.6.6,10,Background Factors,6,Demography,,,6,"Life expectancy, female",e_pefeliex,10.6,10.6.
+10.6.7,10,Background Factors,6,Demography,,,7,Life expectancy,e_pelifeex,10.6,10.6.
+10.6.8,10,Background Factors,6,Demography,,,8,Maternal mortality rate,e_pematmor,10.6,10.6.
+10.6.9,10,Background Factors,6,Demography,,,9,Population,e_wb_pop,10.6,10.6.
+10.7,10,Background Factors,7,Conflict,,,,Conflict,,10.7,
+10.7.1,10,Background Factors,7,Conflict,,,1,Civil war,e_civil_war,10.7,10.7.
+10.7.2,10,Background Factors,7,Conflict,,,2,"Armed conflict, international",e_miinteco,10.7,10.7.
+10.7.3,10,Background Factors,7,Conflict,,,3,"Armed conflict, internal",e_miinterc,10.7,10.7.
+10.7.4,10,Background Factors,7,Conflict,,,4,Number of successful coup attempts in a year,e_pt_coup,10.7,10.7.
+10.7.5,10,Background Factors,7,Conflict,,,5,Number of coups attempts in a year,e_pt_coup_attempts,10.7,10.7.
+11,11,Appendix A: Structure of Aggregation,,,,,,Appendix A: Structure of Aggregation,,,
+11.1,11,Appendix A: Structure of Aggregation,1,V-Dem Democracy Indices and Indicators,,,,V-Dem Democracy Indices and Indicators,,11.1,
+11.2,11,Appendix A: Structure of Aggregation,2,Indices Created Using V-Dem Data,,,,Indices Created Using V-Dem Data,,11.2,
+12,12,Appendix B: Glossary,,,,,,Appendix B: Glossary,,,
+13,13,Appendix C: Background Notes,,,,,,Appendix C: Background Notes,,,
+13.1,13,Appendix C: Background Notes,1,Civic and Academic Space,,,,Civic and Academic Space,,13.1,
+13.2,13,Appendix C: Background Notes,2,Civil Liberty,,,,Civil Liberty,,13.2,
+13.3,13,Appendix C: Background Notes,3,Civil Society Organizations,,,,Civil Society Organizations,,13.3,
+13.4,13,Appendix C: Background Notes,4,Deliberation,,,,Deliberation,,13.4,
+13.5,13,Appendix C: Background Notes,5,Direct Democracy,,,,Direct Democracy,,13.5,
+13.6,13,Appendix C: Background Notes,6,Elections,,,,Elections,,13.6,
+13.7,13,Appendix C: Background Notes,7,Exclusion,,,,Exclusion,,13.7,
+13.8,13,Appendix C: Background Notes,8,Executive,,,,Executive,,13.8,
+13.9,13,Appendix C: Background Notes,9,Judiciary,,,,Judiciary,,13.9,
+13.10,13,Appendix C: Background Notes,10,Legislature,,,,Legislature,,13.10,
+13.11,13,Appendix C: Background Notes,11,Media,,,,Media,,13.11,
+13.12,13,Appendix C: Background Notes,12,Political Parties,,,,Political Parties,,13.12,
+13.13,13,Appendix C: Background Notes,13,Political Equality,,,,Political Equality,,13.13,
+13.14,13,Appendix C: Background Notes,14,Sovereignty,,,,Sovereignty,,13.14,
+13.15,13,Appendix C: Background Notes,15,Subnational Democracy,,,,Subnational Democracy,,13.15,
+13.16,13,Appendix C: Background Notes,16,Voting and Representation,,,,Voting and Representation,,13.16,
+14,14,Appendix D: Post-Survey Questionnaire,,,,,,Appendix D: Post-Survey Questionnaire,,,
+14.1,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,,Contemporary PSQ,,14.1,
+14.1.1,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,1,Today’s date,v2zzdate,14.1,14.1.
+14.1.2,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,2,Gender,v2zzgender,14.1,14.1.
+14.1.3,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,3,Education,v2zzedlev,14.1,14.1.
+14.1.4,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,4,Current educational status,v2zzcurred,14.1,14.1.
+14.1.5,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,5,Country of education,v2zzedcnt,14.1,14.1.
+14.1.6,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,6,Year of birth,v2zzborn,14.1,14.1.
+14.1.7,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,7,Country of birth,v2zzbornin,14.1,14.1.
+14.1.8,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,8,Country of residence,v2zzreside,14.1,14.1.
+14.1.9,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,9,Years in country,v2zztimein,14.1,14.1.
+14.1.10,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,10,Years away from country,v2zzyrsout,14.1,14.1.
+14.1.11,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,11,Country of employer or university,v2zzempcnt,14.1,14.1.
+14.1.12,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,12,Employer,v2zzemploy,14.1,14.1.
+14.1.13,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,13,Democracy Scores,v2zzdemsc,14.1,14.1.
+14.1.14,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,14,Free markets,v2zzfremrk,14.1,14.1.
+14.1.15,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,15,Electoral democracy sympathy,v2zzelcdem,14.1,14.1.
+14.1.16,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,16,Liberal democracy sympathy,v2zzlibdem,14.1,14.1.
+14.1.17,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,17,Majoritarian democracy sympathy,v2zzmajdem,14.1,14.1.
+14.1.18,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,18,Consensus democracy sympathy,v2zzcondem,14.1,14.1.
+14.1.19,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,19,Participatory democracy sympathy,v2zzprtdem,14.1,14.1.
+14.1.20,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,20,Deliberative democracy sympathy,v2zzdeldem,14.1,14.1.
+14.1.21,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,21,Egalitarian democracy sympathy,v2zzegldem,14.1,14.1.
+14.1.22,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,22,Time spent for coding,v2zztimespent,14.1,14.1.
+14.1.23,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,23,Coding experience,v2zzsatisf,14.1,14.1.
+14.1.24,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,24,Reason of satisfaction,v2zzreasatisf,14.1,14.1.
+14.1.25,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,25,Another reason for coding,v2zzanfirstreas,14.1,14.1.
+14.1.26,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,26,Another second reason for coding,v2zzansecreas,14.1,14.1.
+14.1.27,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,27,Reason for coding,v2zzfirstreas,14.1,14.1.
+14.1.28,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,28,Materials used,v2zzmaterials,14.1,14.1.
+14.1.29,14,Appendix D: Post-Survey Questionnaire,1,Contemporary PSQ,,,29,Second reason for coding,v2zzsecreas,14.1,14.1.
+14.2,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,,Historical PSQ,,14.2,
+14.2.1,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,1,Year of birth,v3zzborn,14.2,14.2.
+14.2.2,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,2,Country of birth,v3zzbornin,14.2,14.2.
+14.2.3,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,3,Consensus democracy,v3zzcondem,14.2,14.2.
+14.2.4,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,4,Current educational status,v3zzcurred,14.2,14.2.
+14.2.5,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,5,Today’s date,v3zzdate,14.2,14.2.
+14.2.6,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,6,Deliberative democracy,v3zzdeldem,14.2,14.2.
+14.2.7,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,7,Democracy Scores,v3zzdemsc,14.2,14.2.
+14.2.8,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,8,Country of education,v3zzedcnt,14.2,14.2.
+14.2.9,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,9,Education,v3zzedlev,14.2,14.2.
+14.2.10,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,10,Egalitarian democracy,v3zzegldem,14.2,14.2.
+14.2.11,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,11,Electoral democracy,v3zzelcdem,14.2,14.2.
+14.2.12,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,12,Country of employer or university,v3zzempcnt,14.2,14.2.
+14.2.13,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,13,Employer,v3zzemploy,14.2,14.2.
+14.2.14,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,14,Free markets,v3zzfremrk,14.2,14.2.
+14.2.15,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,15,Gender,v3zzgender,14.2,14.2.
+14.2.16,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,16,Liberal democracy,v3zzlibdem,14.2,14.2.
+14.2.17,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,17,Majoritarian democracy,v3zzmajdem,14.2,14.2.
+14.2.18,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,18,Participatory democracy,v3zzprtdem,14.2,14.2.
+14.2.19,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,19,Country of residence,v3zzreside,14.2,14.2.
+14.2.20,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,20,Role in project,v3zzrole,14.2,14.2.
+14.2.21,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,21,Years in country,v3zztimein,14.2,14.2.
+14.2.22,14,Appendix D: Post-Survey Questionnaire,2,Historical PSQ,,,22,Years away from country,v3zzyrsout,14.2,14.2.
