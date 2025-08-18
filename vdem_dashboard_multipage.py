@@ -1,4 +1,5 @@
 # vdem_dashboard.py
+import requests
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
@@ -228,8 +229,16 @@ REGION_MAP = {
 # ==========================
 # CARREGAR DADOS (cache)
 # ==========================
+# Fazer o download do arquivo
+url_vdemall = 'https://drive.usercontent.google.com/download?id=1euBxK6xJiijcQboNG928apLbk1Z0RYfb&export=download&authuser=0&confirm=t&uuid=e14c9050-e6ac-495a-a1d1-302b241d5aff&at=AN8xHoqDhT0-N8g6PZLHBKDzcyhZ:1755538455711'  # substitua pelo seu link
+url_indicadores = 'https://drive.usercontent.google.com/download?id=1H8VXKsl1Ep5rqYkjpv8m2EucKJpyHUn0&export=download&authuser=0&confirm=t&uuid=5ce2f9e1-9b47-48f6-bbf0-75a1c4b7a6fb&at=AN8xHoosyQ4I6CvJvPYuUe3Zn3Hi:1755539079093'
+response1 = requests.get(url_vdemall)
+response2 = requests.get(url_indicadores)
+open('vdem_all.csv', 'wb').write(response1.content)
+open('indicadores_vdem.csv', 'wb').write(response2.content)
+
 @st.cache_data
-def load_data(main_path="UNdem-All.csv"):
+def load_data(main_path='vdem_all.csv'):
     df = pd.read_csv(main_path)
     time.sleep(0.5)
     return df
