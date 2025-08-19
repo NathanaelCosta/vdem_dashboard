@@ -1,19 +1,15 @@
 # vdem_dashboard.py
-import requests
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
-import os, base64
 import numpy as np
 import plotly.express as px
 from PIL import Image
 import pandas as pd
 from pathlib import Path
-import time
 from natsort import natsorted
 import random
 from math import ceil
-import colorsys
 import altair as alt
 
 # C:\PROJECTS\.venv10\Scripts\Activate.ps1
@@ -229,44 +225,32 @@ REGION_MAP = {
 # ==========================
 # CARREGAR DADOS (cache)
 # ==========================
-# Fazer o download do arquivo
-url_vdemall = 'https://drive.usercontent.google.com/download?id=1euBxK6xJiijcQboNG928apLbk1Z0RYfb&export=download&authuser=0&confirm=t&uuid=e14c9050-e6ac-495a-a1d1-302b241d5aff&at=AN8xHoqDhT0-N8g6PZLHBKDzcyhZ:1755538455711'  # substitua pelo seu link
-url_indicadores = 'https://drive.usercontent.google.com/download?id=1H8VXKsl1Ep5rqYkjpv8m2EucKJpyHUn0&export=download&authuser=0&confirm=t&uuid=5ce2f9e1-9b47-48f6-bbf0-75a1c4b7a6fb&at=AN8xHoosyQ4I6CvJvPYuUe3Zn3Hi:1755539079093'
-response1 = requests.get(url_vdemall)
-response2 = requests.get(url_indicadores)
-open('vdem_all.csv', 'wb').write(response1.content)
-open('indicadores_vdem.csv', 'wb').write(response2.content)
+DATA_DIR = Path("data_cache")
+DATA_DIR.mkdir(exist_ok=True)
 
-@st.cache_data
-def load_data(main_path='vdem_all.csv'):
-    df = pd.read_csv(main_path)
-    time.sleep(0.5)
-    return df
+@st.cache_data(show_spinner="Carregando dados do Parquet…")
+def load_parquet(path: Path) -> pd.DataFrame:
+    return pd.read_parquet(path, engine="fastparquet")
 
-@st.cache_data
-def read_indicadores_csv(path):
-    # autodetecta separador (vírgula, ;, tab, |)
-    try:
-        return pd.read_csv(path, sep=None, engine="python")
-    except Exception:
-        for sep in [",", ";", "\t", "|"]:
-            try:
-                return pd.read_csv(path, sep=sep)
-            except Exception:
-                continue
-        raise
+@st.cache_data(show_spinner="Carregando dados do CSV…")
+def load_csv(path: Path) -> pd.DataFrame:
+    return pd.read_csv(path, sep=",", low_memory=False)
+
+def load_data():
+    vdem_path  = Path("vdem_all.parquet")
+    indic_path = Path("indicadores_vdem.csv")
+    df = load_parquet(vdem_path)
+    df_indicadores = load_csv(indic_path)
+    return df, df_indicadores
 
 # ==========================
 # DADOS
 # ==========================
-df = load_data()
+df, df_indicadores = load_data()
 # remove estatísticas auxiliares
 heads = df.columns.to_list()
 head = [c for c in heads if not c.endswith(('_sd', '_osp', '_codelow', '_codehigh', '_ord', '_mean', '_nr'))]
 
-csv_path = "indicadores_vdem.csv"
-df_indicadores = read_indicadores_csv(csv_path)
-df_indicadores = df_indicadores.rename(columns={'titulo':'titulo','variavel':'variavel','id':'id'})[['id','titulo','variavel']]
 
 # decompõe id → classe/grupo (compatível com ids 2/3/4 níveis)
 df_indicadores["partes"]    = df_indicadores["id"].astype(str).str.split(".")
@@ -310,12 +294,6 @@ def filtro_variaveis_por_grupo_robusto(dfv, selected_grupo_id, selected_classe_i
         prefix = f"{selected_grupo_id}."
         return dfv[dfv["id"].str.startswith(prefix)].copy()
     return dfv[dfv["classe_id"] == selected_classe_id].copy()
-
-def _get_index_or_zero(seq, value):
-    try:
-        return max(0, seq.index(value))
-    except Exception:
-        return 0
 
 def pick_default_var(df: pd.DataFrame) -> str:
     # prioriza variáveis "canônicas" de democracia; cai para a 1ª numérica se preciso
