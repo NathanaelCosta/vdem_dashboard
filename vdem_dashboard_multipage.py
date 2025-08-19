@@ -2,14 +2,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
-import numpy as np
 import plotly.express as px
-from PIL import Image
 import pandas as pd
 from pathlib import Path
 from natsort import natsorted
 import random
-from math import ceil
 import altair as alt
 
 # C:\PROJECTS\.venv10\Scripts\Activate.ps1
