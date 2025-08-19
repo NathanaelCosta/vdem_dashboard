@@ -1,0 +1,825 @@
+id,titulo,variavel
+1.7.1,Country Name (country_name),country_name
+1.7.2,Time-Specific Country Name (histname),histname
+1.7.3,V-Dem Country ID (country_id),country_id
+1.7.4,Country Name Abbreviation (country_text_id),country_text_id
+1.7.5,Year (year),year
+1.7.6,Historical Date (historical_date),historical_date
+1.7.7,Start of Coding Period (codingstart),codingstart
+1.7.8,Contemporary Start of Coding Period (codingstart_contemp),codingstart_contemp
+1.7.9,Historical Start of Coding Period (codingstart_hist),codingstart_hist
+1.7.10,Gap in Coding Period Starts (gapstart),gapstart
+1.7.11,Gap in Coding Period Ends (gapend),gapend
+1.7.12,Gap index (gap_index),gap_index
+1.7.13,End of Coding Period (codingend),codingend
+1.7.14,Historical End of Coding Period (codingend_contemp),codingend_contemp
+1.7.15,Historical End of Coding Period (codingend_hist),codingend_hist
+1.7.16,V-Dem Project (project),project
+1.7.17,Historical V-Dem coding (historical),historical
+1.7.18,COW Code (COWcode),COWcode
+2.1.1,Electoral democracy index (D) (v2x_polyarchy),v2x_polyarchy
+2.1.2,Liberal democracy index (D) (v2x_libdem),v2x_libdem
+2.1.3,Participatory democracy index (D) (v2x_partipdem),v2x_partipdem
+2.1.4,Deliberative democracy index (D) (v2x_delibdem),v2x_delibdem
+2.1.5,Egalitarian democracy index (D) (v2x_egaldem),v2x_egaldem
+2.2.1,Additive polyarchy index (D) (v2x_api),v2x_api
+2.2.2,Multiplicative polyarchy index (D) (v2x_mpi),v2x_mpi
+2.2.3,Freedom of Expression and Alternative Sources of Information index (D) (v2x_freexp_altinf),v2x_freexp_altinf
+2.2.4,Freedom of association thick index (D) (v2x_frassoc_thick),v2x_frassoc_thick
+2.2.5,Share of population with suffrage (D) (v2x_suffr),v2x_suffr
+2.2.6,Clean elections index (D) (v2xel_frefair),v2xel_frefair
+2.2.7,Elected officials index (D) (v2x_elecoff),v2x_elecoff
+2.2.8,Liberal component index (D) (v2x_liberal),v2x_liberal
+2.2.9,Equality before the law and individual liberty index (D) (v2xcl_rol),v2xcl_rol
+2.2.10,Judicial constraints on the executive index (D) (v2x_jucon),v2x_jucon
+2.2.11,Legislative constraints on the executive index (D) (v2xlg_legcon),v2xlg_legcon
+2.2.12,Participatory component index (D) (v2x_partip),v2x_partip
+2.2.13,Civil society participation index (D) (v2x_cspart),v2x_cspart
+2.2.14,Direct popular vote index (D) (v2xdd_dd),v2xdd_dd
+2.2.15,Local government index (D) (v2xel_locelec),v2xel_locelec
+2.2.16,Regional government index (D) (v2xel_regelec),v2xel_regelec
+2.2.17,Deliberative component index (D) (v2xdl_delib),v2xdl_delib
+2.2.18,Egalitarian component index (D) (v2x_egal),v2x_egal
+2.2.19,Equal protection index (D) (v2xeg_eqprotec),v2xeg_eqprotec
+2.2.20,Equal access index (D) (v2xeg_eqaccess),v2xeg_eqaccess
+2.2.21,Equal distribution of resources index (D) (v2xeg_eqdr),v2xeg_eqdr
+3.1.0.1,Election type (A*) (v2eltype),v2eltype
+3.1.1.1,Suffrage (A) (v2asuffrage),v2asuffrage
+3.1.1.2,Minimum voting age (A) (v2elage),v2elage
+3.1.1.3,Compulsory voting (A) (v2elcomvot),v2elcomvot
+3.1.1.4,Female suffrage restricted (A) (v2elfemrst),v2elfemrst
+3.1.1.5,Suffrage level (A) (v2elgvsuflvl),v2elgvsuflvl
+3.1.1.6,Percentage of population with suffrage (A) (v2elsuffrage),v2elsuffrage
+3.1.1.7,Fraud allegations by Western monitors (A) (v2elwestmon),v2elwestmon
+3.1.1.8,Female suffrage (A) (v2fsuffrage),v2fsuffrage
+3.1.1.9,Male suffrage (A) (v2msuffrage),v2msuffrage
+3.1.2.1,Disclosure of campaign donations (C) (v2eldonate),v2eldonate
+3.1.2.2,Public campaign finance (C) (v2elpubfin),v2elpubfin
+3.1.2.3,EMB autonomy (C) (v2elembaut),v2elembaut
+3.1.2.4,EMB capacity (C) (v2elembcap),v2elembcap
+3.1.2.5,Elections multiparty (C) (v2elmulpar),v2elmulpar
+3.1.2.6,Election voter registry (C) (v2elrgstry),v2elrgstry
+3.1.2.7,Election vote buying (C) (v2elvotbuy),v2elvotbuy
+3.1.2.8,Election other voting irregularities (C) (v2elirreg),v2elirreg
+3.1.2.9,Election government intimidation (C) (v2elintim),v2elintim
+3.1.2.10,Election other electoral violence (C) (v2elpeace),v2elpeace
+3.1.2.11,Election boycotts (C) (v2elboycot),v2elboycot
+3.1.2.12,Election free campaign media (C) (v2elfrcamp),v2elfrcamp
+3.1.2.13,Election paid campaign advertisements (C) (v2elpdcamp),v2elpdcamp
+3.1.2.14,Election paid interest group media (C) (v2elpaidig),v2elpaidig
+3.1.2.15,Election free and fair (C) (v2elfrfair),v2elfrfair
+3.1.2.16,Election domestic election monitors (A) (v2eldommon),v2eldommon
+3.1.2.17,Election international monitors (A) (v2elintmon),v2elintmon
+3.1.2.18,Election international monitors denied (A) (v2elmonden),v2elmonden
+3.1.2.19,Monitors refuse to be present (A) (v2elmonref),v2elmonref
+"3.1.2.20,""Candidate restriction by ethnicity, race, religion, or language (A) (v2elrstrct)"",v2elrstrct"
+3.1.3.1,Election losers accept results (C) (v2elaccept),v2elaccept
+3.1.3.2,Election assume office (C) (v2elasmoff),v2elasmoff
+3.1.3.3,Election turnout (A) (v2eltrnout),v2eltrnout
+3.1.3.4,Election VAP turnout (A) (v2elvaptrn),v2elvaptrn
+3.1.3.5,Name of largest party (A) (v2lpname),v2lpname
+3.1.3.6,Name of second largest party (A) (v2slpname),v2slpname
+3.1.3.7,Name of third largest party (A) (v2tlpname),v2tlpname
+3.1.4.1,Presidential elections consecutive (D) (v2elprescons),v2elprescons
+3.1.4.2,Presidential elections cumulative (D) (v2elprescumul),v2elprescumul
+"3.1.4.3,""HOG restriction by ethnicity, race, religion, or language (A) (v2elrsthog)"",v2elrsthog"
+"3.1.4.4,""HOS restriction by ethnicity, race, religion, or language (A) (v2elrsthos)"",v2elrsthos"
+3.1.4.5,Election HOG turnover ordinal (A) (v2elturnhog),v2elturnhog
+3.1.4.6,Election HOS turnover ordinal (A) (v2elturnhos),v2elturnhos
+3.1.4.7,Election executive turnover ordinal (A) (v2eltvrexo),v2eltvrexo
+3.1.4.8,Presidential election vote share of largest vote-getter (A) (v2elvotlrg),v2elvotlrg
+3.1.4.9,Presidential election vote share of second-largest vote-getter (A) (v2elvotsml),v2elvotsml
+3.1.5.1,Lower chamber ‘base’ tier electoral districts (A) (v2ellobadis),v2ellobadis
+3.1.5.2,Lower chamber ‘base’ or ‘nominal’ tier seats (A) (v2ellobaseat),v2ellobaseat
+3.1.5.3,Lower chamber election consecutive (D) (v2ellocons),v2ellocons
+3.1.5.4,Lower chamber election cumulative (D) (v2ellocumul),v2ellocumul
+3.1.5.5,Lower chamber election district effective magnitude (A) (v2ellodiseff),v2ellodiseff
+3.1.5.6,Lower chamber election district magnitude (A) (v2elloeldm),v2elloeldm
+3.1.5.7,Lower chamber electoral system — 13 categories (A) (v2elloelsy),v2elloelsy
+3.1.5.8,Lower chamber hybrid system reserved seats (A) (v2elloreseat),v2elloreseat
+3.1.5.9,Lower chamber election seats (A) (v2elloseat),v2elloseat
+3.1.5.10,Lower chamber election seats won by largest party (A) (v2ellostlg),v2ellostlg
+3.1.5.11,Lower chamber election seat share won by largest party (A) (v2ellostsl),v2ellostsl
+3.1.5.12,Lower chamber election seats won by second largest party (A) (v2ellostsm),v2ellostsm
+3.1.5.13,Lower chamber election seat share won by second largest party (A) (v2ellostss),v2ellostss
+3.1.5.14,Lower chamber election seats won by third largest party (A) (v2ellosttm),v2ellosttm
+3.1.5.15,Lower chamber election seat share won by third largest party (A) (v2ellostts),v2ellostts
+3.1.5.16,Lower chamber ‘upper’ tier electoral districts (A) (v2elloupdis),v2elloupdis
+3.1.5.17,Lowerchamber electionvote shareof largestvote-getter (A)(v2ellovtlg),v2ellovtlg
+3.1.5.18,Lower chamber election vote share of second-largest vote-getter (A) (v2ellovtsm),v2ellovtsm
+3.1.5.19,Lower chamber election vote share of third-largest vote-getter (A) (v2ellovttm),v2ellovttm
+3.1.5.20,Lower chamber electoral system (A) (v2elparlel),v2elparlel
+3.1.5.21,Lower chamber election statutory threshold (A) (v2elthresh),v2elthresh
+3.1.5.22,Lower chamber election turnover (A) (v2eltvrig),v2eltvrig
+"3.1.6.1,""Regional government exists (A,C) (v2elreggov)"",v2elreggov"
+"3.1.6.2,""Regional government name (A,C) (v2elregnam)"",v2elregnam"
+"3.1.6.3,""Regional government elected (A,C) (v2elsrgel)"",v2elsrgel"
+3.1.6.4,Regional offices relative power (C) (v2elrgpwr),v2elrgpwr
+"3.1.6.5,""Local government exists (A,C) (v2ellocgov)"",v2ellocgov"
+"3.1.6.6,""Local government name (A,C) (v2ellocnam)"",v2ellocnam"
+"3.1.6.7,""Local government elected (A,C) (v2ellocelc)"",v2ellocelc"
+3.1.6.8,Local offices relative power (C) (v2ellocpwr),v2ellocpwr
+3.1.6.9,Subnational elections free and fair (C) (v2elffelr),v2elffelr
+3.1.6.10,Subnational elections held (C) (v2elffelrbin),v2elffelrbin
+3.1.6.11,Subnational election unevenness (C) (v2elsnlsff),v2elsnlsff
+3.1.6.12,Subnational election area less free and fair name (C) (v2elsnless),v2elsnless
+3.1.6.13,Subnationalelectionarealessfreeandfaircharacteristics(C)(v2elsnlfc),v2elsnlfc
+3.1.6.14,Subnational election area more free and fair name (C) (v2elsnmore),v2elsnmore
+3.1.6.15,Subnational election area more free and fair characteristics (C) (v2elsnmrfc),v2elsnmrfc
+3.2.0.1,Barriers to parties (C) (v2psbars),v2psbars
+3.2.0.2,Party ban (C) (v2psparban),v2psparban
+3.2.0.3,Party ban target (C) (v2psbantar),v2psbantar
+3.2.0.4,Opposition parties autonomy (C) (v2psoppaut),v2psoppaut
+3.2.0.5,Party organizations (C) (v2psorgs),v2psorgs
+3.2.0.6,Party branches (C) (v2psprbrch),v2psprbrch
+3.2.0.7,Party linkages (C) (v2psprlnks),v2psprlnks
+3.2.0.8,Distinct party platforms (C) (v2psplats),v2psplats
+3.2.0.9,Candidate selection-national/local (C) (v2pscnslnl),v2pscnslnl
+3.2.0.10,Legislative party cohesion (C) (v2pscohesv),v2pscohesv
+3.2.0.11,Party competition across regions (C) (v2pscomprg),v2pscomprg
+3.2.0.12,National party control (C) (v2psnatpar),v2psnatpar
+3.2.0.13,Subnational party control (C) (v2pssunpar),v2pssunpar
+3.3.1.1,Initiatives permitted (A) (v2ddlexci),v2ddlexci
+3.3.1.2,Initiatives signatures (A) (v2ddsignci),v2ddsignci
+3.3.1.3,Initiatives signatures % (A) (v2ddsigpci),v2ddsigpci
+3.3.1.4,Initiatives signature-gathering period (A) (v2ddsigdci),v2ddsigdci
+3.3.1.5,Initiatives signature-gathering time limit (A) (v2ddsiglci),v2ddsiglci
+3.3.1.6,Initiatives participation threshold (A) (v2ddpartci),v2ddpartci
+3.3.1.7,Initiatives approval threshold (A) (v2ddapprci),v2ddapprci
+3.3.1.8,Initiatives administrative threshold (A) (v2ddadmci),v2ddadmci
+3.3.1.9,Initiatives super majority (A) (v2ddspmci),v2ddspmci
+3.3.1.10,Popular initiative credible threat (A) (v2ddthreci),v2ddthreci
+3.3.2.1,Referendums permitted (A) (v2ddlexrf),v2ddlexrf
+3.3.2.2,Referendums signatures (A) (v2ddsignrf),v2ddsignrf
+3.3.2.3,Referendums signatures % (A) (v2ddsigprf),v2ddsigprf
+3.3.2.4,Referendums signature-gathering period (A) (v2ddsigdrf),v2ddsigdrf
+3.3.2.5,Referendums signature-gathering limit (A) (v2ddsiglrf),v2ddsiglrf
+3.3.2.6,Referendums participation threshold (A) (v2ddpartrf),v2ddpartrf
+3.3.2.7,Referendums approval threshold (A) (v2ddapprrf),v2ddapprrf
+3.3.2.8,Referendums administrative threshold (A) (v2ddadmrf),v2ddadmrf
+3.3.2.9,Referendums super majority (A) (v2ddspmrf),v2ddspmrf
+3.3.2.10,Popular referendum credible threat (A) (v2ddthrerf),v2ddthrerf
+3.3.3.1,Enforcement of Constitutional changes through popular vote (A) (v2ddlexor),v2ddlexor
+3.3.3.2,Obligatory referendum participation threshold (A) (v2ddpartor),v2ddpartor
+3.3.3.3,Obligatory referendum approval threshold (A) (v2ddappor),v2ddappor
+3.3.3.4,Obligatory referendum administrative threshold (A) (v2ddadmor),v2ddadmor
+3.3.3.5,Obligatory referendum super majority (A) (v2ddspmor),v2ddspmor
+3.3.3.6,Obligatory referendum credible threat (A) (v2ddthreor),v2ddthreor
+3.3.4.1,Plebiscites permitted (A) (v2ddlexpl),v2ddlexpl
+3.3.4.2,Plebiscites participation threshold (A) (v2ddpartpl),v2ddpartpl
+3.3.4.3,Plebiscites approval threshold (A) (v2ddapprpl),v2ddapprpl
+3.3.4.4,Plebiscites administrative threshold (A) (v2ddadmpl),v2ddadmpl
+3.3.4.5,Plebiscites super majority (A) (v2ddspmpl),v2ddspmpl
+3.3.4.6,Plebiscites credible threat (A) (v2ddthrepl),v2ddthrepl
+3.3.5.1,Occurrence of citizen-initiatives this year (A) (v2ddyrci),v2ddyrci
+3.3.5.2,Occurrence of referendum this year (A) (v2ddyrrf),v2ddyrrf
+3.3.5.3,Occurrence of obligatory referendum this year (A) (v2ddyror),v2ddyror
+3.3.5.4,Occurrence of plebiscite this year (A) (v2ddyrpl),v2ddyrpl
+3.3.5.5,Number of popular votes this year (A) (v2ddyrall),v2ddyrall
+3.3.5.6,Occurrence of any type of popular vote this year credible (A) (v2ddcredal),v2ddcredal
+3.4.1.1,Executive respects constitution (C) (v2exrescon),v2exrescon
+3.4.1.2,Executive bribery and corrupt exchanges (C) (v2exbribe),v2exbribe
+3.4.1.3,Executive embezzlement and theft (C) (v2exembez),v2exembez
+3.4.1.4,Public sector corrupt exchanges (C) (v2excrptps),v2excrptps
+3.4.1.5,Public sector theft (C) (v2exthftps),v2exthftps
+3.4.1.6,Chief executive appointment by upper chamber (A) (v2exapup),v2exapup
+3.4.1.7,Chief executive appointment by upper chamber implicit approval (A) (v2exapupap),v2exapupap
+3.4.2.1,HOS name (A*) (v2exnamhos),v2exnamhos
+3.4.2.2,HOS title (A*) (v2extithos),v2extithos
+3.4.2.3,HOS removal by legislature in practice (C) (v2exremhsp),v2exremhsp
+3.4.2.4,HOS removal by other in practice (C) (v2exrmhsol),v2exrmhsol
+3.4.2.5,HOS other body remove HOS in practice (C) (v2exrmhsnl),v2exrmhsnl
+3.4.2.6,HOS control over (C) (v2exctlhs),v2exctlhs
+3.4.2.7,HOS other body controls (C) (v2exctlhos),v2exctlhos
+3.4.2.8,HOS dissolution in practice (C) (v2exdfdshs),v2exdfdshs
+3.4.2.9,HOS appoints cabinet in practice (C) (v2exdfcbhs),v2exdfcbhs
+3.4.2.10,HOS appoints cabinet in practice (C) (v2exdfcbhs_rec),v2exdfcbhs_rec
+3.4.2.11,HOS veto power in practice (C) (v2exdfvths),v2exdfvths
+3.4.2.12,HOS dismisses ministers in practice (C) (v2exdfdmhs),v2exdfdmhs
+3.4.2.13,HOS proposes legislation in practice (C) (v2exdfpphs),v2exdfpphs
+3.4.2.14,HOS = HOG (A*) (v2exhoshog),v2exhoshog
+3.4.2.15,HOS age (A) (v2exagehos),v2exagehos
+3.4.2.16,HOS selection by legislature in practice (A) (v2exaphos),v2exaphos
+3.4.2.17,HOS directly elected (D) (v2ex_elechos),v2ex_elechos
+3.4.2.18,HOS female (A) (v2exfemhos),v2exfemhos
+3.4.2.19,HOS term length by law (A) (v2exfxtmhs),v2exfxtmhs
+3.4.2.20,HOS appointment in practice (A) (v2expathhs),v2expathhs
+3.4.2.21,HOS year of death (A) (v2exdeathos),v2exdeathos
+3.4.2.22,HOS party affiliation (A) (v2exparhos),v2exparhos
+3.4.3.1,HOG name (A*) (v2exnamhog),v2exnamhog
+3.4.3.2,HOG title (A*) (v2extithog),v2extithog
+3.4.3.3,HOG removal by legislature in practice (C) (v2exremhog),v2exremhog
+3.4.3.4,HOG removal by other in practice (C) (v2exrmhgnp),v2exrmhgnp
+3.4.3.5,HOG other body remove HOG in practice (C) (v2exrmhgop),v2exrmhgop
+3.4.3.6,HOG control over (C) (v2exctlhg),v2exctlhg
+3.4.3.7,HOG other body controls (C) (v2exctlhog),v2exctlhog
+3.4.3.8,HOG dissolution in practice (C) (v2exdjdshg),v2exdjdshg
+3.4.3.9,HOG appoints cabinet in practice (C) (v2exdjcbhg),v2exdjcbhg
+3.4.3.10,HOG dismisses ministers in practice (C) (v2exdfdshg),v2exdfdshg
+3.4.3.11,HOG veto power in practice (C) (v2exdfvthg),v2exdfvthg
+3.4.3.12,HOG proposes legislation in practice (C) (v2exdfpphg),v2exdfpphg
+3.4.3.13,HOG age (A) (v2exagehog),v2exagehog
+3.4.3.14,HOG selection by legislature in practice (A) (v2exaphogp),v2exaphogp
+3.4.3.15,HOG directly elected (D) (v2ex_elechog),v2ex_elechog
+3.4.3.16,HOG female (A) (v2exfemhog),v2exfemhog
+3.4.3.17,HOG term length by law (A) (v2exfxtmhg),v2exfxtmhg
+3.4.3.18,Relative power of the HOG (D) (v2ex_hogw),v2ex_hogw
+3.4.3.19,HOG appointed by HOS (D) (v2ex_hosconhog),v2ex_hosconhog
+3.4.3.20,HOG appointment in practice (A) (v2expathhg),v2expathhg
+3.4.3.21,HOG year of death (A) (v2exdeathog),v2exdeathog
+3.4.3.22,HOG party affiliation (A) (v2expothog),v2expothog
+3.4.4.1,Regime information (A*) (v2reginfo),v2reginfo
+3.4.4.2,Regime end type (A*) (v2regendtype),v2regendtype
+"3.4.4.3,""Regime end type, multiple selection version (A) (v2regendtypems)"",v2regendtypems"
+3.4.4.4,Regime interregnum (A) (v2regint),v2regint
+3.4.4.5,Regime ID (D) (v2regidnr),v2regidnr
+3.4.4.6,Regime duration (D) (v2regdur),v2regdur
+3.4.4.7,Regime support groups (C) (v2regsupgroups),v2regsupgroups
+3.4.4.8,Regime most important support group (C) (v2regimpgroup),v2regimpgroup
+3.4.4.9,Regime support groups size (C) (v2regsupgroupssize),v2regsupgroupssize
+3.4.4.10,Regime support location (C) (v2regsuploc),v2regsuploc
+3.4.4.11,Regime opposition groups (C) (v2regoppgroups),v2regoppgroups
+3.4.4.12,Explicit and active regime opposition groups (C) (v2regoppgroupsact),v2regoppgroupsact
+3.4.4.13,Regime most important opposition group (C) (v2regimpoppgroup),v2regimpoppgroup
+3.4.4.14,Regime opposition groups size (C) (v2regoppgroupssize),v2regoppgroupssize
+3.4.4.15,Regime opposition location (C) (v2regopploc),v2regopploc
+3.4.4.16,Strongest pro-regime preferences (C) (v2regproreg),v2regproreg
+3.4.4.17,Strongest anti-regime preferences (C) (v2regantireg),v2regantireg
+3.4.4.18,Most powerful group in affecting regime duration and change (C) (v2regpower),v2regpower
+3.5.1.1,Legislature bicameral (A*) (v2lgbicam),v2lgbicam
+3.5.1.2,Legislature dominant chamber (C) (v2lgdomchm),v2lgdomchm
+3.5.1.3,Legislature questions officials in practice (C) (v2lgqstexp),v2lgqstexp
+3.5.1.4,Legislature investigates in practice (C) (v2lginvstp),v2lginvstp
+3.5.1.5,Executive oversight (C) (v2lgotovst),v2lgotovst
+3.5.1.6,Legislature corrupt activities (C) (v2lgcrrpt),v2lgcrrpt
+3.5.1.7,Legislature opposition parties (C) (v2lgoppart),v2lgoppart
+3.5.1.8,Legislature controls resources (C) (v2lgfunds),v2lgfunds
+3.5.1.9,Representation of disadvantaged social groups (C) (v2lgdsadlo),v2lgdsadlo
+3.5.1.10,Representation of disadvantaged social groups binary (C) (v2lgdsadlobin),v2lgdsadlobin
+3.5.1.11,Relative power of the HOS (A) (v2ex_hosw),v2ex_hosw
+3.5.1.12,HOG appointed by legislature (D) (v2ex_legconhog),v2ex_legconhog
+3.5.1.13,HOS appointed by legislature (D) (v2ex_legconhos),v2ex_legconhos
+3.5.1.14,Legislature approval of treaties by law (A) (v2lgtreaty),v2lgtreaty
+3.5.1.15,Legislature declares war by law (A) (v2lgwarlaw),v2lgwarlaw
+3.5.2.1,Upper chamber name (A*) (v2lgnameup),v2lgnameup
+3.5.2.2,Upper chamber legislates in practice (C) (v2lglegpup),v2lglegpup
+3.5.2.3,Upper chamber elected (A) (v2lgelecup),v2lgelecup
+3.5.2.4,Percentage of indirectly elected legislators upper chamber (A) (v2lginelup),v2lginelup
+3.5.2.5,Upper chamber introduces bills (A) (v2lgintbup),v2lgintbup
+3.5.3.1,Lower chamber legislature name (A*) (v2lgnamelo),v2lgnamelo
+3.5.3.2,Lower chamber legislates in practice (C) (v2lglegplo),v2lglegplo
+3.5.3.3,Lower chamber committees (C) (v2lgcomslo),v2lgcomslo
+3.5.3.4,Lower chamber members serve in government (C) (v2lgsrvlo),v2lgsrvlo
+3.5.3.5,Lower chamber staff (C) (v2lgstafflo),v2lgstafflo
+3.5.3.6,Lower chamber elected (A) (v2lgello),v2lgello
+3.5.3.7,Lower chamber female legislators (A) (v2lgfemleg),v2lgfemleg
+3.5.3.8,Percentage of indirectly elected legislators lower chamber (A) (v2lginello),v2lginello
+3.5.3.9,Lower chamber introduces bills (A) (v2lgintblo),v2lgintblo
+3.5.3.10,Lower chamber gender quota (A) (v2lgqugen),v2lgqugen
+3.5.3.11,Lower chamber gender quota placement mandate (A) (v2lgqugens),v2lgqugens
+3.5.3.12,Lower chamber gender quota threshold (A) (v2lgqugent),v2lgqugent
+3.6.0.1,Reasoned justification (C) (v2dlreason),v2dlreason
+3.6.0.2,Common good (C) (v2dlcommon),v2dlcommon
+3.6.0.3,Respect counterarguments (C) (v2dlcountr),v2dlcountr
+3.6.0.4,Range of consultation (C) (v2dlconslt),v2dlconslt
+3.6.0.5,Engaged society (C) (v2dlengage),v2dlengage
+3.6.0.6,Particularistic or public goods (C) (v2dlencmps),v2dlencmps
+3.6.0.7,Means-tested v. universalistic policy (C) (v2dlunivl),v2dlunivl
+3.7.0.1,Judicial reform (C) (v2jureform),v2jureform
+3.7.0.2,Judicial purges (C) (v2jupurge),v2jupurge
+3.7.0.3,Government attacks on judiciary (C) (v2jupoatck),v2jupoatck
+3.7.0.4,Court packing (C) (v2jupack),v2jupack
+3.7.0.5,Judicial accountability (C) (v2juaccnt),v2juaccnt
+3.7.0.6,Judicial corruption decision (C) (v2jucorrdc),v2jucorrdc
+3.7.0.7,High court name (A*) (v2juhcname),v2juhcname
+3.7.0.8,High court independence (C) (v2juhcind),v2juhcind
+3.7.0.9,Lower court independence (C) (v2juncind),v2juncind
+3.7.0.10,Compliance with high court (C) (v2juhccomp),v2juhccomp
+3.7.0.11,Compliance with judiciary (C) (v2jucomp),v2jucomp
+3.7.0.12,Judicial review (C) (v2jureview),v2jureview
+3.7.0.13,Codeable (A) (v2jucodable),v2jucodable
+3.7.0.14,Corresponding flowchart (A) (v2juflow),v2juflow
+3.7.0.15,Language (A) (v2julanguage),v2julanguage
+3.7.0.16,Team translated (A) (v2juteamtr),v2juteamtr
+3.8.1.1,Freedom from torture (C) (v2cltort),v2cltort
+3.8.1.2,Freedom from political killings (C) (v2clkill),v2clkill
+3.8.1.3,Freedom from forced labor for men (C) (v2clslavem),v2clslavem
+3.8.1.4,Freedom from forced labor for women (C) (v2clslavef),v2clslavef
+3.8.2.1,Transparent laws with predictable enforcement (C) (v2cltrnslw),v2cltrnslw
+3.8.2.2,Rigorous and impartial public administration (C) (v2clrspct),v2clrspct
+3.8.2.3,Access to justice for men (C) (v2clacjstm),v2clacjstm
+3.8.2.4,Access to justice for women (C) (v2clacjstw),v2clacjstw
+3.8.2.5,Social class equality in respect for civil liberty (C) (v2clacjust),v2clacjust
+3.8.2.6,Social group equality in respect for civil liberties (C) (v2clsocgrp) . . 185,v2clsocgrp
+3.8.2.7,Subnational civil liberties unevenness (C) (v2clrgunev),v2clrgunev
+3.8.2.8,Stronger civil liberties characteristics (C) (v2clrgstch),v2clrgstch
+3.8.2.9,Weaker civil liberties population (C) (v2clsnlpct),v2clsnlpct
+3.8.2.10,Weaker civil liberties characteristics (C) (v2clrgwkch),v2clrgwkch
+3.8.3.1,Freedom of discussion for men (C) (v2cldiscm),v2cldiscm
+3.8.3.2,Freedom of discussion for women (C) (v2cldiscw),v2cldiscw
+3.8.3.3,Freedom of academic and cultural expression (C) (v2clacfree),v2clacfree
+3.8.3.4,Freedom of religion (C) (v2clrelig),v2clrelig
+3.8.3.5,Freedom of foreign movement (C) (v2clfmove),v2clfmove
+3.8.3.6,Freedom of domestic movement for men (C) (v2cldmovem),v2cldmovem
+3.8.3.7,Freedom of domestic movement for women (C) (v2cldmovew),v2cldmovew
+3.8.4.1,State ownership of economy (C) (v2clstown),v2clstown
+3.8.4.2,Property rights for men (C) (v2clprptym),v2clprptym
+3.8.4.3,Property rights for women (C) (v2clprptyw),v2clprptyw
+3.9.0.1,Domestic autonomy (C) (v2svdomaut),v2svdomaut
+3.9.0.2,International autonomy (C) (v2svinlaut),v2svinlaut
+3.9.0.3,State authority over territory (C) (v2svstterr),v2svstterr
+3.9.0.4,State fiscal source of revenue (C) (v2stfisccap),v2stfisccap
+3.9.0.5,Bureaucratic remuneration (C) (v2strenadm),v2strenadm
+3.9.0.6,Criteria for appointment decisions in the state administration (C) (v2stcritrecadm),v2stcritrecadm
+3.9.0.7,Criteria for appointment decisions in the armed forces (C) (v2stcritapparm),v2stcritapparm
+3.9.0.8,Remuneration in the Armed Forces (C) (v2strenarm),v2strenarm
+3.9.0.9,Independent states (A) (v2svindep),v2svindep
+3.10.0.1,CSO entry and exit (C) (v2cseeorgs),v2cseeorgs
+3.10.0.2,CSO repression (C) (v2csreprss),v2csreprss
+3.10.0.3,CSO consultation (C) (v2cscnsult),v2cscnsult
+3.10.0.4,CSO structure (C) (v2csstruc),v2csstruc
+3.10.0.5,CSO participatory environment (C) (v2csprtcpt),v2csprtcpt
+3.10.0.6,CSO women’s participation (C) (v2csgender),v2csgender
+3.10.0.7,CSO anti-system movements (C) (v2csantimv),v2csantimv
+3.10.0.8,CSO anti-system movement character (C) (v2csanmvch),v2csanmvch
+3.10.0.9,Religious organization repression (C) (v2csrlgrep),v2csrlgrep
+3.10.0.10,Religious organization consultation (C) (v2csrlgcon),v2csrlgcon
+3.11.0.1,Government censorship effort — Media (C) (v2mecenefm),v2mecenefm
+3.11.0.2,Internet censorship effort (C) (v2mecenefi),v2mecenefi
+3.11.0.3,Internet binary (C) (v2mecenefibin),v2mecenefibin
+3.11.0.4,Print/broadcast media critical (C) (v2mecrit),v2mecrit
+3.11.0.5,Print/broadcast media perspectives (C) (v2merange),v2merange
+3.11.0.6,Female journalists (C) (v2mefemjrn),v2mefemjrn
+3.11.0.7,Harassment of journalists (C) (v2meharjrn),v2meharjrn
+3.11.0.8,Media self-censorship (C) (v2meslfcen),v2meslfcen
+3.11.0.9,Media bias (C) (v2mebias),v2mebias
+3.11.0.10,Media corrupt (C) (v2mecorrpt),v2mecorrpt
+3.12.0.1,Power distributed by socioeconomic position (C) (v2pepwrses),v2pepwrses
+3.12.0.2,Power distributed by social group (C) (v2pepwrsoc),v2pepwrsoc
+3.12.0.3,Power distributed by gender (C) (v2pepwrgen),v2pepwrgen
+3.12.0.4,Power distributed by sexual orientation (C) (v2pepwrort),v2pepwrort
+3.12.0.5,Educational equality (C) (v2peedueq),v2peedueq
+3.12.0.6,Health equality (C) (v2pehealth),v2pehealth
+3.12.0.7,Primary school enrolment (A) (v2peprisch),v2peprisch
+3.12.0.8,Secondary school enrolment (A) (v2pesecsch),v2pesecsch
+3.12.0.9,Tertiary school enrolment (A) (v2petersch),v2petersch
+3.13.1.1,Access to public services distributed by socio-economic position (C) (v2peapsecon),v2peapsecon
+3.13.1.2,Access to state jobs by socio-economic position (C) (v2peasjsoecon),v2peasjsoecon
+3.13.1.3,Access to state business opportunities by socio-economic position (C) (v2peasbecon),v2peasbecon
+3.13.2.1,Gender equality in respect for civil liberties (C) (v2clgencl),v2clgencl
+3.13.2.2,Access to public services distributed by gender (C) (v2peapsgen),v2peapsgen
+3.13.2.3,Access to state jobs by gender (C) (v2peasjgen),v2peasjgen
+3.13.2.4,Access to state business opportunities by gender (C) (v2peasbgen),v2peasbgen
+3.13.3.1,Power distributed by urban-rural location (C) (v2pepwrgeo),v2pepwrgeo
+3.13.3.2,Urban-rurallocationequalityinrespectforcivilliberties(C)(v2clgeocl),v2clgeocl
+3.13.3.3,Access to public services distributed by urban-rural location (C) (v2peapsgeo),v2peapsgeo
+3.13.3.4,Access to state jobs by urban-rural location (C) (v2peasjgeo),v2peasjgeo
+3.13.3.5,Access to state business opportunities by urban-rural location (C) (v2peasbegeo),v2peasbegeo
+3.13.4.1,Political group equality in respect for civil liberties (C) (v2clpolcl),v2clpolcl
+3.13.4.2,Accesstopublicservicesdistributedbypoliticalgroup(C)(v2peapspol),v2peapspol
+3.13.4.3,Access to state jobs by political group (C) (v2peasjpol),v2peasjpol
+3.13.4.4,Access to state business opportunities by political group (C) (v2peasbepol),v2peasbepol
+3.13.5.1,Access to public services distributed by social group (C) (v2peapssoc),v2peapssoc
+3.13.5.2,Access to state jobs by social group (C) (v2peasjsoc),v2peasjsoc
+3.13.5.3,Access to state business opportunities by social group (C) (v2peasbsoc),v2peasbsoc
+3.14.0.1,Ideology (C) (v2exl_legitideol),v2exl_legitideol
+3.14.0.2,Ideology character (C) (v2exl_legitideolcr),v2exl_legitideolcr
+3.14.0.3,Person of the Leader (C) (v2exl_legitlead),v2exl_legitlead
+3.14.0.4,Performance legitimation (C) (v2exl_legitperf),v2exl_legitperf
+3.14.0.5,Rational-legal legitimation (C) (v2exl_legitratio),v2exl_legitratio
+3.15.1.1,Political polarization (C) (v2cacamps),v2cacamps
+3.15.1.2,Political violence (C) (v2caviol),v2caviol
+3.15.1.3,Freedom of peaceful assembly (C) (v2caassemb),v2caassemb
+3.15.1.4,State of emergency (C) (v2casoe),v2casoe
+3.15.2.1,Mass mobilization (C) (v2cagenmob),v2cagenmob
+3.15.2.2,Mass mobilization concentration (C) (v2caconmob),v2caconmob
+3.15.2.3,Mobilization for democracy (C) (v2cademmob),v2cademmob
+3.15.2.4,Mobilization for autocracy (C) (v2caautmob),v2caautmob
+3.15.3.1,Engagement in state-administered mass organizations (C) (v2castate),v2castate
+3.15.3.2,Engagement in independent trade unions (C) (v2catrauni),v2catrauni
+3.15.3.3,Engagement in independent political associations (C) (v2capolit),v2capolit
+3.15.3.4,Engagement in independent non-political associations (C) (v2canonpol),v2canonpol
+3.15.4.1,Existence of universities (A*) (v2cauni),v2cauni
+3.15.4.2,Total number of universities (A) (v2canuni),v2canuni
+3.15.4.3,Constitutional protection for academic freedom (A) (v2caprotac),v2caprotac
+3.15.4.4,Freedom to research and teach (C) (v2cafres),v2cafres
+3.15.4.5,Freedom of academic exchange and dissemination (C) (v2cafexch),v2cafexch
+3.15.4.6,Institutional autonomy (C) (v2cainsaut),v2cainsaut
+3.15.4.7,Campus integrity (C) (v2casurv),v2casurv
+3.15.4.8,Academics as critics (C) (v2cacritic),v2cacritic
+3.15.4.9,International legal commitment to academic freedom under ICESCR (A) (v2caacadfree),v2caacadfree
+4.1.1,Minimum candidate age lower chamber (A) (v3canagelc),v3canagelc
+4.1.2,Minimum candidate age upper chamber (A) (v3canageuc),v3canageuc
+4.1.3,Minimum voting age presidency (A) (v3elagepr),v3elagepr
+4.1.4,Minimum voting age upper chamber (A) (v3elageuc),v3elageuc
+"4.1.5,""Voting, voice or ballot (C) (v3elbalpap)"",v3elbalpap"
+4.1.6,Ballot printing (C) (v3elbalstat),v3elbalstat
+4.1.7,Compulsory voting (C) (v3elcomvot),v3elcomvot
+4.1.8,Direct lower chamber (unicameral) elections (A) (v3eldirelc),v3eldirelc
+4.1.9,Direct presidential elections (A) (v3eldirepr),v3eldirepr
+4.1.10,Direct upper chamber elections (A) (v3eldireuc),v3eldireuc
+4.1.11,Secret ballot (de facto) (C) (v3elecsedf),v3elecsedf
+4.1.12,Malapportionment legislature/lower chamber (C) (v3elmalalc),v3elmalalc
+4.1.13,Malapportionment upper chamber (C) (v3elmalauc),v3elmalauc
+4.1.14,Minority or majority government (A) (v3elncbmaj),v3elncbmaj
+4.1.15,Reapportionment legislature/lower chamber (C) (v3elreapplc),v3elreapplc
+4.1.16,Reapportionment upper chamber (C) (v3elreappuc),v3elreappuc
+4.1.17,Candidate exclusions (de jure) lower (unicameral) chamber (A) (v3elrstrlc),v3elrstrlc
+4.1.18,Candidate exclusions (de jure) presidential elections (A) (v3elrstrpr),v3elrstrpr
+4.1.19,Candidate exclusions (de jure) upper chamber (A) (v3elrstrup),v3elrstrup
+4.1.20,De jure ballot secrecy (A) (v3elsec),v3elsec
+4.1.21,Upper chamber election turnover (A) (v3eltvriguc),v3eltvriguc
+4.1.22,Upper chamber election seats (A) (v3elupseat),v3elupseat
+4.1.23,Upper chamber election seats won by largest party (A) (v3elupstsl),v3elupstsl
+4.1.24,Upper chamber election seats won by second largest party (A) (v3elupstsm),v3elupstsm
+4.1.25,Upper chamber election vote share of largest vote-getter (A) (v3elupvtlg),v3elupvtlg
+4.1.26,Upperchamberelectionvoteshareofsecond-largestvote-getter(A)(v3elupvtsm)255,v3elupvtsm
+4.1.27,Suffrage exclusions (de jure) lower (unicameral) chamber (A) (v3elvstrlc),v3elvstrlc
+4.1.28,Suffrage exclusions (de jure) presidential elections (A) (v3elvstrpr),v3elvstrpr
+4.1.29,Suffrage exclusions (de jure) upper chamber (A) (v3elvstruc),v3elvstruc
+4.1.30,Election women in the cabinet (A) (v3elwomcab),v3elwomcab
+4.1.31,Total votes (A) (v3ttlvote),v3ttlvote
+4.2.1,Party identification (C) (v3partyid),v3partyid
+4.2.2,Party age largest (A) (v3psagefirst),v3psagefirst
+4.2.3,Party age executive (A) (v3psagepm),v3psagepm
+4.2.4,Party age second largest (A) (v3psagesecond),v3psagesecond
+4.2.5,Party age third largest (A) (v3psagethird),v3psagethird
+4.3.1,Lower chamber budget (C) (v3lgbudglo),v3lgbudglo
+4.3.2,Upper chamber budget (C) (v3lgbudgup),v3lgbudgup
+4.3.3,Legislature other than uni- or bicameral (A) (v3lgcamoth),v3lgcamoth
+4.3.4,Lower chamber in session (C) (v3lginses),v3lginses
+4.3.5,Upper chamber in session (C) (v3lginsesup),v3lginsesup
+4.3.6,Lower chamber quota for social groups (A) (v3lgqumin),v3lgqumin
+4.4.1,High court existence (A*) (v3juhcourt),v3juhcourt
+4.5.1,Labor rights (C) (v3cllabrig),v3cllabrig
+4.5.2,Slavery (A) (v3clslavery),v3clslavery
+4.5.3,Serfdom de jure/slavery de jure (A) (v3serfdeju),v3serfdeju
+4.6.1,Census (A) (v3stcensus),v3stcensus
+4.6.2,Citizenship laws (A) (v3stcitlaw),v3stcitlaw
+4.6.3,Flag (A) (v3stflag),v3stflag
+4.6.4,National anthem (A) (v3stnatant),v3stnatant
+4.6.5,National bank (A) (v3stnatbank),v3stnatbank
+4.6.6,Rulers’ involvement in the state administration (C) (v3struinvadm),v3struinvadm
+4.6.7,Statistical agency (A) (v3ststatag),v3ststatag
+4.6.8,State steering capacity (C) (v3ststeecap),v3ststeecap
+4.6.9,Statistical yearbook covered (A) (v3ststybcov),v3ststybcov
+4.6.10,Statistical yearbook published (A) (v3ststybpub),v3ststybpub
+4.7.1,Equal vote legislature/lower chamber (C) (v3equavolc),v3equavolc
+4.7.2,Equal vote upper chamber (C) (v3equavouc),v3equavouc
+4.7.3,Child labor laws (A) (v3pechilabl),v3pechilabl
+4.7.4,Minimum wage (A) (v3peminwage),v3peminwage
+4.7.5,Minimum wage restriction (A) (v3peminwagerestr),v3peminwagerestr
+4.8.1,Lower chamber electoral system (A) (v3elloelsy),v3elloelsy
+4.8.2,Lower chamber election seats (A) (v3elloseat),v3elloseat
+4.8.3,Lower chamber election seats won by largest party (A) (v3ellostlg),v3ellostlg
+4.8.4,Lower chamber election seat share won by largest party (A) (v3ellostsl),v3ellostsl
+4.8.5,Lower chamber election seats won by second largest party (A) (v3ellostsm),v3ellostsm
+4.8.6,Lower chamber election seat share won by second largest party (A) (v3ellostss),v3ellostss
+4.8.7,Lower chamber election vote share of largest vote-getter (A) (v3ellovtlg),v3ellovtlg
+4.8.8,Lower chamber election vote share of second-largest vote-getter (A) (v3ellovtsm)273,v3ellovtsm
+4.8.9,Effective number of cabinet parties (A) (v3elncbpr),v3elncbpr
+4.8.10,Lower chamber electoral system (A) (v3elparlel),v3elparlel
+4.8.11,Election turnout (A) (v3eltrnout),v3eltrnout
+4.8.12,Lower chamber election turnover (A) (v3eltvrig),v3eltvrig
+4.8.13,Election type (A*) (v3eltype),v3eltype
+4.8.14,Presidential election vote share of largest vote-getter (A) (v3elvotlrg),v3elvotlrg
+4.8.15,Presidential election vote share of second-largest vote-getter (A) (v3elvotsml),v3elvotsml
+4.8.16,Legislature bicameral (A*) (v3lgbicam),v3lgbicam
+4.8.17,Lower chamber committees (C) (v3lgcomslo),v3lgcomslo
+4.8.18,Legislature corrupt activities (C) (v3lgcrrpt),v3lgcrrpt
+4.8.19,Legislature dominant chamber (C) (v3lgdomchm),v3lgdomchm
+4.8.20,Upper chamber elected (A) (v3lgelecup),v3lgelecup
+4.8.21,Lower chamber elected (A) (v3lgello),v3lgello
+4.8.22,Legislature controls resources (C) (v3lgfunds),v3lgfunds
+4.8.23,Lower chamber indirectly elected (A) (v3lginello),v3lginello
+4.8.24,Upper chamber indirectly elected (A) (v3lginelup),v3lginelup
+4.8.25,Legislature investigates in practice (C) (v3lginvstp),v3lginvstp
+4.8.26,Lower chamber legislates in practice (C) (v3lglegplo),v3lglegplo
+4.8.27,Upper chamber legislates in practice (C) (v3lglegpup),v3lglegpup
+4.8.28,Lower chamber legislature name (A*) (v3lgnamelo),v3lgnamelo
+4.8.29,Upper chamber name (A*) (v3lgnameup),v3lgnameup
+4.8.30,Legislature opposition parties (C) (v3lgoppart),v3lgoppart
+4.8.31,Executive oversight (C) (v3lgotovst),v3lgotovst
+4.8.32,Legislature questions officials in practice (C) (v3lgqstexp),v3lgqstexp
+4.8.33,Lower chamber members serve in government (C) (v3lgsrvlo),v3lgsrvlo
+4.9.1,Local government elected (A*) (v3ellocelc),v3ellocelc
+4.9.2,Local government exists (A*) (v3ellocgov),v3ellocgov
+4.9.3,Local government name (A*) (v3ellocnam),v3ellocnam
+4.9.4,Regional government exists (A*) (v3elreggov),v3elreggov
+4.9.5,Regional government name (A*) (v3elregnam),v3elregnam
+4.9.6,Regional government elected (A*) (v3elsrgel),v3elsrgel
+4.9.7,HOS age (A) (v3exagehos),v3exagehos
+4.9.8,HOS = HOG (A*) (v3exhoshog),v3exhoshog
+4.9.9,HOG name (A*) (v3exnamhog),v3exnamhog
+4.9.10,HOS name (A*) (v3exnamhos),v3exnamhos
+4.9.11,HOS appointment in practice (A) (v3expathhs),v3expathhs
+4.9.12,Title of HOG (A*) (v3extithog),v3extithog
+4.9.13,HOS title (A*) (v3extithos),v3extithos
+4.9.14,High court name (A*) (v3juhcname),v3juhcname
+4.9.15,Legislature amends constitution (A) (v3lgamend),v3lgamend
+4.9.16,Legislature amnesties (A) (v3lgamnsty),v3lgamnsty
+4.9.17,Lower chamber introduces bills (A) (v3lgintblo),v3lgintblo
+4.9.18,Lower chamber legislates by law (A) (v3lglegllo),v3lglegllo
+4.9.19,Upper chamber legislates by law (A) (v3lgleglup),v3lgleglup
+5.1.1,Regimes of the world – the RoW measure (D) (v2x_regime),v2x_regime
+5.1.2,Regimes of the world – the RoW measure with categories for ambiguous cases (D) (v2x_regime_amb),v2x_regime_amb
+5.2.1,Accountability index (D) (v2x_accountability),v2x_accountability
+5.2.2,Vertical accountability index (D) (v2x_veracc),v2x_veracc
+5.2.3,Diagonal accountability index (D) (v2x_diagacc),v2x_diagacc
+5.2.4,Horizontal accountability index (D) (v2x_horacc),v2x_horacc
+5.3.1,Confidence dimension index (D) (v2x_ex_confidence),v2x_ex_confidence
+5.3.2,Direct election dimension index (D) (v2x_ex_direlect),v2x_ex_direlect
+5.3.3,Hereditary dimension index (D) (v2x_ex_hereditary),v2x_ex_hereditary
+5.3.4,Military dimension index (D) (v2x_ex_military),v2x_ex_military
+5.3.5,Ruling party dimension index (D) (v2x_ex_party),v2x_ex_party
+5.4.1,Neopatrimonial Rule Index (D) (v2x_neopat),v2x_neopat
+5.4.2,Clientelism Index (D) (v2xnp_client),v2xnp_client
+5.4.3,Presidentialism Index (D) (v2xnp_pres),v2xnp_pres
+5.4.4,Regime corruption (D) (v2xnp_regcorr),v2xnp_regcorr
+5.5.1,Civil liberties index (D) (v2x_civlib),v2x_civlib
+5.5.2,Physical violence index (D) (v2x_clphy),v2x_clphy
+5.5.3,Political civil liberties index (D) (v2x_clpol),v2x_clpol
+5.5.4,Private civil liberties index (D) (v2x_clpriv),v2x_clpriv
+5.6.1,Exclusion by Socio-Economic Group (D) (v2xpe_exlecon),v2xpe_exlecon
+5.6.2,Exclusion by Gender index (D) (v2xpe_exlgender),v2xpe_exlgender
+5.6.3,Exclusion by Urban-Rural Location index (D) (v2xpe_exlgeo),v2xpe_exlgeo
+5.6.4,Exclusion by Political Group index (D) (v2xpe_exlpol),v2xpe_exlpol
+5.6.5,Exclusion by Social Group index (D) (v2xpe_exlsocgr),v2xpe_exlsocgr
+5.7.1,Political corruption index (D) (v2x_corr),v2x_corr
+5.7.2,Executive corruption index (D) (v2x_execorr),v2x_execorr
+5.7.3,Public sector corruption index (D) (v2x_pubcorr),v2x_pubcorr
+5.8.1,Women political empowerment index (D) (v2x_gender),v2x_gender
+5.8.2,Women civil liberties index (D) (v2x_gencl),v2x_gencl
+5.8.3,Women civil society participation index (D) (v2x_gencs),v2x_gencs
+5.8.4,Women political participation index (D) (v2x_genpp),v2x_genpp
+5.9.1,Rule of law index (D) (v2x_rule),v2x_rule
+5.9.2,Access to justice (D) (v2xcl_acjst),v2xcl_acjst
+5.9.3,Property rights (D) (v2xcl_prpty),v2xcl_prpty
+5.10.1,Popular initiative index (D) (v2xdd_i_ci),v2xdd_i_ci
+5.10.2,Popular referendum index (D) (v2xdd_i_rf),v2xdd_i_rf
+5.10.3,Obligatory referendum index (D) (v2xdd_i_or),v2xdd_i_or
+5.10.4,Plebiscite index (D) (v2xdd_i_pl),v2xdd_i_pl
+5.10.5,Citizen-initiated component of direct popular vote index (D) (v2xdd_cic),v2xdd_cic
+5.10.6,Top-Down component of direct popular vote index (D) (v2xdd_toc),v2xdd_toc
+5.11.1,Core civil society index (D) (v2xcs_ccsi),v2xcs_ccsi
+5.12.1,Electoral regime index (A) (v2x_elecreg),v2x_elecreg
+5.12.2,Executive electoral regime index (A) (v2xex_elecreg),v2xex_elecreg
+5.12.3,Legislative electoral regime index (A) (v2xlg_elecreg),v2xlg_elecreg
+5.12.4,Electoral component index (D) (v2x_EDcomp_thick),v2x_EDcomp_thick
+5.12.5,Freedom of expression index (D) (v2x_freexp),v2x_freexp
+5.12.6,Presidential election aborted (D) (v2x_hosabort),v2x_hosabort
+5.12.7,Chief executive no longer elected (D) (v2x_hosinter),v2x_hosinter
+5.12.8,Legislative or constituent assembly election aborted (D) (v2x_legabort),v2x_legabort
+5.12.9,Freedom of discussion (D) (v2xcl_disc),v2xcl_disc
+5.12.10,Freedom of domestic movement (D) (v2xcl_dmove),v2xcl_dmove
+5.12.11,Freedom from forced labor (D) (v2xcl_slave),v2xcl_slave
+5.12.12,Legislative or constituent assembly election (D) (v2xel_elecparl),v2xel_elecparl
+5.12.13,Presidential election (D) (v2xel_elecpres),v2xel_elecpres
+5.12.14,Legislature directly elected (D) (v2xex_elecleg),v2xex_elecleg
+5.12.15,Legislature closed down or aborted (D) (v2xlg_leginter),v2xlg_leginter
+5.12.16,Alternative sources of information index (D) (v2xme_altinf),v2xme_altinf
+5.13.1,Party institutionalization index (D) (v2xps_party),v2xps_party
+5.14.1,Divided party control index (D) (v2x_divparctrl),v2x_divparctrl
+5.14.2,Division of power index (D) (v2x_feduni),v2x_feduni
+5.15.1,Academic Freedom Index (D) (v2xca_academ),v2xca_academ
+6.1,Party-System Democracy Index (D) (v2xpas_democracy),v2xpas_democracy
+6.2,Government Coalition Democracy Index (D) (v2xpas_democracy_government),v2xpas_democracy_government
+6.3,Opposition Parties Democracy Index (D) (v2xpas_democracy_opposition),v2xpas_democracy_opposition
+6.4,Party-System Religion Index (D) (v2xpas_religion),v2xpas_religion
+6.5,Government Coalition Religion Index (D) (v2xpas_religion_government),v2xpas_religion_government
+6.6,Opposition Parties Religion Index (D) (v2xpas_religion_opposition),v2xpas_religion_opposition
+6.7,Party-System Exclusion Index (D) (v2xpas_exclusion),v2xpas_exclusion
+6.8,Government Coalition Party-System Exclusion Index (D) (v2xpas_exclusion_government),v2xpas_exclusion_government
+6.9,Opposition Parties Party-System Exclusion Index (D) (v2xpas_exclusion_opposition),v2xpas_exclusion_opposition
+6.10,Party-System Left-Right Index (D) (v2xpas_economic),v2xpas_economic
+6.11,Government Coalition Left-Right Index (D) (v2xpas_economic_government),v2xpas_economic_government
+6.12,Opposition Parties Left-Right Index (D) (v2xpas_economic_opposition),v2xpas_economic_opposition
+7.1.1,Government dissemination of false information domestic (C) (v2smgovdom),v2smgovdom
+7.1.2,Government dissemination of false information abroad (C) (v2smgovab),v2smgovab
+7.1.3,Party dissemination of false information domestic (C) (v2smpardom),v2smpardom
+7.1.4,Party dissemination of false information abroad (C) (v2smparab),v2smparab
+7.1.5,Foreign governments dissemination of false information (C) (v2smfordom),v2smfordom
+7.1.6,Foreign governments ads (C) (v2smforads),v2smforads
+7.2.1,Government Internet filtering capacity (C) (v2smgovfilcap),v2smgovfilcap
+7.2.2,Government Internet filtering in practice (C) (v2smgovfilprc),v2smgovfilprc
+7.2.3,Government Internet shut down capacity (C) (v2smgovshutcap),v2smgovshutcap
+7.2.4,Government Internet shut down in practice (C) (v2smgovshut),v2smgovshut
+7.2.5,Government social media shut down in practice (C) (v2smgovsm),v2smgovsm
+7.2.6,Government social media alternatives (C) (v2smgovsmalt),v2smgovsmalt
+7.2.7,Government social media monitoring (C) (v2smgovsmmon),v2smgovsmmon
+7.2.8,Government social media censorship in practice (C) (v2smgovsmcenprc),v2smgovsmcenprc
+7.2.9,Government cyber security capacity (C) (v2smgovcapsec),v2smgovcapsec
+7.2.10,Political parties cyber security capacity (C) (v2smpolcap),v2smpolcap
+7.3.1,Internet legal regulation content (C) (v2smregcon),v2smregcon
+7.3.2,Privacy protection by law exists (C) (v2smprivex),v2smprivex
+7.3.3,Privacy protection by law content (C) (v2smprivcon),v2smprivcon
+7.3.4,Government capacity to regulate online content (C) (v2smregcap),v2smregcap
+7.3.5,Government online content regulation approach (C) (v2smregapp),v2smregapp
+7.3.6,Defamation protection (C) (v2smlawpr),v2smlawpr
+7.3.7,Abuse of defamation and copyright law by elites (C) (v2smdefabu),v2smdefabu
+7.4.1,Online media existence (C) (v2smonex),v2smonex
+7.4.2,Online media perspectives (C) (v2smonper),v2smonper
+7.4.3,Online media fractionalization (C) (v2smmefra),v2smmefra
+7.5.1,Online harassment groups (C) (v2smhargr),v2smhargr
+7.5.2,Other online harassment groups (C) (v2smhargrtxt),v2smhargrtxt
+7.5.3,Use of social media to organize offline violence (C) (v2smorgviol),v2smorgviol
+7.5.4,Average people’s use of social media to organize offline action (C) (v2smorgavgact),v2smorgavgact
+7.5.5,Elites’ use of social media to organize offline action (C) (v2smorgelitact),v2smorgelitact
+7.5.6,Types of organization through social media (C) (v2smorgtypes),v2smorgtypes
+7.5.7,Other types of organization through social media (C) (v2smorgtypestxt),v2smorgtypestxt
+7.5.8,Party/candidate use of social media in campaigns (C) (v2smcamp),v2smcamp
+7.5.9,Arrests for political content (C) (v2smarrest),v2smarrest
+7.5.10,Polarization of society (C) (v2smpolsoc),v2smpolsoc
+7.5.11,Political parties hate speech (C) (v2smpolhate),v2smpolhate
+8.1.1,Indoctrination potential in education (D) (v2xed_ed_inpt),v2xed_ed_inpt
+8.1.2,Political education effort in education (D) (v2xed_ed_poed),v2xed_ed_poed
+8.1.3,Indoctrination coherence in education (D) (v2xed_ed_inco),v2xed_ed_inco
+8.1.4,Centralization of the education system (D) (v2xed_ed_cent),v2xed_ed_cent
+8.1.5,Control over educational agents (D) (v2xed_ed_ctag),v2xed_ed_ctag
+8.1.6,Indoctrination content in education (D) (v2xed_ed_con),v2xed_ed_con
+8.1.7,Democratic indoctrination content in education (D) (v2xed_ed_dmcon),v2xed_ed_dmcon
+8.1.8,Patriotic indoctrination content in education (D) (v2xed_ed_ptcon),v2xed_ed_ptcon
+8.1.9,Patriotic indoctrination content in education and the media (D) (v2xed_ptcon)350,v2xed_ptcon
+8.1.10,Indoctrination potential in education and the media (D) (v2xedvd_inpt),v2xedvd_inpt
+8.1.11,Indoctrination coherence (potential) in the media (D) (v2xedvd_me_inco),v2xedvd_me_inco
+8.1.12,Centralization of media control (D) (v2xedvd_me_cent),v2xedvd_me_cent
+8.1.13,Control over media agents (D) (v2xedvd_me_ctag),v2xedvd_me_ctag
+8.2.1,Centralized curriculum (C) (v2edcentcurrlm),v2edcentcurrlm
+8.2.2,Centralized textbook approval (C) (v2edcenttxbooks),v2edcenttxbooks
+"8.3.1,""Political education, primary school (C) (v2edpoledprim)"",v2edpoledprim"
+"8.3.2,""Political education, secondary school (C) (v2edpoledsec)"",v2edpoledsec"
+8.3.3,Political rights and duties in the curriculum (C) (v2edpoledrights),v2edpoledrights
+8.3.4,Patriotic education in the curriculum (C) (v2edpatriot),v2edpatriot
+8.3.5,Ideology in the curriculum (C) (v2edideol),v2edideol
+8.3.6,Ideology character in the curriculum (C) (v2edideolch),v2edideolch
+8.3.7,Ideology character in the curriculum (C) (v2edideolch_rec),v2edideolch_rec
+8.3.8,Pluralism in the curriculum (C) (v2edplural),v2edplural
+8.3.9,Critical engagement with education content (C) (v2edcritical),v2edcritical
+8.3.10,Teacher autonomy in the classroom (C) (v2edteautonomy),v2edteautonomy
+8.3.11,Mathematics and science education (C) (v2edmath),v2edmath
+8.4.1,Education requirements for primary school teachers (C) (v2edtequal),v2edtequal
+8.4.2,Teacher inspection (C) (v2temonitor),v2temonitor
+8.4.3,Presence of teacher unions (C) (v2edteunion),v2edteunion
+8.4.4,Independent teacher unions (C) (v2edteunionindp),v2edteunionindp
+8.4.5,Political teacher hiring (C) (v2edtehire),v2edtehire
+8.4.6,Political teacher firing (C) (v2edtefire),v2edtefire
+8.5.1,Presence of patriotic symbols in schools (C) (v2edscpatriot),v2edscpatriot
+8.5.2,Celebration of patriotic symbols (C) (v2edscpatriotcb),v2edscpatriotcb
+8.5.3,Extracurricular activities (C) (v2edscextracurr),v2edscextracurr
+8.6.1,State-owned print media (C) (v2medstateprint),v2medstateprint
+8.6.2,State-owned broadcast media (C) (v2medstatebroad),v2medstatebroad
+"8.6.3,""Political influence, state-owned media (C) (v2medpolstate)"",v2medpolstate"
+"8.6.4,""Political influence, non state-owned media (C) (v2medpolnonstate)"",v2medpolnonstate"
+8.6.5,Patriotism in the media (C) (v2medpatriot),v2medpatriot
+8.6.6,Control of entertainment content (C) (v2medentrain),v2medentrain
+9.1.1,Additive polyarchy index ordinal (D) (e_v2x_api),e_v2x_api
+9.1.2,Civil liberties index ordinal (D) (e_v2x_civlib),e_v2x_civlib
+9.1.3,Physical violence index ordinal (D) (e_v2x_clphy),e_v2x_clphy
+9.1.4,Political civil liberties index ordinal (D) (e_v2x_clpol),e_v2x_clpol
+9.1.5,Private liberties index ordinal (D) (e_v2x_clpriv),e_v2x_clpriv
+9.1.6,Political corruption index ordinal (D) (e_v2x_corr),e_v2x_corr
+9.1.7,Civil society participation index ordinal (D) (e_v2x_cspart),e_v2x_cspart
+9.1.8,Deliberative democracy index ordinal (D) (e_v2x_delibdem),e_v2x_delibdem
+9.1.9,Electoral component index ordinal (D) (e_v2x_EDcomp_thick),e_v2x_EDcomp_thick
+9.1.10,Egalitarian component index ordinal (D) (e_v2x_egal),e_v2x_egal
+9.1.11,Egalitarian democracy index ordinal (D) (e_v2x_egaldem),e_v2x_egaldem
+9.1.12,Elected officials index (de jure) ordinal (D) (e_v2x_elecoff),e_v2x_elecoff
+9.1.13,Executive corruption index ordinal (D) (e_v2x_execorr),e_v2x_execorr
+9.1.14,Division of power index ordinal (D) (e_v2x_feduni),e_v2x_feduni
+9.1.15,Freedom of association (thick) index ordinal (D) (e_v2x_frassoc_thick),e_v2x_frassoc_thick
+9.1.16,Freedom of expression index ordinal (D) (e_v2x_freexp),e_v2x_freexp
+9.1.17,Expanded freedom of expression index ordinal (D) (e_v2x_freexp_altinf) . . 373,e_v2x_freexp_altinf
+9.1.18,Women civil liberties index ordinal (D) (e_v2x_gencl),e_v2x_gencl
+9.1.19,Women civil society participation index ordinal (D) (e_v2x_gencs),e_v2x_gencs
+9.1.20,Women political empowerment index ordinal (D) (e_v2x_gender),e_v2x_gender
+9.1.21,Women political participation index ordinal (D) (e_v2x_genpp),e_v2x_genpp
+9.1.22,Judicial constraints on the executive index ordinal (D) (e_v2x_jucon),e_v2x_jucon
+9.1.23,Liberal democracy index ordinal (D) (e_v2x_libdem),e_v2x_libdem
+9.1.24,Liberal component index ordinal (D) (e_v2x_liberal),e_v2x_liberal
+9.1.25,Multiplicative polyarchy index ordinal (D) (e_v2x_mpi),e_v2x_mpi
+9.1.26,Participatory component index ordinal (D) (e_v2x_partip),e_v2x_partip
+9.1.27,Participatory democracy index ordinal (D) (e_v2x_partipdem),e_v2x_partipdem
+9.1.28,Electoral democracy index ordinal (D) (e_v2x_polyarchy),e_v2x_polyarchy
+9.1.29,Public sector corruption index ordinal (D) (e_v2x_pubcorr),e_v2x_pubcorr
+9.1.30,Share of population with suffrage ordinal (D) (e_v2x_suffr),e_v2x_suffr
+9.1.31,Equality before the law and individual liberty index ordinal (D) (e_v2xcl_rol) 379,e_v2xcl_rol
+9.1.32,Core civil society index ordinal (D) (e_v2xcs_ccsi),e_v2xcs_ccsi
+9.1.33,Direct popular vote index ordinal (D) (e_v2xdd_dd),e_v2xdd_dd
+9.1.34,Deliberative component index ordinal (D) (e_v2xdl_delib),e_v2xdl_delib
+9.1.35,Equal distribution of resources index ordinal (D) (e_v2xeg_eqdr),e_v2xeg_eqdr
+9.1.36,Equal protection index ordinal (D) (e_v2xeg_eqprotec),e_v2xeg_eqprotec
+9.1.37,Clean elections index ordinal (D) (e_v2xel_frefair),e_v2xel_frefair
+9.1.38,Local government index ordinal (D) (e_v2xel_locelec),e_v2xel_locelec
+9.1.39,Regional government index ordinal (D) (e_v2xel_regelec),e_v2xel_regelec
+9.1.40,Legislative constraints on the executive index ordinal (D) (e_v2xlg_legcon) . 382,e_v2xlg_legcon
+9.1.41,Alternative sources of information index ordinal (D) (e_v2xme_altinf),e_v2xme_altinf
+9.1.42,Party institutionalization index ordinal (D) (e_v2xps_party),e_v2xps_party
+9.2.1,Democracy (BMR) (E) (e_boix_regime),e_boix_regime
+9.2.2,Democratic breakdowns (E) (e_democracy_breakdowns),e_democracy_breakdowns
+9.2.3,Omitted data (E) (e_democracy_omitteddata),e_democracy_omitteddata
+9.2.4,Democratic transition (E) (e_democracy_trans),e_democracy_trans
+9.3.1,Civil liberties (E) (e_fh_cl),e_fh_cl
+9.3.2,Political rights (E) (e_fh_pr),e_fh_pr
+9.3.3,Rule of law (E) (e_fh_rol),e_fh_rol
+9.3.4,Status (E) (e_fh_status),e_fh_status
+9.4.1,Control of corruption — estimate (E) (e_wbgi_cce),e_wbgi_cce
+9.4.2,Government effectiveness (E) (e_wbgi_gee),e_wbgi_gee
+9.4.3,Political stability — estimate (E) (e_wbgi_pve),e_wbgi_pve
+9.4.4,Rule of law — estimate (E) (e_wbgi_rle),e_wbgi_rle
+9.4.5,Regulatory quality — estimate (E) (e_wbgi_rqe),e_wbgi_rqe
+9.4.6,Voice and accountability — estimate (E) (e_wbgi_vae),e_wbgi_vae
+9.5.1,Lexical index (E) (e_lexical_index),e_lexical_index
+9.6.1,Unified democracy score posterior (E) (e_uds),e_uds
+9.7.1,Coups (E) (e_coups),e_coups
+9.7.2,Number of Parties in legislature (E) (e_legparty),e_legparty
+9.8.1,Institutionalized autocracy (E) (e_autoc),e_autoc
+9.8.2,Institutionalized democracy (E) (e_democ),e_democ
+9.8.3,Polity combined score (E) (e_p_polity),e_p_polity
+9.8.4,Political competition (E) (e_polcomp),e_polcomp
+9.8.5,Polity revised combined score (E) (e_polity2),e_polity2
+9.9.1,Democratic breakdown (E) (e_bnr_dem),e_bnr_dem
+9.9.2,Democracy (E) (e_chga_demo),e_chga_demo
+9.9.3,Corruption perception index (E) (e_ti_cpi),e_ti_cpi
+9.9.4,Index of Democratization (E) (e_vanhanen),e_vanhanen
+10.1.1,Education 15+ (E) (e_peaveduc),e_peaveduc
+"10.1.2,""Educational inequality, Gini (E) (e_peedgini)"",e_peedgini"
+10.2.1,Land area (E) (e_area),e_area
+10.2.2,Region (geographic) (E) (e_regiongeo),e_regiongeo
+10.2.3,Region (politico-geographic) (E) (e_regionpol),e_regionpol
+10.2.4,Region (politico-geographic 6-category) (E) (e_regionpol_6C),e_regionpol_6C
+10.2.5,Region (politico-geographic 7-category) (E) (e_regionpol_7C),e_regionpol_7C
+10.3.1,Exports (E) (e_cow_exports),e_cow_exports
+10.3.2,Imports (E) (e_cow_imports),e_cow_imports
+10.3.3,GDP (E) (e_gdp),e_gdp
+10.3.4,GDP per capita (E) (e_gdppc),e_gdppc
+10.3.5,Inflation (E) (e_miinflat),e_miinflat
+10.3.6,Population (E) (e_pop),e_pop
+"10.4.1,""Petroleum, coal, and natural gas production per capita (E) (e_total_fuel_income_pc)"",e_total_fuel_income_pc"
+10.4.2,Petroleum production per capita (E) (e_total_oil_income_pc),e_total_oil_income_pc
+"10.4.3,""Petroleum, coal, natural gas, and metals production per capita (E) (e_total_resources_income_pc)"",e_total_resources_income_pc"
+10.5.1,Radios (E) (e_radio_n),e_radio_n
+10.6.1,Fertility rate (E) (e_miferrat),e_miferrat
+10.6.2,Population total (E) (e_mipopula),e_mipopula
+10.6.3,Urbanization (E) (e_miurbani),e_miurbani
+10.6.4,Urban population (E) (e_miurbpop),e_miurbpop
+10.6.5,Child mortality rate (E) (e_pechmor),e_pechmor
+"10.6.6,""Life expectancy, female (E) (e_pefeliex)"",e_pefeliex"
+10.6.7,Life expectancy (E) (e_pelifeex),e_pelifeex
+10.6.8,Maternal mortality rate (E) (e_pematmor),e_pematmor
+10.6.9,Population (E) (e_wb_pop),e_wb_pop
+10.7.1,Civil war (E) (e_civil_war),e_civil_war
+"10.7.2,""Armed conflict, international (E) (e_miinteco)"",e_miinteco"
+"10.7.3,""Armed conflict, internal (E) (e_miinterc)"",e_miinterc"
+10.7.4,Number of successful coup attempts in a year (E) (e_pt_coup),e_pt_coup
+10.7.5,Number of coups attempts in a year (E) (e_pt_coup_attempts),e_pt_coup_attempts
+14.1.1,Today’s date (C) (v2zzdate),v2zzdate
+14.1.2,Gender (C) (v2zzgender),v2zzgender
+14.1.3,Education (C) (v2zzedlev),v2zzedlev
+14.1.4,Current educational status (C) (v2zzcurred),v2zzcurred
+14.1.5,Country of education (C) (v2zzedcnt),v2zzedcnt
+14.1.6,Year of birth (C) (v2zzborn),v2zzborn
+14.1.7,Country of birth (C) (v2zzbornin),v2zzbornin
+14.1.8,Country of residence (C) (v2zzreside),v2zzreside
+14.1.9,Years in country (C) (v2zztimein),v2zztimein
+14.1.10,Years away from country (C) (v2zzyrsout),v2zzyrsout
+14.1.11,Country of employer or university (C) (v2zzempcnt),v2zzempcnt
+14.1.12,Employer (C) (v2zzemploy),v2zzemploy
+14.1.13,Democracy Scores (C) (v2zzdemsc),v2zzdemsc
+14.1.14,Free markets (C) (v2zzfremrk),v2zzfremrk
+14.1.15,Electoral democracy sympathy (C) (v2zzelcdem),v2zzelcdem
+14.1.16,Liberal democracy sympathy (C) (v2zzlibdem),v2zzlibdem
+14.1.17,Majoritarian democracy sympathy (C) (v2zzmajdem),v2zzmajdem
+14.1.18,Consensus democracy sympathy (C) (v2zzcondem),v2zzcondem
+14.1.19,Participatory democracy sympathy (C) (v2zzprtdem),v2zzprtdem
+14.1.20,Deliberative democracy sympathy (C) (v2zzdeldem),v2zzdeldem
+14.1.21,Egalitarian democracy sympathy (C) (v2zzegldem),v2zzegldem
+14.1.22,Time spent for coding (C) (v2zztimespent),v2zztimespent
+14.1.23,Coding experience (C) (v2zzsatisf),v2zzsatisf
+14.1.24,Reason of satisfaction (C) (v2zzreasatisf),v2zzreasatisf
+14.1.25,Another reason for coding (C) (v2zzanfirstreas),v2zzanfirstreas
+14.1.26,Another second reason for coding (C) (v2zzansecreas),v2zzansecreas
+14.1.27,Reason for coding (C) (v2zzfirstreas),v2zzfirstreas
+14.1.28,Materials used (C) (v2zzmaterials),v2zzmaterials
+14.1.29,Second reason for coding (C) (v2zzsecreas),v2zzsecreas
+14.2.1,Year of birth (C) (v3zzborn),v3zzborn
+14.2.2,Country of birth (C) (v3zzbornin),v3zzbornin
+14.2.3,Consensus democracy (C) (v3zzcondem),v3zzcondem
+14.2.4,Current educational status (C) (v3zzcurred),v3zzcurred
+14.2.5,Today’s date (C) (v3zzdate),v3zzdate
+14.2.6,Deliberative democracy (C) (v3zzdeldem),v3zzdeldem
+14.2.7,Democracy Scores (C) (v3zzdemsc),v3zzdemsc
+14.2.8,Country of education (C) (v3zzedcnt),v3zzedcnt
+14.2.9,Education (C) (v3zzedlev),v3zzedlev
+14.2.10,Egalitarian democracy (C) (v3zzegldem),v3zzegldem
+14.2.11,Electoral democracy (C) (v3zzelcdem),v3zzelcdem
+14.2.12,Country of employer or university (C) (v3zzempcnt),v3zzempcnt
+14.2.13,Employer (C) (v3zzemploy),v3zzemploy
+14.2.14,Free markets (C) (v3zzfremrk),v3zzfremrk
+14.2.15,Gender (C) (v3zzgender),v3zzgender
+14.2.16,Liberal democracy (C) (v3zzlibdem),v3zzlibdem
+14.2.17,Majoritarian democracy (C) (v3zzmajdem),v3zzmajdem
+14.2.18,Participatory democracy (C) (v3zzprtdem),v3zzprtdem
+14.2.19,Country of residence (C) (v3zzreside),v3zzreside
+14.2.20,Role in project (C) (v3zzrole),v3zzrole
+14.2.21,Years in country (C) (v3zztimein),v3zztimein
+14.2.22,Years away from country (C) (v3zzyrsout),v3zzyrsout
