@@ -222,18 +222,22 @@ REGION_MAP = {
 }
 
 # ==========================
-# CARREGAR DADOS (cache)
+# CARREGAR DADOS (cache) — robusto para Cloud
 # ==========================
+from pathlib import Path
+import pandas as pd
+import streamlit as st
+
 REPO_ROOT = Path(__file__).resolve().parent
+VDEM_PARQ  = REPO_ROOT / "vdem_all.parquet"
+INDIC_CSV  = REPO_ROOT / "indicadores_vdem.csv"
 
 def _assert_is_real_parquet(path: Path):
     if not path.exists():
         raise FileNotFoundError(f"Arquivo não encontrado: {path}")
     head_txt = path.read_bytes()[:200].decode("utf-8", errors="ignore")
     if head_txt.startswith("version https://git-lfs.github.com/spec/v1"):
-        raise RuntimeError(
-            f"{path.name} é um pointer do Git LFS (não é o binário real)."
-        )
+        raise RuntimeError(f"{path.name} é um pointer do Git LFS (não é o binário real).")
     with path.open("rb") as f:
         start = f.read(4)
         try:
@@ -242,43 +246,79 @@ def _assert_is_real_parquet(path: Path):
         except OSError:
             end = b""
     if start != b"PAR1" or end != b"PAR1":
-        raise RuntimeError(f"{path.name} não tem assinatura PAR1 (pode estar corrompido/incompleto).")
+        raise RuntimeError(f"{path.name} não tem assinatura PAR1 (arquivo corrompido ou incompleto).")
 
-@st.cache_data(show_spinner="Carregando dados do Parquet…")
-def load_parquet(path: Path) -> pd.DataFrame:
+@st.cache_data(show_spinner="Lendo Parquet (colunas selecionadas)…")
+def _read_parquet_columns(path: Path, columns: list[str] | None = None) -> pd.DataFrame:
+    """
+    Leitor seguro:
+    1) PyArrow Dataset (robusto; evita segfault do fastparquet/cramjam)
+    2) pandas com engine=pyarrow
+    3) pandas com engine=fastparquet
+    """
     _assert_is_real_parquet(path)
-    # 1) PyArrow direto (mais robusto; memory_map=False evita crash em alguns ambientes)
+
+    # 1) PyArrow Dataset (preferido no Cloud)
     try:
-        import pyarrow.parquet as pq
-        table = pq.read_table(path, memory_map=False)
-        return table.to_pandas()
-    except Exception as e_pa:
-        # 2) pandas+pyarrow
+        import pyarrow.dataset as ds
+        dataset = ds.dataset(str(path), format="parquet")
+        table = dataset.to_table(columns=columns) if columns else dataset.to_table()
+        return table.to_pandas(use_threads=True)
+    except Exception as e_ds:
+        # 2) pandas + pyarrow
         try:
-            return pd.read_parquet(path, engine="pyarrow")
+            return pd.read_parquet(path, engine="pyarrow", columns=columns)
         except Exception as e_pdpa:
-            # 3) fallback: fastparquet (apenas se pyarrow indisponível/local)
+            # 3) fallback final: fastparquet (pode falhar no Cloud; por isso é último)
             try:
-                return pd.read_parquet(path, engine="fastparquet")
+                return pd.read_parquet(path, engine="fastparquet", columns=columns)
             except Exception as e_fp:
                 raise RuntimeError(
                     f"Falha ao ler {path.name}.\n"
-                    f"- pyarrow.read_table: {e_pa}\n"
+                    f"- pyarrow.dataset: {e_ds}\n"
                     f"- pandas(engine=pyarrow): {e_pdpa}\n"
                     f"- pandas(engine=fastparquet): {e_fp}"
                 )
 
-@st.cache_data(show_spinner="Carregando dados do CSV…")
-def load_csv(path: Path) -> pd.DataFrame:
+@st.cache_data(show_spinner="Carregando indicadores (CSV)…")
+def _read_indicadores_csv(path: Path) -> pd.DataFrame:
     return pd.read_csv(path, sep=",", low_memory=False)
 
-def load_data():
-    vdem_path  = REPO_ROOT / "vdem_all.parquet"
-    indic_path = REPO_ROOT / "indicadores_vdem.csv"
-    df = load_parquet(vdem_path)
-    df_indicadores = load_csv(indic_path)
-    return df, df_indicadores
+def load_data_minimal():
+    """
+    Carrega apenas o que NÃO depende do Parquet pesado.
+    Use nas páginas que não precisam da base principal completa.
+    """
+    df_indicadores = _read_indicadores_csv(INDIC_CSV)
+    return df_indicadores
 
+def load_columns_for_pages(vars_needed: list[str], extra_cols: list[str] = None) -> pd.DataFrame:
+    """
+    Para páginas de 'Séries temporais' e 'Mapa':
+    - Lê só as colunas necessárias do Parquet (ex.: ['country_name','year',var1,var2]).
+    - Garante existência de 'year'/'country_name'.
+    """
+    base_cols = ["country_name"]
+    # tenta detectar ano com vários nomes comuns
+    year_candidates = [c for c in ["year", "ano", "Year", "YEAR"] if c in _read_parquet_columns(VDEM_PARQ, columns=None).columns]
+    year_col = year_candidates[0] if year_candidates else "year"
+    base_cols.append(year_col)
+
+    cols = list(dict.fromkeys((extra_cols or []) + base_cols + list(vars_needed)))
+    df_part = _read_parquet_columns(VDEM_PARQ, columns=cols)
+
+    # normaliza nome da coluna de ano para 'year' internamente
+    if year_col != "year":
+        df_part = df_part.rename(columns={year_col: "year"})
+    return df_part
+
+def load_data():
+    """
+    Só use se realmente precisar da base inteira (evite em páginas que podem operar por colunas).
+    """
+    df = _read_parquet_columns(VDEM_PARQ, columns=None)
+    df_indicadores = _read_indicadores_csv(INDIC_CSV)
+    return df, df_indicadores
 # ==========================
 # DADOS
 # ==========================
