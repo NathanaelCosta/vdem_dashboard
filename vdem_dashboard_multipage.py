@@ -1,5 +1,4 @@
 # vdem_dashboard.py
-import os
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
@@ -24,11 +23,6 @@ st.set_page_config(layout="wide",
 # ==========================
 # CARREGAR DADOS (cache)
 # ==========================
-# Use um dir seguro no Cloud (e localmente continua ok)
-BASE_DATA_DIR = Path(os.environ.get("STREAMLIT_DATA_DIR", "/mount/data"))
-DATA_DIR = BASE_DATA_DIR / "data_cache"
-DATA_DIR.mkdir(parents=True, exist_ok=True)
-
 @st.cache_data(show_spinner="Carregando dados do Parquet…")
 def load_parquet(path: Path) -> pd.DataFrame:
     return pd.read_parquet(path, engine="fastparquet")
