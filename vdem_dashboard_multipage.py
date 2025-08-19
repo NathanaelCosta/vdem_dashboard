@@ -2,12 +2,12 @@
 # cd C:\PROJECTS\vdem_dashboard
 # streamlit run vdem_dashboard_multipage.py --server.runOnSave true
 
+from pathlib import Path
+import pandas as pd
 import streamlit as st
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as components
 import plotly.express as px
-import pandas as pd
-from pathlib import Path
 from natsort import natsorted
 import random
 import altair as alt
@@ -224,19 +224,16 @@ REGION_MAP = {
 # ==========================
 # CARREGAR DADOS (cache)
 # ==========================
-REPO_ROOT = Path(__file__).resolve().parent  # caminho robusto no deploy
+REPO_ROOT = Path(__file__).resolve().parent
 
 def _assert_is_real_parquet(path: Path):
     if not path.exists():
         raise FileNotFoundError(f"Arquivo não encontrado: {path}")
-    # Detecta pointer do Git LFS (texto em vez de binário)
     head_txt = path.read_bytes()[:200].decode("utf-8", errors="ignore")
     if head_txt.startswith("version https://git-lfs.github.com/spec/v1"):
         raise RuntimeError(
-            f"{path.name} é um pointer do Git LFS (não é o binário real). "
-            f"Suba o .parquet como arquivo normal ou hospede fora do git."
+            f"{path.name} é um pointer do Git LFS (não é o binário real)."
         )
-    # Checa assinatura PAR1 (início e fim)
     with path.open("rb") as f:
         start = f.read(4)
         try:
@@ -245,29 +242,42 @@ def _assert_is_real_parquet(path: Path):
         except OSError:
             end = b""
     if start != b"PAR1" or end != b"PAR1":
-        raise RuntimeError(
-            f"{path.name} não tem assinatura PAR1 (arquivo corrompido ou incompleto)."
-        )
+        raise RuntimeError(f"{path.name} não tem assinatura PAR1 (pode estar corrompido/incompleto).")
 
 @st.cache_data(show_spinner="Carregando dados do Parquet…")
 def load_parquet(path: Path) -> pd.DataFrame:
     _assert_is_real_parquet(path)
-    # engine único (como você está usando)
-    return pd.read_parquet(path, engine="fastparquet")
+    # 1) PyArrow direto (mais robusto; memory_map=False evita crash em alguns ambientes)
+    try:
+        import pyarrow.parquet as pq
+        table = pq.read_table(path, memory_map=False)
+        return table.to_pandas()
+    except Exception as e_pa:
+        # 2) pandas+pyarrow
+        try:
+            return pd.read_parquet(path, engine="pyarrow")
+        except Exception as e_pdpa:
+            # 3) fallback: fastparquet (apenas se pyarrow indisponível/local)
+            try:
+                return pd.read_parquet(path, engine="fastparquet")
+            except Exception as e_fp:
+                raise RuntimeError(
+                    f"Falha ao ler {path.name}.\n"
+                    f"- pyarrow.read_table: {e_pa}\n"
+                    f"- pandas(engine=pyarrow): {e_pdpa}\n"
+                    f"- pandas(engine=fastparquet): {e_fp}"
+                )
 
 @st.cache_data(show_spinner="Carregando dados do CSV…")
 def load_csv(path: Path) -> pd.DataFrame:
-    # CSV leve, separador padrão
     return pd.read_csv(path, sep=",", low_memory=False)
 
 def load_data():
-    # Use REPO_ROOT para acertar caminho no Cloud
     vdem_path  = REPO_ROOT / "vdem_all.parquet"
     indic_path = REPO_ROOT / "indicadores_vdem.csv"
     df = load_parquet(vdem_path)
     df_indicadores = load_csv(indic_path)
     return df, df_indicadores
-
 
 # ==========================
 # DADOS

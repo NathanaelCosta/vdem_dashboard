@@ -2,6 +2,7 @@ streamlit==1.37.1
 pandas==2.2.2
 numpy==1.26.4
 fastparquet==2024.5.0
+pyarrow==16.1.0
 fsspec==2024.6.1
 altair==5.3.0
 plotly==5.22.0
