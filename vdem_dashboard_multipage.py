@@ -21,55 +21,6 @@ st.set_page_config(layout="wide",
                    initial_sidebar_state="collapsed")
 
 # ==========================
-# CARREGAR DADOS (cache)
-# ==========================
-@st.cache_data(show_spinner="Carregando dados do Parquet…")
-def load_parquet(path: Path) -> pd.DataFrame:
-    return pd.read_parquet(path, engine="fastparquet")
-
-@st.cache_data(show_spinner="Carregando dados do CSV…")
-def load_csv(path: Path) -> pd.DataFrame:
-    return pd.read_csv(path, sep=",", low_memory=False)
-
-def load_data():
-    vdem_path  = Path("vdem_all.parquet")
-    indic_path = Path("indicadores_vdem.csv")
-    df = load_parquet(vdem_path)
-    df_indicadores = load_csv(indic_path)
-    return df, df_indicadores
-
-# ==========================
-# DADOS
-# ==========================
-df, df_indicadores = load_data()
-# remove estatísticas auxiliares
-heads = df.columns.to_list()
-head = [c for c in heads if not c.endswith(('_sd', '_osp', '_codelow', '_codehigh', '_ord', '_mean', '_nr'))]
-
-
-# decompõe id → classe/grupo (compatível com ids 2/3/4 níveis)
-df_indicadores["partes"]    = df_indicadores["id"].astype(str).str.split(".")
-df_indicadores["classe_id"] = df_indicadores["partes"].apply(lambda p: p[0] if len(p)>=1 else None)
-df_indicadores["grupo_id"]  = df_indicadores["partes"].apply(lambda p: ".".join(p[:2]) if len(p)>=2 else None)
-
-df_indicadores["Classe"] = df_indicadores["classe_id"].map(CLASS_MAP)
-df_indicadores["Grupo"]  = df_indicadores["grupo_id"].map(GROUP_MAP)
-
-# nível
-def define_nivel(p):
-    if len(p)==1: return "Classe"
-    if len(p)==2: return "Grupo"
-    return "Variavel"
-df_indicadores["nivel"] = df_indicadores["partes"].apply(define_nivel)
-
-# catálogo final (existentes no df principal)
-variaveis = (
-    df_indicadores[df_indicadores["nivel"] == "Variavel"]
-    .query("variavel in @df.columns")
-    .copy()
-)
-
-# ==========================
 # MAPAS DE CLASSE / GRUPO / REGIÕES
 # ==========================
 CLASS_MAP = {
@@ -232,7 +183,6 @@ REGION_MAP = {
         "Thailand", "Sri Lanka","Tajikistan", "Timor-Leste","Turkmenistan", "Uzbekistan","Vietnam", "Russia"
     ],
 
-
     "Oriente Médio": [
         "Bahrain","Cyprus","Egypt","Iran","Iraq","Israel","Jordan","Kuwait","Lebanon",
         "Oman","Palestine","Qatar","Saudi Arabia","Syria","Turkey","United Arab Emirates","Yemen"
@@ -274,6 +224,56 @@ REGION_MAP = {
         "Iran","Saudi Arabia","United Arab Emirates"
     ]
 }
+
+
+# ==========================
+# CARREGAR DADOS (cache)
+# ==========================
+@st.cache_data(show_spinner="Carregando dados do Parquet…")
+def load_parquet(path: Path) -> pd.DataFrame:
+    return pd.read_parquet(path, engine="fastparquet")
+
+@st.cache_data(show_spinner="Carregando dados do CSV…")
+def load_csv(path: Path) -> pd.DataFrame:
+    return pd.read_csv(path, sep=",", low_memory=False)
+
+def load_data():
+    vdem_path  = Path("vdem_all.parquet")
+    indic_path = Path("indicadores_vdem.csv")
+    df = load_parquet(vdem_path)
+    df_indicadores = load_csv(indic_path)
+    return df, df_indicadores
+
+# ==========================
+# DADOS
+# ==========================
+df, df_indicadores = load_data()
+# remove estatísticas auxiliares
+heads = df.columns.to_list()
+head = [c for c in heads if not c.endswith(('_sd', '_osp', '_codelow', '_codehigh', '_ord', '_mean', '_nr'))]
+
+
+# decompõe id → classe/grupo (compatível com ids 2/3/4 níveis)
+df_indicadores["partes"]    = df_indicadores["id"].astype(str).str.split(".")
+df_indicadores["classe_id"] = df_indicadores["partes"].apply(lambda p: p[0] if len(p)>=1 else None)
+df_indicadores["grupo_id"]  = df_indicadores["partes"].apply(lambda p: ".".join(p[:2]) if len(p)>=2 else None)
+
+df_indicadores["Classe"] = df_indicadores["classe_id"].map(CLASS_MAP)
+df_indicadores["Grupo"]  = df_indicadores["grupo_id"].map(GROUP_MAP)
+
+# nível
+def define_nivel(p):
+    if len(p)==1: return "Classe"
+    if len(p)==2: return "Grupo"
+    return "Variavel"
+df_indicadores["nivel"] = df_indicadores["partes"].apply(define_nivel)
+
+# catálogo final (existentes no df principal)
+variaveis = (
+    df_indicadores[df_indicadores["nivel"] == "Variavel"]
+    .query("variavel in @df.columns")
+    .copy()
+)
 
 # ==========================
 # HELPERS
