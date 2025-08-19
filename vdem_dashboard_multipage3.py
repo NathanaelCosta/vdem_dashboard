@@ -221,69 +221,33 @@ REGION_MAP = {
     ]
 }
 
+
 # ==========================
 # CARREGAR DADOS (cache)
 # ==========================
-REPO_ROOT = Path(__file__).resolve().parent  # caminho robusto no deploy
-
-def _assert_is_real_parquet(path: Path):
-    if not path.exists():
-        raise FileNotFoundError(f"Arquivo não encontrado: {path}")
-    # Detecta pointer do Git LFS (texto em vez de binário)
-    head_txt = path.read_bytes()[:200].decode("utf-8", errors="ignore")
-    if head_txt.startswith("version https://git-lfs.github.com/spec/v1"):
-        raise RuntimeError(
-            f"{path.name} é um pointer do Git LFS (não é o binário real). "
-            f"Suba o .parquet como arquivo normal ou hospede fora do git."
-        )
-    # Checa assinatura PAR1 (início e fim)
-    with path.open("rb") as f:
-        start = f.read(4)
-        try:
-            f.seek(-4, 2)
-            end = f.read(4)
-        except OSError:
-            end = b""
-    if start != b"PAR1" or end != b"PAR1":
-        raise RuntimeError(
-            f"{path.name} não tem assinatura PAR1 (arquivo corrompido ou incompleto)."
-        )
-
 @st.cache_data(show_spinner="Carregando dados do Parquet…")
 def load_parquet(path: Path) -> pd.DataFrame:
-    _assert_is_real_parquet(path)
-    # engine único (como você está usando)
     return pd.read_parquet(path, engine="fastparquet")
 
 @st.cache_data(show_spinner="Carregando dados do CSV…")
 def load_csv(path: Path) -> pd.DataFrame:
-    # CSV leve, separador padrão
     return pd.read_csv(path, sep=",", low_memory=False)
 
 def load_data():
-    # Use REPO_ROOT para acertar caminho no Cloud
-    vdem_path  = REPO_ROOT / "vdem_all.parquet"
-    indic_path = REPO_ROOT / "indicadores_vdem.csv"
+    vdem_path  = Path("vdem_all.parquet")
+    indic_path = Path("indicadores_vdem.csv")
     df = load_parquet(vdem_path)
     df_indicadores = load_csv(indic_path)
     return df, df_indicadores
 
-
 # ==========================
 # DADOS
 # ==========================
-try:
-    df, df_indicadores = load_data()
-except Exception as e:
-    # Mostra erro na página e interrompe execução segura
-    st.error("Falha ao carregar os dados (Parquet/CSV).")
-    import traceback
-    st.code(traceback.format_exc())
-    st.stop()
-
+df, df_indicadores = load_data()
 # remove estatísticas auxiliares
 heads = df.columns.to_list()
 head = [c for c in heads if not c.endswith(('_sd', '_osp', '_codelow', '_codehigh', '_ord', '_mean', '_nr'))]
+
 
 # decompõe id → classe/grupo (compatível com ids 2/3/4 níveis)
 df_indicadores["partes"]    = df_indicadores["id"].astype(str).str.split(".")
